@@ -1,0 +1,209 @@
+/* Free fonts are installed in a site directory, not downloaded from Google, for privacy. */
+@font-face {
+  font-family: Metamorphous;
+  src: url("../fonts/metamorphous/Metamorphous-Regular.ttf");
+}
+@font-face {
+  font-family: ABeeZee;
+  src: url("../fonts/abeezee/ABeeZee-Regular.otf");
+  font-style: normal;
+}
+@font-face {
+  font-family: ABeeZee;
+  src: url("../fonts/abeezee/ABeeZee-Italic.otf");
+  font-style: italic;
+}
+@font-face {
+  font-family: Jim_Nightshade;
+  src: url("../fonts/jim_nightshade/JimNightshade-Regular.ttf");
+  font-style: normal;
+}
+@font-face {
+  font-family: Fondamento;
+  src: url("../fonts/fondamento/Fondamento-Regular.ttf");
+  font-style: normal;
+}
+/* Get rid of defaults that make it hard to figure out where anything's going to line up. */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  background-color: black;
+  background: url("../media/images/backgrounds/robertson-night-background-red-darker-bluer.jpg");
+  font-family: Fondamento, sans-serif;
+  color: rgb(170, 170, 201);
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Metamorphous, Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(180, 220, 190);
+  margin: 1rem;
+}
+
+body {
+  /* This puts a centered black gradient that fades to transparent at the page edges on top of the tiling background image in the html selector. The gradient's primary purpose is legibility of centered text that rests on the tiling background, although it adds a bit of understated visual variation. */
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), color-stop(15%, rgb(0, 0, 0)), color-stop(85%, rgb(0, 0, 0)), to(rgba(0, 0, 0, 0)));
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(0, 0, 0) 15%, rgb(0, 0, 0) 85%, rgba(0, 0, 0, 0));
+  min-width: 320px;
+  max-width: 1250px;
+  margin-top: -1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* header h1 puts the site title at the top of the page,
+   for screenreaders. Since it rarely needs to be seen,
+   it's very small and blends into the background. */
+header h1 {
+  font-size: xx-small;
+  margin-top: 0;
+  color: black;
+}
+
+header h2 {
+  font-family: Jim_Nightshade, serif;
+  font-size: 2em;
+  margin-bottom: -0.5rem;
+  text-align: left;
+}
+
+/* This moves 'The Weird Fiction ...' into the center of narrow screens, because it otherwise it looks off-balance instead of designed. */
+@media (max-width: 479px) {
+  header h2 {
+    text-align: center;
+  }
+}
+nav {
+  background-color: rgba(60, 6, 6, 0.7);
+  color: azure;
+  font-size: 1.4rem;
+  border-top: 1px solid firebrick;
+  border-bottom: 1px solid firebrick;
+}
+
+nav a {
+  color: azure;
+  text-decoration: none;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+nav ul li {
+  list-style-type: none;
+  margin: 1.3rem;
+}
+
+/* 'The Night Land: The Days of Darkening' by Kate Coady. J-Wildfire
+    flame fractal. */
+img.logo {
+  width: 100%;
+  min-width: 320px;
+  max-width: 1250px;
+}
+
+main {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+main h3 {
+  font-size: xx-large;
+}
+
+main h4 {
+  font-size: x-large;
+  color: aquamarine;
+}
+
+main h5 {
+  font-size: larger;
+  color: cadetblue;
+}
+
+img.framed {
+  background-color: black;
+  border-color: rgb(158, 154, 151);
+  display: block;
+  max-width: 100%;
+  border-style: ridge;
+  padding: 2.5%;
+  border-width: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.5em;
+  margin-bottom: 3.5em;
+}
+
+section.table-of-contents {
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Metamorphous, Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  line-height: 1.5;
+}
+
+img.greater-separator {
+  max-width: 563px;
+  padding: 1.25rem;
+}
+
+img.greator-separator-reversed {
+  max-width: 563px;
+  padding: 1.25rem;
+  -webkit-transform: scaleX(-1);
+      -ms-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+img.lesser-separator {
+  width: 37%;
+  max-width: 218px;
+  margin-top: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+footer .breadcrumbs {
+  font-size: larger;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.breadcrumbs a {
+  color: #aaccbb;
+  text-decoration: none;
+}
+
+.breadcrumbs a:hover {
+  color: darkcyan;
+}
+
+footer .copyright {
+  font-family: ABeeZee, sans-serif;
+  color: darkseagreen;
+  text-align: center;
+  font-size: small;
+  padding-bottom: 2rem;
+}
