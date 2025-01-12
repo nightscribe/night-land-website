@@ -69,7 +69,7 @@ body {
   line-height: 1.5rem;
 }
 
-/* header.screenreader h1 puts the page title at the top of the page,
+/* header h1 puts the page title at the top of the page,
    for screenreaders. Since this rarely needs to be seen,
    it's very small and colored to blend into the background. */
 header h1 {
