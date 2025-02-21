@@ -67,7 +67,7 @@ body {
   margin-right: auto;
 }
 
-/* header.screenreader h1 puts the page title at the top of the page,
+/* header h1 puts the page title at the top of the page,
    for screenreaders. Since this rarely needs to be seen,
    it's very small and colored to blend into the background. */
 header h1 {
@@ -136,8 +136,7 @@ figure.site-logo figcaption {
   margin-right: 1rem;
 }
 
-/* Martin Isitt's warrior outside the Redoubt. */
-figure.site-illo {
+figure.page-header-illo {
   margin-left: 3%;
   margin-right: 3%;
 }
