@@ -23,6 +23,8 @@
   src: url("../fonts/fondamento/Fondamento-Regular.ttf");
   font-style: normal;
 }
+/* scss variable names, for readability and avoiding looking up this glop
+ every time I want it again. */
 /* Get rid of defaults that make it hard to figure out where anything's going to line up. */
 *,
 *::before,
@@ -36,7 +38,8 @@
 
 html {
   background-color: black;
-  background: url("../media/images/backgrounds/robertson-night-background-red-darker-bluer.jpg");
+  background-image: url("../media/images/backgrounds/robertson-night-background-darker.jpg");
+  background-repeat: repeat;
   font-family: Fondamento, sans-serif;
   color: rgb(170, 170, 201);
   text-align: center;
@@ -66,7 +69,7 @@ body {
 
 /* header h1 puts the site title at the top of the page,
    for screenreaders. Since it rarely needs to be seen,
-   it's very small and blends into the background. */
+   it's very small and colored to blend into the background. */
 header h1 {
   font-size: xx-small;
   margin-top: 0;
@@ -170,7 +173,7 @@ img.greater-separator {
   padding: 1.25rem;
 }
 
-img.greator-separator-reversed {
+img.greater-separator-reversed {
   max-width: 563px;
   padding: 1.25rem;
   -webkit-transform: scaleX(-1);
