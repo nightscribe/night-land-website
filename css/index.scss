@@ -164,7 +164,7 @@ figure.site-logo figcaption {
 }
 
 /* Martin Isitt's warrior outside the Redoubt. */
-figure.site-illo {
+figure.page-header-illo {
     margin-left: 3%;
     margin-right: 3%;
 }
@@ -191,13 +191,13 @@ main {
 }
 
 img.greater-separator {
-    padding-top: 1rem;
+    padding-top: .25rem;
     width: 75%;
     max-width: $native-separator-width;
 }
 
 img.greater-separator-flipped {
-    padding-top: 1rem;
+    padding-top: .25rem;
     width: 75%;
     max-width: $native-separator-width;
     rotate: 0 1 0 180deg;
@@ -228,10 +228,9 @@ section.argument {
     color: $light-blue-grey;
 }
 
-section.exposition {
-    padding-top: 1rem;
-}
-
+/* section.exposition {
+   padding-top: 1rem;
+} */
 .exposition h4 {
     font-size: x-large;
     color: aquamarine;
