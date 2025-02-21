@@ -4,30 +4,36 @@
     src: url('../fonts/metamorphous/Metamorphous-Regular.ttf');
 }
 
+// Lower-level headers
 @font-face {
     font-family: ABeeZee;
     src: url('../fonts/abeezee/ABeeZee-Regular.otf');
     font-style: normal;
 }
 
+// Body text.
 @font-face {
     font-family: ABeeZee;
     src: url('../fonts/abeezee/ABeeZee-Italic.otf');
     font-style: italic;
 }
 
+// Site subtitle h2 ("The Weird Fiction of William Hope Hodgson")
 @font-face {
     font-family: Jim_Nightshade;
     src: url('../fonts/jim_nightshade/JimNightshade-Regular.ttf');
     font-style: normal;
 }
 
+// Nav bar, menu page, and other links, including in the footers.
 @font-face {
     font-family: Fondamento;
     src: url('../fonts/fondamento/Fondamento-Regular.ttf');
     font-style: normal;
 }
 
+/* scss variable names, for readability and avoiding looking up this glop
+ every time I want it again. */
 $heading-font: Metamorphous, Verdana, Geneva, Tahoma, sans-serif;
 $alternate-deco-font: Fondamento, sans-serif;
 $atmospheric-font: Jim_Nightshade, serif;
@@ -36,7 +42,7 @@ $phosphor-green: rgb(180, 220, 190);
 $darker-red: rgb(60, 6, 6, 0.7);
 $light-blue-grey: rgb(170, 170, 201);
 $medium-dark-patina-green: rgb(16, 106, 92, 0.7);
-$transparent-black: rgb(0, 0, 0, 0);
+$transparent-black: rgb(0, 0, 0, 0.0);
 $opaque-black: rgb(0, 0, 0, 1);
 $red-black: rgb(40, 10, 10);
 $translucent-blue: rgba(40, 24, 59, 0.79);
@@ -63,7 +69,8 @@ $standard-box-padding: 2.5% 3%;
 
 html {
     background-color: black;
-    background: url('../media/images/backgrounds/robertson-night-background-red-darker-bluer.jpg');
+    background-image: url('../media/images/backgrounds/robertson-night-background-darker.jpg');
+    background-repeat: repeat;
     font-family: $alternate-deco-font;
     color: $light-blue-grey;
     text-align: center;
@@ -92,7 +99,7 @@ body {
 
 /* header h1 puts the site title at the top of the page,
    for screenreaders. Since it rarely needs to be seen,
-   it's very small and blends into the background. */
+   it's very small and colored to blend into the background. */
 header h1 {
     font-size: xx-small;
     margin-top: 0;
@@ -106,6 +113,7 @@ header h2 {
     text-align: left;
 }
 
+// The usual placement of site subtitle "The Weird Fiction of William Hope Hodgson"
 /* This moves 'The Weird Fiction ...' into the center of narrow screens, because it otherwise it looks off-balance instead of designed. */
 @media (max-width: 479px) {
     header h2 {
@@ -121,10 +129,12 @@ nav {
     border-bottom: 1px solid firebrick;
 }
 
+// The nav bar
 nav a {
     color: azure;
     text-decoration: none;
 }
+// Keep the anchor tag from turning the nav bar menu items blue.
 
 nav ul {
     display: flex;
@@ -132,10 +142,12 @@ nav ul {
     justify-content: center;
 }
 
+// How to wrap the list on small screens.
 nav ul li {
     list-style-type: none;
     margin: 1.3rem;
 }
+// The nav menu is a list without dots or numbers.
 
 /* 'The Night Land: The Days of Darkening' by Kate Coady. J-Wildfire
     flame fractal. */
@@ -194,7 +206,7 @@ img.greater-separator {
     padding: 1.25rem;
 }
 
-img.greator-separator-reversed {
+img.greater-separator-reversed {
     max-width: $native-separator-width;
     padding: 1.25rem;
     transform: scaleX(-1);
