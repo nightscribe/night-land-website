@@ -67,8 +67,8 @@ body {
   margin-right: auto;
 }
 
-/* header h1 puts the page title at the top of the page,
-   for screenreaders. Since this rarely needs to be seen,
+/* header h1 puts the site title at the top of the page,
+   for screenreaders. Since it rarely needs to be seen,
    it's very small and colored to blend into the background. */
 header h1 {
   font-size: xx-small;

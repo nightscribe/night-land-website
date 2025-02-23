@@ -69,7 +69,7 @@ $standard-box-padding: 2.5% 3%;
 
 html {
     background-color: black;
-    background-image: url('../media/images/backgrounds/robertson-night-background-darker.jpg');
+    background-image: url('../media/images/backgrounds/robertson--night-background-red-black.jpg');
     background-repeat: repeat;
     font-family: $alternate-deco-font;
     color: $light-blue-grey;
@@ -134,8 +134,8 @@ nav a {
     color: azure;
     text-decoration: none;
 }
-// Keep the anchor tag from turning the nav bar menu items blue.
 
+// Keep the anchor tag from turning the nav bar menu items blue.
 nav ul {
     display: flex;
     flex-wrap: wrap;
@@ -147,8 +147,8 @@ nav ul li {
     list-style-type: none;
     margin: 1.3rem;
 }
-// The nav menu is a list without dots or numbers.
 
+// The nav menu is a list without dots or numbers.
 /* 'The Night Land: The Days of Darkening' by Kate Coady. J-Wildfire
     flame fractal. */
 img.logo {
