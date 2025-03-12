@@ -82,11 +82,6 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    color: cyan;
-}
-
-
 h1,
 h2,
 h3,
@@ -279,6 +274,9 @@ footer .breadcrumbs {
     text-decoration: none;
 }
 
+.breadcrumbs a:hover {
+    color: cyan;
+}
 
 footer .copyright {
     font-family: $body-font;

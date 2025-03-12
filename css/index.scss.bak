@@ -39,7 +39,6 @@ $alternate-deco-font: Fondamento, sans-serif;
 $atmospheric-font: Jim_Nightshade, serif;
 $body-font: ABeeZee, sans-serif;
 $phosphor-green: rgb(180, 220, 190);
-$phosphor-green-dimmed: rgb(160, 210, 180);
 $darker-red: rgb(60, 6, 6, 0.7);
 $light-blue-grey: rgb(175, 175, 230);
 $blue-grey: rgb(153, 153, 204);
@@ -81,11 +80,6 @@ html {
 a {
     text-decoration: none;
 }
-
-a:hover {
-    color: cyan;
-}
-
 
 h1,
 h2,
@@ -166,7 +160,7 @@ img.logo {
     max-width: $native-logo-width;
 }
 
-
+/* The figcaption is the Lovecraft quote. */
 figure.site-logo figcaption {
     font-weight: bold;
     margin-top: -2rem;
@@ -197,48 +191,25 @@ img.framed {
 }
 
 main {
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 6%;
+    margin-right: 6%;
 }
 
-main h3 {
-    font-size: xx-large;
+img.greater-separator {
+    padding-top: .25rem;
+    width: 75%;
+    max-width: $native-separator-width;
 }
 
-main h4.page-subheader {
-    color: $phosphor-green-dimmed;
+img.greater-separator-flipped {
+    padding-top: .25rem;
+    width: 75%;
+    max-width: $native-separator-width;
+    rotate: 0 1 0 180deg;
 }
 
-main h4 {
-    font-size: x-large;
-    color: aquamarine;
-}
-
-main h5 {
-    font-size: larger;
-    color: cadetblue;
-}
-
-main h5.subtitle {
-    font-size: larger;
-    color: mediumaquamarine;
-}
-
-img.bordered {
-    background-color: black;
-    border-color: $bronze;
-    display: block;
-    max-width: 100%;
-    border-style: ridge;
-    padding: 2.5%;
-    border-width: 4px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1.5em;
-    margin-bottom: 3.5em;
-}
-
-section.table-of-contents {
+section.argument,
+section.exposition {
     max-width: $main-content-width;
     margin-left: auto;
     margin-right: auto;
@@ -247,25 +218,59 @@ section.table-of-contents {
     line-height: 1.5;
 }
 
-img.greater-separator {
-    max-width: $native-separator-width;
-    padding: 1rem;
+section.argument {
+    padding-top: 1.5rem;
 }
 
-img.greater-separator-reversed {
-    max-width: $native-separator-width;
-    padding: 1rem;
-    transform: scaleX(-1);
+.argument h3,
+.exposition h3 {
+    font-size: xx-large;
+    color: $phosphor-green;
 }
 
-img.lesser-separator {
-    max-width: $native-separator-width;
-    padding: 1.25rem;
+.argument h4 {
+    font-size: larger;
+    color: $light-blue-grey;
 }
 
-ul.contributor-list li {
-    list-style: none;
-    margin-top: 1.25rem;
+/* section.exposition {
+   padding-top: 1rem;
+} */
+.exposition h4 {
+    font-size: x-large;
+}
+
+.exposition h4 a {
+    font-size: x-large;
+    color: aquamarine;
+}
+
+.exposition ol li {
+    list-style-type: none;
+    list-style-position: inside;
+    padding: 0.75%;
+    color: $blue-grey;
+}
+
+.exposition ol li a {
+    color: lightsteelblue;
+}
+
+.exposition ol.intro li {
+    padding: 1.5%;
+}
+
+ol li:last-child {
+    padding-bottom: 3%;
+}
+
+footer {
+    max-width: $main-content-width;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
 }
 
 footer .breadcrumbs {
@@ -273,12 +278,6 @@ footer .breadcrumbs {
     margin-top: 0.75rem;
     margin-bottom: 0.75rem;
 }
-
-.breadcrumbs a {
-    color: #aaccbb;
-    text-decoration: none;
-}
-
 
 footer .copyright {
     font-family: $body-font;

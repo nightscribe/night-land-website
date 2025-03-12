@@ -38,7 +38,7 @@
 
 html {
   background-color: black;
-  background-image: url("../media/images/backgrounds/robertson-night-background-darker.jpg");
+  background-image: url("../media/images/backgrounds/robertson--night-background-darker.jpg");
   background-repeat: repeat;
   font-family: Fondamento, sans-serif;
   color: rgb(170, 170, 201);
@@ -242,12 +242,18 @@ img.section-illo {
   max-width: 100%;
   background-color: black;
   border-color: rgb(158, 154, 151);
-  border-width: 4px;
+  border-width: 2px;
   border-style: double;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+img.reversed {
+  -webkit-transform: scaleX(-1);
+      -ms-transform: scaleX(-1);
+          transform: scaleX(-1);
 }
 
 section.table-of-contents {
@@ -262,14 +268,6 @@ section.table-of-contents {
 img.toc-ornament {
   max-width: 563px;
   padding: 1rem;
-}
-
-img.toc-ornament-reversed {
-  max-width: 563px;
-  padding: 1rem;
-  -webkit-transform: scaleX(-1);
-      -ms-transform: scaleX(-1);
-          transform: scaleX(-1);
 }
 
 img.toc-separator {

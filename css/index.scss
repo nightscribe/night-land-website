@@ -18,14 +18,14 @@
     font-style: italic;
 }
 
-// Body text.
+// Site subtitle h2 ("The Weird Fiction of William Hope Hodgson")
 @font-face {
     font-family: Jim_Nightshade;
     src: url('../fonts/jim_nightshade/JimNightshade-Regular.ttf');
     font-style: normal;
 }
 
-// Site subtitle h2 ("The Weird Fiction of William Hope Hodgson")
+// Nav bar, menu page, and other links, including in the footers.
 @font-face {
     font-family: Fondamento;
     src: url('../fonts/fondamento/Fondamento-Regular.ttf');
@@ -39,8 +39,10 @@ $alternate-deco-font: Fondamento, sans-serif;
 $atmospheric-font: Jim_Nightshade, serif;
 $body-font: ABeeZee, sans-serif;
 $phosphor-green: rgb(180, 220, 190);
-$darker-red: rgb(60, 6, 6);
-$light-blue-grey: rgb(170, 170, 201);
+$phosphor-green-dimmed: rgb(160, 210, 180);
+$darker-red: rgb(60, 6, 6, 0.7);
+$light-blue-grey: rgb(175, 175, 230);
+$blue-grey: rgb(153, 153, 204);
 $medium-dark-patina-green: rgb(16, 106, 92, 0.7);
 $transparent-black: rgb(0, 0, 0, 0.0);
 $opaque-black: rgb(0, 0, 0, 1);
@@ -50,6 +52,7 @@ $dimmer-cool-yellow: rgb(175, 175, 160);
 $min-screen-width: 320px;
 $native-logo-width: 1250px;
 $native-separator-width: 563px;
+$native-short-separator-width: 218px;
 $max-main-width: 1000px;
 $main-content-width: 750px;
 $standard-box-padding: 2.5% 3%;
@@ -66,13 +69,21 @@ $standard-box-padding: 2.5% 3%;
 
 html {
     background-color: black;
-    background-image: url('../media/images/backgrounds/robertson-night-background-darker.jpg');
+    background-image: url('../media/images/backgrounds/robertson--night-background-darker.jpg');
     background-repeat: repeat;
     font-family: $alternate-deco-font;
 
     // Would normally be the body text font, but our index pages don't have any body text.
     color: $light-blue-grey;
     text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: cyan;
 }
 
 h1,
@@ -91,12 +102,13 @@ body {
     background-image: linear-gradient(to right, $transparent-black, $opaque-black 35%, $opaque-black 65%, $transparent-black);
     min-width: $min-screen-width;
     max-width: $native-logo-width;
+    margin-top: -1rem;
     margin-left: auto;
     margin-right: auto;
 }
 
-/* header.screenreader h1 puts the page title at the top of the page,
-   for screenreaders. Since this rarely needs to be seen,
+/* header h1 puts the site title at the top of the page,
+   for screenreaders. Since it rarely needs to be seen,
    it's very small and colored to blend into the background. */
 header h1 {
     font-size: xx-small;
@@ -130,7 +142,6 @@ nav {
 // The nav bar
 nav a {
     color: azure;
-    text-decoration: none;
 }
 
 // Keep the anchor tag from turning the nav bar menu items blue.
@@ -158,12 +169,11 @@ img.logo {
 figure.site-logo figcaption {
     font-weight: bold;
     margin-top: -2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
     margin-left: 1rem;
     margin-right: 1rem;
 }
 
-/* Martin Isitt's warrior outside the Redoubt. */
 figure.page-header-illo {
     margin-left: 3%;
     margin-right: 3%;
@@ -233,17 +243,26 @@ section.argument {
 } */
 .exposition h4 {
     font-size: x-large;
+}
+
+.exposition h4 a {
+    font-size: x-large;
     color: aquamarine;
 }
 
-ol li {
+.exposition ol li {
     list-style-type: none;
     list-style-position: inside;
     padding: 0.75%;
+    color: $blue-grey;
 }
 
-ol.intro li {
-    padding: 1.5%
+.exposition ol li a {
+    color: lightsteelblue;
+}
+
+.exposition ol.intro li {
+    padding: 1.5%;
 }
 
 ol li:last-child {
@@ -271,6 +290,10 @@ footer .copyright {
     text-align: center;
     font-size: small;
     padding-bottom: 2rem;
+}
+
+footer .copyright a {
+    color: $phosphor-green;
 }
 
 

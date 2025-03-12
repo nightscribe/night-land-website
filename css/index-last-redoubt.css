@@ -38,11 +38,19 @@
 
 html {
   background-color: black;
-  background-image: url("../media/images/backgrounds/robertson-night-background-darker.jpg");
+  background-image: url("../media/images/backgrounds/robertson--night-background-darker.jpg");
   background-repeat: repeat;
   font-family: Fondamento, sans-serif;
-  color: rgb(170, 170, 201);
+  color: rgb(175, 175, 230);
   text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: cyan;
 }
 
 h1,
@@ -99,7 +107,6 @@ nav {
 
 nav a {
   color: azure;
-  text-decoration: none;
 }
 
 nav ul {
@@ -125,13 +132,10 @@ img.logo {
   max-width: 1250px;
 }
 
-/* The figcaption on this page is 'The Last Redoubt'. */
 figure.site-logo figcaption {
-  font-family: Metamorphous, Verdana, Geneva, Tahoma, sans-serif;
-  color: rgb(180, 220, 190);
-  font-size: 3rem;
+  font-weight: bold;
   margin-top: -2rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
   margin-left: 1rem;
   margin-right: 1rem;
 }
@@ -153,7 +157,6 @@ img.framed {
   border-width: 4px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 5%;
 }
 
 main {
@@ -163,6 +166,10 @@ main {
 
 main h3 {
   font-size: xx-large;
+}
+
+main h4.page-subheader {
+  color: rgb(160, 210, 180);
 }
 
 main h4 {
@@ -221,6 +228,11 @@ img.lesser-separator {
   padding: 1.25rem;
 }
 
+ul.contributor-list li {
+  list-style: none;
+  margin-top: 1.25rem;
+}
+
 footer .breadcrumbs {
   font-size: larger;
   margin-top: 0.75rem;
@@ -232,14 +244,14 @@ footer .breadcrumbs {
   text-decoration: none;
 }
 
-.breadcrumbs a:hover {
-  color: darkcyan;
-}
-
 footer .copyright {
   font-family: ABeeZee, sans-serif;
   color: darkseagreen;
   text-align: center;
   font-size: small;
   padding-bottom: 2rem;
+}
+
+footer .copyright a {
+  color: rgb(180, 220, 190);
 }

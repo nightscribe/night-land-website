@@ -40,17 +40,8 @@ html {
   background-color: black;
   background-image: url("../media/images/backgrounds/robertson--night-background-darker.jpg");
   background-repeat: repeat;
-  font-family: Fondamento, sans-serif;
-  color: rgb(175, 175, 230);
+  font-family: ABeeZee, sans-serif;
   text-align: center;
-}
-
-a {
-  text-decoration: none;
-}
-
-a:hover {
-  color: cyan;
 }
 
 h1,
@@ -61,23 +52,34 @@ h5,
 h6 {
   font-family: Metamorphous, Verdana, Geneva, Tahoma, sans-serif;
   color: rgb(180, 220, 190);
-  margin: 1rem;
+  margin: 2rem;
+}
+
+ol,
+ul {
+  list-style-position: inside;
 }
 
 body {
   /* This puts a centered black gradient that fades to transparent at the page edges on top of the tiling background image in the html selector. The gradient's primary purpose is legibility of centered text that rests on the tiling background, although it adds a bit of understated visual variation. */
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), color-stop(35%, rgb(0, 0, 0)), color-stop(65%, rgb(0, 0, 0)), to(rgba(0, 0, 0, 0)));
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(0, 0, 0) 35%, rgb(0, 0, 0) 65%, rgba(0, 0, 0, 0));
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), color-stop(10%, rgb(0, 0, 0)), color-stop(90%, rgb(0, 0, 0)), to(rgba(0, 0, 0, 0)));
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(0, 0, 0) 10%, rgb(0, 0, 0) 90%, rgba(0, 0, 0, 0));
   min-width: 320px;
   max-width: 1250px;
   margin-top: -1rem;
   margin-left: auto;
   margin-right: auto;
+  line-height: 1.5rem;
+  color: lightgrey;
 }
 
-/* header h1 puts the site title at the top of the page,
-   for screenreaders. Since it rarely needs to be seen,
+/* header h1 puts the page title at the top of the page,
+   for screenreaders. Since this rarely needs to be seen,
    it's very small and colored to blend into the background. */
+header {
+  font-family: Fondamento, sans-serif;
+}
+
 header h1 {
   font-size: xx-small;
   margin-top: 0;
@@ -87,7 +89,7 @@ header h1 {
 header h2 {
   font-family: Jim_Nightshade, serif;
   font-size: 2em;
-  margin-bottom: -0.5rem;
+  margin-bottom: 0.35rem;
   text-align: left;
 }
 
@@ -107,6 +109,7 @@ nav {
 
 nav a {
   color: azure;
+  text-decoration: none;
 }
 
 nav ul {
@@ -132,23 +135,30 @@ img.logo {
   max-width: 1250px;
 }
 
-/* The figcaption is the Lovecraft quote. */
 figure.site-logo figcaption {
-  font-weight: bold;
+  font-family: Metamorphous, Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(180, 220, 190);
+  font-size: 3rem;
   margin-top: -2rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 3rem;
   margin-left: 1rem;
   margin-right: 1rem;
 }
 
-figure.page-header-illo {
+figure.main-illo {
   margin-left: 3%;
   margin-right: 3%;
 }
 
+figure.main-illo figcaption {
+  font-family: ABeeZee, sans-serif;
+  font-size: small;
+  padding-bottom: 2rem;
+}
+
 /* The pic is enclosed in a figure. The figure has these margins to keep the frame form
     running right up to a narrow screen edge, which looks funny. */
-img.framed {
+img.main-illo {
   background-color: black;
   border-color: rgb(158, 154, 151);
   display: block;
@@ -161,25 +171,77 @@ img.framed {
 }
 
 main {
-  margin-left: 6%;
-  margin-right: 6%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
-img.greater-separator {
-  padding-top: 0.25rem;
-  width: 75%;
-  max-width: 563px;
+main h3 {
+  font-size: xx-large;
 }
 
-img.greater-separator-flipped {
-  padding-top: 0.25rem;
-  width: 75%;
-  max-width: 563px;
-  rotate: 0 1 0 180deg;
+main h4 {
+  font-size: x-large;
+  color: aquamarine;
 }
 
-section.argument,
-section.exposition {
+main h5 {
+  font-size: larger;
+  color: cadetblue;
+}
+
+main h5.subtitle {
+  font-size: larger;
+  color: mediumaquamarine;
+}
+
+main p,
+main ul,
+main ol {
+  font-size: medium;
+  font-family: ABeeZee, sans-serif;
+  text-align: left;
+  margin-bottom: 1.2rem;
+  color: lightgrey;
+}
+
+main ul,
+main ol {
+  margin-left: 2rem;
+}
+
+main ul li,
+main ol li {
+  margin-bottom: 1.15rem;
+}
+
+/* We have a fair number of stories with multiple parts, but
+few of the parts have subtitles. In the absence of subtitles,
+this styling puts the contents on at least one line, possibly
+wrapped, with the bullets spaced to land in the middle between
+items. This is undesireable for stories with subtitled parts;
+in that case remove out main ol display, flex-wrap, justify-content,
+main ol li: first of type, and span.toc, and change list-style-type
+to something numeric, to style a more normal toc. */
+main .toc ol {
+  list-style-position: inside;
+  list-style-type: none;
+  counter-reset: item;
+  /* display: flex;
+  flex-wrap: wrap; */
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .toc ol li:before {
+  content: "Part " counter(item, upper-roman);
+  counter-increment: item;
+  margin: 1.5rem;
+  line-height: 200%;
+  /* Necessary to space the lines if it wraps */
+}
+
+section.toc {
   max-width: 750px;
   margin-left: auto;
   margin-right: auto;
@@ -188,59 +250,59 @@ section.exposition {
   line-height: 1.5;
 }
 
-section.argument {
-  padding-top: 1.5rem;
+img.toc-ornament {
+  max-width: 563px;
+  padding: 1rem;
 }
 
-.argument h3,
-.exposition h3 {
-  font-size: xx-large;
-  color: rgb(180, 220, 190);
+img.toc-separator {
+  max-width: 563px;
+  padding: 1.25rem;
 }
 
-.argument h4 {
-  font-size: larger;
-  color: rgb(175, 175, 230);
+/* main .toc ol li:first-of-type {
+    list-style-type: none;
 }
 
-/* section.exposition {
-   padding-top: 1rem;
+span.toc {
+    padding-left: 1rem;
 } */
-.exposition h4 {
-  font-size: x-large;
-}
-
-.exposition h4 a {
-  font-size: x-large;
-  color: aquamarine;
-}
-
-.exposition ol li {
-  list-style-type: none;
-  list-style-position: inside;
-  padding: 0.75%;
-  color: rgb(153, 153, 204);
-}
-
-.exposition ol li a {
-  color: lightsteelblue;
-}
-
-.exposition ol.intro li {
-  padding: 1.5%;
-}
-
-ol li:last-child {
-  padding-bottom: 3%;
-}
-
-footer {
-  max-width: 750px;
-  padding-left: 1rem;
-  padding-right: 1rem;
+img.bordered {
+  background-color: black;
+  border-color: rgb(158, 154, 151);
+  display: block;
+  max-width: 100%;
+  border-style: ridge;
+  padding: 2.5%;
+  border-width: 4px;
   margin-left: auto;
   margin-right: auto;
-  line-height: 1.5;
+  margin-top: 1.5em;
+  margin-bottom: 3.5em;
+}
+
+img.section-illo {
+  display: block;
+  max-width: 100%;
+  background-color: black;
+  border-color: rgb(158, 154, 151);
+  border-width: 2px;
+  border-style: double;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+img.reversed {
+  -webkit-transform: scaleX(-1);
+      -ms-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+img.text-separator {
+  max-width: 330px;
+  padding: 1.5rem;
 }
 
 footer .breadcrumbs {
@@ -249,14 +311,34 @@ footer .breadcrumbs {
   margin-bottom: 0.75rem;
 }
 
+.breadcrumbs a {
+  color: #aaccbb;
+  text-decoration: none;
+}
+
+.breadcrumbs a:hover {
+  color: darkcyan;
+}
+
+footer {
+  font-family: Fondamento, sans-serif;
+  color: rgb(170, 170, 201);
+}
+
+footer a {
+  color: rgb(170, 170, 201);
+  text-decoration: none;
+}
+
 footer .copyright {
-  font-family: ABeeZee, sans-serif;
   color: darkseagreen;
   text-align: center;
   font-size: small;
+  font-family: ABeeZee, sans-serif;
   padding-bottom: 2rem;
 }
 
 footer .copyright a {
-  color: rgb(180, 220, 190);
+  color: darkseagreen;
+  text-decoration: none;
 }
