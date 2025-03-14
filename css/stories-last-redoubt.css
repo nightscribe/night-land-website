@@ -45,6 +45,10 @@ html {
   text-align: center;
 }
 
+a {
+  text-decoration: none;
+}
+
 h1,
 h2,
 h3,
@@ -101,7 +105,6 @@ nav {
 
 nav a {
   color: azure;
-  text-decoration: none;
 }
 
 nav ul {
@@ -162,8 +165,9 @@ main {
   margin-right: 10%;
 }
 
-main h3 {
+main h3, main h3 a {
   font-size: xx-large;
+  color: rgb(180, 220, 190);
 }
 
 main h4 {
@@ -288,7 +292,6 @@ footer .breadcrumbs {
 
 .breadcrumbs a {
   color: #aaccbb;
-  text-decoration: none;
 }
 
 .breadcrumbs a:hover {

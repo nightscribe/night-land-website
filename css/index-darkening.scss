@@ -76,6 +76,10 @@ html {
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+}
+
 h1,
 h2,
 h3,
@@ -132,7 +136,6 @@ nav {
 // The nav bar
 nav a {
     color: azure;
-    text-decoration: none;
 }
 
 // Keep the anchor tag from turning the nav bar menu items blue.
@@ -227,7 +230,6 @@ footer .breadcrumbs {
 
 .breadcrumbs a {
     color: #aaccbb;
-    text-decoration: none;
 }
 
 .breadcrumbs a:hover {
