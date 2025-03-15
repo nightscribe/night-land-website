@@ -165,7 +165,8 @@ main {
   margin-right: 10%;
 }
 
-main h3, main h3 a {
+main h3,
+main h3 a {
   font-size: xx-large;
   color: rgb(180, 220, 190);
 }
@@ -284,6 +285,10 @@ img.text-separator {
   padding: 1.5rem;
 }
 
+footer .above-works-copyright a {
+  color: lightgrey;
+}
+
 footer .breadcrumbs {
   font-size: larger;
   margin-top: 0.75rem;
@@ -304,4 +309,8 @@ footer .copyright {
   text-align: center;
   font-size: small;
   padding-bottom: 2rem;
+}
+
+footer .copyright a {
+  color: rgb(180, 220, 190);
 }

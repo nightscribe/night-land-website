@@ -70,8 +70,6 @@ html {
     background-image: url('../media/images/backgrounds/robertson--night-background-darker.jpg');
     background-repeat: repeat;
     font-family: $alternate-deco-font;
-
-    // Would normally be the body text font, but our index pages don't have any body text.
     color: $light-blue-grey;
     text-align: center;
 }
@@ -317,6 +315,10 @@ img.text-separator {
     padding: 1.5rem;
 }
 
+footer .above-works-copyright a {
+    color: lightgrey;
+}
+
 footer .breadcrumbs {
     font-size: larger;
     margin-top: 0.75rem;
@@ -338,4 +340,9 @@ footer .copyright {
     font-size: small;
     padding-bottom: 2rem;
 }
+
+footer .copyright a {
+    color: $phosphor-green;
+}
+
 
