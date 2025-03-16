@@ -26,7 +26,7 @@ Sass is a CSS preprocessor, which I'm using mostly to name colors and keep commo
 
 1. The design is screen-size responsive.
 
-2. It's light on dark. This is The Night Land.
+2. It's light on dark. This is the Night Land.
 
 3. Most items are centered.
 
@@ -49,7 +49,7 @@ Sass is a CSS preprocessor, which I'm using mostly to name colors and keep commo
 	* General page settings;
 	* Header settings;
 	* Main settings;
-	* Footer settings.gra
+	* Footer settings.
 	It's as simple as I could figure out how to make it while getting the intended effect. The only more complex thing that you need to notice is that the basic construction of a page is layered:
 		a. tiling background (in html),
 		b. gradient over tiling background (in body),
@@ -63,3 +63,6 @@ Sass is a CSS preprocessor, which I'm using mostly to name colors and keep commo
 	4. Graphics index pages;
 	5. Unusual pages.
 	Text content pages have body text. The others usually don't.
+
+
+  
