@@ -50,6 +50,7 @@ Sass is a CSS preprocessor, which I'm using mostly to name colors and keep commo
 	* Header settings;
 	* Main settings;
 	* Footer settings.
+	
 	It's as simple as I could figure out how to make it while getting the intended effect. The only more complex thing that you need to notice is that the basic construction of a page is layered:
 		i. tiling background (in html),
 		ii. gradient over tiling background (in body),
