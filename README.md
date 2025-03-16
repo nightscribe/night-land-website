@@ -64,6 +64,7 @@ Sass is a CSS preprocessor, which I'm using mostly to name colors and keep commo
 	* Graphics content pages;
 	* Graphics index pages;
 	* Unusual pages.
+	
 	Text content pages have body text. The others usually don't.
 
 
