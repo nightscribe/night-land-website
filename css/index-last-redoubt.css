@@ -172,7 +172,7 @@ main h4.page-subheader {
   color: rgb(160, 210, 180);
 }
 
-main h4 {
+main h4, main h4 a {
   font-size: x-large;
   color: aquamarine;
 }
@@ -182,8 +182,11 @@ main h5 {
   color: cadetblue;
 }
 
+main h5 a {
+  color: mediumaquamarine;
+}
+
 main h5.subtitle {
-  font-size: larger;
   color: mediumaquamarine;
 }
 
