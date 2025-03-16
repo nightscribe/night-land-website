@@ -51,18 +51,23 @@ Sass is a CSS preprocessor, which I'm using mostly to name colors and keep commo
 	* Main settings;
 	* Footer settings.
 	It's as simple as I could figure out how to make it while getting the intended effect. The only more complex thing that you need to notice is that the basic construction of a page is layered:
-		a. tiling background (in html),
-		b. gradient over tiling background (in body),
-		c. section formatting in header, nav, main, footer.
-		d. specific content formatting.
+		i. tiling background (in html),
+		ii. gradient over tiling background (in body),
+		iii. section formatting in header, nav, main, footer.
+		iv. specific content formatting.
 	
 11. We have:
-	1. Text content pages;
-	2. Index pages;
-	3. Graphics content pages;
-	4. Graphics index pages;
-	5. Unusual pages.
+	* Text content pages;
+	* Index pages;
+	* Graphics content pages;
+	* Graphics index pages;
+	* Unusual pages.
 	Text content pages have body text. The others usually don't.
 
 
-  
+## Krita Graphics Files
+
+Files with the suffix .kra in the image folder are Krita files. They're not the versions we deploy in the website: rather, they're the layered versions I used to make some of the flat webp and png files.
+
+Krita is free and open source. I highly recommend Rakurri's brushes as essential additions if you're going to use it for digital painting.
+
