@@ -158,6 +158,7 @@ img.framed {
   border-width: 4px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 3.5em;
 }
 
 main {
@@ -186,10 +187,6 @@ section.exposition {
   font-family: Metamorphous, Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
   line-height: 1.5;
-}
-
-section.argument {
-  padding-top: 1.5rem;
 }
 
 .argument h3,
