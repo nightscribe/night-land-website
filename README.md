@@ -72,5 +72,4 @@ Sass is a CSS preprocessor, which I'm using mostly to name colors and keep commo
 
 Files with the suffix .kra in the image folder are Krita files. They're not the versions we deploy in the website: rather, they're the layered versions I used to make some of the flat webp and png files. They're included because not having the layered versions limits what a future maintainer could do with the images.
 
-Krita is free and open source. I highly recommend Rakurri's brushes as essential additions if you're going to use it for digital painting.
 
