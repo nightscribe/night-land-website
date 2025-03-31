@@ -9,6 +9,8 @@ Most of the items on the Night Land Website are copyrighted. On which, more late
 
 **Not ready to deploy!** Most of it's not here yet.
 
+git commits before 31 March 2025 are pretty ragged because I hadn't gotten used to the required granularity for them to be useful records.
+
 ## Tech Used
 
 So far:
