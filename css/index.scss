@@ -71,9 +71,6 @@ html {
     background-color: black;
     background-image: url('../media/images/backgrounds/robertson--night-background-darker.jpg');
     background-repeat: repeat;
-    font-family: $alternate-deco-font;
-
-    // Would normally be the body text font, but our index pages don't have any body text.
     color: $light-blue-grey;
     text-align: center;
 }
@@ -133,6 +130,7 @@ header h2 {
 
 nav {
     background-color: $medium-dark-patina-green;
+    font-family: $alternate-deco-font;
     color: azure;
     font-size: 1.4rem;
     border-top: 1px solid lightseagreen;
@@ -167,6 +165,7 @@ img.logo {
 
 /* The figcaption is the Lovecraft quote. */
 figure.site-logo figcaption {
+    font-family: $alternate-deco-font;
     font-weight: bold;
     margin-top: -2rem;
     margin-bottom: 1.5rem;
@@ -267,6 +266,7 @@ ol li:last-child {
 }
 
 footer {
+    font-family: $alternate-deco-font;
     max-width: $main-content-width;
     padding-left: 1rem;
     padding-right: 1rem;
