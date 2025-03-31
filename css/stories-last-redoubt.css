@@ -40,8 +40,7 @@ html {
   background-color: black;
   background-image: url("../media/images/backgrounds/robertson--night-background-darker.jpg");
   background-repeat: repeat;
-  font-family: Fondamento, sans-serif;
-  color: rgb(170, 170, 201);
+  font-family: ABeeZee, sans-serif;
   text-align: center;
 }
 
@@ -60,6 +59,11 @@ h6 {
   margin: 2rem;
 }
 
+ol,
+ul {
+  list-style-position: inside;
+}
+
 body {
   /* This puts a centered black gradient that fades to transparent at the page edges on top of the tiling background image in the html selector. The gradient's primary purpose is legibility of centered text that rests on the tiling background, although it adds a bit of understated visual variation. */
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), color-stop(10%, rgb(0, 0, 0)), color-stop(90%, rgb(0, 0, 0)), to(rgba(0, 0, 0, 0)));
@@ -69,8 +73,8 @@ body {
   margin-top: -1rem;
   margin-left: auto;
   margin-right: auto;
-  font-size: 20px;
   line-height: 1.5rem;
+  color: lightgrey;
 }
 
 /* header h1 puts the page title at the top of the page,
@@ -97,6 +101,7 @@ header h2 {
 }
 nav {
   background-color: rgba(16, 106, 92, 0.7);
+  font-family: Fondamento, sans-serif;
   color: azure;
   font-size: 1.4rem;
   border-top: 1px solid lightseagreen;
@@ -130,7 +135,6 @@ img.logo {
   max-width: 1250px;
 }
 
-/* The figcaption on this page is 'The Last Redoubt'. */
 figure.site-logo figcaption {
   font-family: Metamorphous, Verdana, Geneva, Tahoma, sans-serif;
   color: rgb(180, 220, 190);
@@ -285,6 +289,11 @@ img.text-separator {
   padding: 1.5rem;
 }
 
+footer {
+  font: Fondamento, sans-serif;
+  color: rgb(170, 170, 201);
+}
+
 footer .above-works-copyright a {
   color: lightgrey;
 }
@@ -301,6 +310,10 @@ footer .breadcrumbs {
 
 .breadcrumbs a:hover {
   color: darkcyan;
+}
+
+footer {
+  font-family: Fondamento, sans-serif;
 }
 
 footer .copyright {

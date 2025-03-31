@@ -25,7 +25,6 @@
     font-style: normal;
 }
 
-// Site subtitle h2 ("The Weird Fiction of William Hope Hodgson")
 @font-face {
     font-family: Fondamento;
     src: url('../fonts/fondamento/Fondamento-Regular.ttf');
@@ -69,8 +68,7 @@ html {
     background-color: black;
     background-image: url('../media/images/backgrounds/robertson--night-background-darker.jpg');
     background-repeat: repeat;
-    font-family: $alternate-deco-font;
-    color: $light-blue-grey;
+    font-family: $body-font;
     text-align: center;
 }
 
@@ -89,6 +87,11 @@ h6 {
     margin: 2rem;
 }
 
+ol,
+ul {
+    list-style-position: inside;
+}
+
 body {
     /* This puts a centered black gradient that fades to transparent at the page edges on top of the tiling background image in the html selector. The gradient's primary purpose is legibility of centered text that rests on the tiling background, although it adds a bit of understated visual variation. */
     background-image: linear-gradient(to right, $transparent-black, $opaque-black 10%, $opaque-black 90%, $transparent-black);
@@ -97,8 +100,8 @@ body {
     margin-top: -1rem;
     margin-left: auto;
     margin-right: auto;
-    font-size: 20px;
     line-height: 1.5rem;
+    color: lightgrey;
 }
 
 /* header h1 puts the page title at the top of the page,
@@ -127,6 +130,7 @@ header h2 {
 
 nav {
     background-color: $medium-dark-patina-green;
+    font-family: $alternate-deco-font;
     color: azure;
     font-size: 1.4rem;
     border-top: 1px solid lightseagreen;
@@ -159,7 +163,6 @@ img.logo {
     max-width: $native-logo-width;
 }
 
-/* The figcaption on this page is 'The Last Redoubt'. */
 figure.site-logo figcaption {
     font-family: $heading-font;
     color: $phosphor-green;
@@ -315,6 +318,11 @@ img.text-separator {
     padding: 1.5rem;
 }
 
+footer {
+    font: $alternate-deco-font;
+    color: $light-blue-grey;
+}
+
 footer .above-works-copyright a {
     color: lightgrey;
 }
@@ -331,6 +339,10 @@ footer .breadcrumbs {
 
 .breadcrumbs a:hover {
     color: darkcyan;
+}
+
+footer {
+    font-family: $alternate-deco-font;
 }
 
 footer .copyright {

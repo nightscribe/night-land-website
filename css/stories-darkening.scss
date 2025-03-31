@@ -127,6 +127,7 @@ header h2 {
 
 nav {
     background-color: $darker-red;
+    font-family: $alternate-deco-font;
     color: azure;
     font-size: 1.4rem;
     border-top: 1px solid firebrick;
@@ -234,6 +235,10 @@ footer .breadcrumbs {
 
 .breadcrumbs a:hover {
     color: darkcyan;
+}
+
+footer {
+    font-family: $alternate-deco-font;
 }
 
 footer .copyright {
