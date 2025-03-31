@@ -80,10 +80,6 @@ body {
 /* header h1 puts the page title at the top of the page,
    for screenreaders. Since this rarely needs to be seen,
    it's very small and colored to blend into the background. */
-header {
-  font-family: Fondamento, sans-serif;
-}
-
 header h1 {
   font-size: xx-small;
   margin-top: 0;
@@ -105,6 +101,7 @@ header h2 {
 }
 nav {
   background-color: rgba(16, 106, 92, 0.7);
+  font-family: Fondamento, sans-serif;
   color: azure;
   font-size: 1.4rem;
   border-top: 1px solid lightseagreen;

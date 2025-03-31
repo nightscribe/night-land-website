@@ -25,7 +25,6 @@
     font-style: normal;
 }
 
-// Site subtitle h2 ("The Weird Fiction of William Hope Hodgson")
 @font-face {
     font-family: Fondamento;
     src: url('../fonts/fondamento/Fondamento-Regular.ttf');
@@ -108,10 +107,6 @@ body {
 /* header h1 puts the page title at the top of the page,
    for screenreaders. Since this rarely needs to be seen,
    it's very small and colored to blend into the background. */
-header {
-    font-family: $alternate-deco-font;
-}
-
 header h1 {
     font-size: xx-small;
     margin-top: 0;
@@ -135,6 +130,7 @@ header h2 {
 
 nav {
     background-color: $medium-dark-patina-green;
+    font-family: $alternate-deco-font;
     color: azure;
     font-size: 1.4rem;
     border-top: 1px solid lightseagreen;
