@@ -163,6 +163,13 @@ img.logo {
     max-width: $native-logo-width;
 }
 
+header figure h3 {
+    margin-top: -2.5rem;
+    margin-bottom: 3rem;
+    font-size: 2.25rem;
+    color: cadetblue;
+}
+
 figure.site-logo figcaption {
     font-family: $heading-font;
     color: $phosphor-green;
@@ -206,11 +213,10 @@ main h3 a {
     color: $phosphor-green;
 }
 
-main h4 {
-    font-size: x-large;
-    color: aquamarine;
-}
-
+/* main h4 {
+    font-size: xx-large;
+    color: cadetblue;
+} */
 main h5 {
     font-size: larger;
     color: cadetblue;
