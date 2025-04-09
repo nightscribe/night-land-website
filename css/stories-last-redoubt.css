@@ -182,20 +182,9 @@ main h3 a {
   color: rgb(180, 220, 190);
 }
 
-/*
 main h4 {
-    font-size: xx-large;
-    color: cadetblue;
-}
-*/
-main h5 {
   font-size: larger;
-  color: cadetblue;
-}
-
-main h5.subtitle {
-  font-size: larger;
-  color: mediumaquamarine;
+  color: rgb(143, 180, 190);
 }
 
 main p {

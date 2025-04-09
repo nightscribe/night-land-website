@@ -38,6 +38,8 @@ $alternate-deco-font: Fondamento, sans-serif;
 $atmospheric-font: Jim_Nightshade, serif;
 $body-font: ABeeZee, sans-serif;
 $phosphor-green: rgb(180, 220, 190);
+$phosphor-green-dimmed: rgb(160, 210, 180);
+$dark-sea-bluer-green: rgb(143, 180, 190);
 $darker-red: rgb(60, 6, 6);
 $light-blue-grey: rgb(170, 170, 201);
 $medium-dark-patina-green: rgb(16, 106, 92, 0.7);
@@ -213,18 +215,9 @@ main h3 a {
     color: $phosphor-green;
 }
 
-/* main h4 {
-    font-size: xx-large;
-    color: cadetblue;
-} */
-main h5 {
+main h4 {
     font-size: larger;
-    color: cadetblue;
-}
-
-main h5.subtitle {
-    font-size: larger;
-    color: mediumaquamarine;
+    color: $dark-sea-bluer-green;
 }
 
 main p {
