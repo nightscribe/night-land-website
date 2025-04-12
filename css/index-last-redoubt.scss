@@ -46,6 +46,8 @@ $blue-grey: rgb(153, 153, 204);
 $medium-dark-patina-green: rgb(16, 106, 92, 0.7);
 $transparent-black: rgb(0, 0, 0, 0.0);
 $opaque-black: rgb(0, 0, 0, 1);
+$red-black: rgb(40, 10, 10);
+$translucent-blue: rgba(40, 24, 59, 0.79);
 $bronze: rgb(158, 154, 151);
 $light-cool-yellow: rgb(193, 193, 188);
 $dimmer-cool-yellow: rgb(175, 175, 160);
@@ -72,8 +74,6 @@ html {
     background-image: url('../media/images/backgrounds/robertson--night-background-darker.jpg');
     background-repeat: repeat;
     font-family: $alternate-deco-font;
-
-    // Would normally be the body text font, but our index pages don't have any body text.
     color: $light-blue-grey;
     text-align: center;
 }
@@ -158,7 +158,9 @@ nav ul li {
 }
 
 // The nav menu is a list without dots or numbers.
-/* Tais Teng's The Night Land' in green and purple flame. Note that the image itself has a black background fading to transparent on it. You can't control that fade with CSS. */
+/* Tais Teng's The Night Land' in green and purple flame. 
+	Note that the image itself has a black background fading to
+	transparent on it. */
 img.logo {
     width: 100%;
     min-width: $min-screen-width;
@@ -173,13 +175,14 @@ figure.site-logo figcaption {
     margin-right: 1rem;
 }
 
+
 figure.page-header-illo {
     margin-left: 3%;
     margin-right: 3%;
 }
-
-/* The pic is enclosed in a figure. The figure has these margins to keep the frame form
-    running right up to a narrow screen edge, which looks funny. */
+/* The page-header illo is enclosed in a figure. The figure has these
+	margins to keep the frame from running right up to a narrow screen
+	edge, which looks funny. */
 img.framed {
     background-color: black;
     border-color: $bronze;
@@ -187,8 +190,7 @@ img.framed {
     max-width: 100%;
     border-style: ridge;
     padding: 2.5%;
-
-    // This is what spaces the border away from the image.
+    // This spaces the frame away from the image.
     border-width: 4px;
     margin-left: auto;
     margin-right: auto;
@@ -224,20 +226,6 @@ main h5 {
 } */
 main h5.subtitle {
     color: mediumaquamarine;
-}
-
-img.bordered {
-    background-color: black;
-    border-color: $bronze;
-    display: block;
-    max-width: 100%;
-    border-style: ridge;
-    padding: 2.5%;
-    border-width: 4px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1.5em;
-    margin-bottom: 3.5em;
 }
 
 section.table-of-contents {
@@ -278,7 +266,10 @@ footer .breadcrumbs {
 
 .breadcrumbs a {
     color: #aaccbb;
-    text-decoration: none;
+}
+
+.breadcrumbs a:hover {
+    color: darkcyan;
 }
 
 footer .copyright {

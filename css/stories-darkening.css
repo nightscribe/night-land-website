@@ -41,16 +41,12 @@ html {
   background-image: url("../media/images/backgrounds/robertson--night-background-red-black.jpg");
   background-repeat: repeat;
   font-family: Fondamento, sans-serif;
-  color: rgb(175, 175, 230);
+  color: rgb(170, 170, 201);
   text-align: center;
 }
 
 a {
   text-decoration: none;
-}
-
-a:hover {
-  color: cyan;
 }
 
 h1,
@@ -125,43 +121,12 @@ nav ul li {
   margin: 1.3rem;
 }
 
-/* 'The Night Land: The Darkening' by Kate Coady. J-Wildfire
+/* 'The Night Land: The Days of Darkening' by Kate Coady. J-Wildfire
     flame fractal. */
 img.logo {
   width: 100%;
   min-width: 320px;
   max-width: 1250px;
-}
-
-/*
-figure.site-logo figcaption {
-    font-weight: bold;
-    margin-top: -2rem;
-    margin-bottom: 1.5rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-}
-Not used except on the home page.
-*/
-figure.page-header-illo {
-  margin-left: 3%;
-  margin-right: 3%;
-}
-
-/* The page-header illo is enclosed in a figure. The figure has these
-	margins to keep the frame from running right up to a narrow screen
-	edge, which looks funny. */
-img.framed {
-  background-color: black;
-  border-color: rgb(158, 154, 151);
-  display: block;
-  max-width: 100%;
-  border-style: ridge;
-  padding: 2.5%;
-  border-width: 4px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 3.5rem;
 }
 
 main {
@@ -173,12 +138,7 @@ main h3 {
   font-size: xx-large;
 }
 
-main h4.page-subheader {
-  color: rgb(160, 210, 180);
-}
-
-main h4,
-main h4 a {
+main h4 {
   font-size: x-large;
   color: aquamarine;
 }
@@ -188,11 +148,18 @@ main h5 {
   color: cadetblue;
 }
 
-/* main h5 a {
-    color: mediumaquamarine;
-} */
-main h5.subtitle {
-  color: mediumaquamarine;
+img.framed {
+  background-color: black;
+  border-color: rgb(158, 154, 151);
+  display: block;
+  max-width: 100%;
+  border-style: ridge;
+  padding: 2.5%;
+  border-width: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.5em;
+  margin-bottom: 3.5em;
 }
 
 section.table-of-contents {
@@ -206,25 +173,22 @@ section.table-of-contents {
 
 img.greater-separator {
   max-width: 563px;
-  padding: 1rem;
+  padding: 1.25rem;
 }
 
 img.greater-separator-reversed {
   max-width: 563px;
-  padding: 1rem;
+  padding: 1.25rem;
   -webkit-transform: scaleX(-1);
       -ms-transform: scaleX(-1);
           transform: scaleX(-1);
 }
 
 img.lesser-separator {
-  max-width: 563px;
-  padding: 1.25rem;
-}
-
-ul.contributor-list li {
-  list-style: none;
-  margin-top: 1.25rem;
+  width: 37%;
+  max-width: 218px;
+  margin-top: 1.75rem;
+  margin-bottom: 2rem;
 }
 
 footer .breadcrumbs {
@@ -247,8 +211,4 @@ footer .copyright {
   text-align: center;
   font-size: small;
   padding-bottom: 2rem;
-}
-
-footer .copyright a {
-  color: rgb(180, 220, 190);
 }

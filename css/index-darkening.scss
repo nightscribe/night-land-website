@@ -39,8 +39,10 @@ $alternate-deco-font: Fondamento, sans-serif;
 $atmospheric-font: Jim_Nightshade, serif;
 $body-font: ABeeZee, sans-serif;
 $phosphor-green: rgb(180, 220, 190);
+$phosphor-green-dimmed: rgb(160, 210, 180);
 $darker-red: rgb(60, 6, 6, 0.7);
-$light-blue-grey: rgb(170, 170, 201);
+$light-blue-grey: rgb(175, 175, 230);
+$blue-grey: rgb(153, 153, 204);
 $medium-dark-patina-green: rgb(16, 106, 92, 0.7);
 $transparent-black: rgb(0, 0, 0, 0.0);
 $opaque-black: rgb(0, 0, 0, 1);
@@ -78,6 +80,10 @@ html {
 
 a {
     text-decoration: none;
+}
+
+a:hover {
+    color: cyan;
 }
 
 h1,
@@ -152,12 +158,45 @@ nav ul li {
 }
 
 // The nav menu is a list without dots or numbers.
-/* 'The Night Land: The Days of Darkening' by Kate Coady. J-Wildfire
+/* 'The Night Land: The Darkening' by Kate Coady. J-Wildfire
     flame fractal. */
 img.logo {
     width: 100%;
     min-width: $min-screen-width;
     max-width: $native-logo-width;
+}
+
+/*
+figure.site-logo figcaption {
+    font-weight: bold;
+    margin-top: -2rem;
+    margin-bottom: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+Not used except on the home page.
+*/
+
+
+figure.page-header-illo {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+/* The page-header illo is enclosed in a figure. The figure has these
+	margins to keep the frame from running right up to a narrow screen
+	edge, which looks funny. */
+img.framed {
+    background-color: black;
+    border-color: $bronze;
+    display: block;
+    max-width: 100%;
+    border-style: ridge;
+    padding: 2.5%;
+    // This spaces the frame away from the image.
+    border-width: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3.5rem;
 }
 
 main {
@@ -169,7 +208,12 @@ main h3 {
     font-size: xx-large;
 }
 
-main h4 {
+main h4.page-subheader {
+    color: $phosphor-green-dimmed;
+}
+
+main h4,
+main h4 a {
     font-size: x-large;
     color: aquamarine;
 }
@@ -179,20 +223,11 @@ main h5 {
     color: cadetblue;
 }
 
-img.framed {
-    background-color: black;
-    border-color: $bronze;
-    display: block;
-    max-width: 100%;
-    border-style: ridge;
-    padding: 2.5%;
-
-    // THis spaces the frame away from the image.
-    border-width: 4px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1.5em;
-    margin-bottom: 3.5em;
+/* main h5 a {
+    color: mediumaquamarine;
+} */
+main h5.subtitle {
+    color: mediumaquamarine;
 }
 
 section.table-of-contents {
@@ -206,20 +241,23 @@ section.table-of-contents {
 
 img.greater-separator {
     max-width: $native-separator-width;
-    padding: 1.25rem;
+    padding: 1rem;
 }
 
 img.greater-separator-reversed {
     max-width: $native-separator-width;
-    padding: 1.25rem;
+    padding: 1rem;
     transform: scaleX(-1);
 }
 
 img.lesser-separator {
-    width: 37%;
-    max-width: $native-short-separator-width;
-    margin-top: 1.75rem;
-    margin-bottom: 2rem;
+    max-width: $native-separator-width;
+    padding: 1.25rem;
+}
+
+ul.contributor-list li {
+    list-style: none;
+    margin-top: 1.25rem;
 }
 
 footer .breadcrumbs {
@@ -243,3 +281,10 @@ footer .copyright {
     font-size: small;
     padding-bottom: 2rem;
 }
+
+footer .copyright a {
+    color: $phosphor-green;
+}
+
+
+ 
