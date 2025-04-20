@@ -38,13 +38,21 @@ $heading-font: Metamorphous, Verdana, Geneva, Tahoma, sans-serif;
 $alternate-deco-font: Fondamento, sans-serif;
 $atmospheric-font: Jim_Nightshade, serif;
 $body-font: ABeeZee, sans-serif;
-$phosphor-green: rgb(180, 220, 190);
-$phosphor-green-dimmed: rgb(160, 210, 180);
+
+// $phosphor-green: rgb(211, 238, 217);
+$phosphor-green: rgb(199, 231, 206);
+$late-twilight-green-band: rgb(192, 230, 245);
+$phosphor-greener: rgb(162, 218, 177);
+$phosphor-green-dimmer: rgb(116, 139, 149);
+$light-sea-green: rgb(207, 225, 226);
+$light-blue-green: rgb(171, 236, 233);
+$twilight-lichen-blue: rgb(155, 176, 195);
+$twilight-lichen-green: rgb(171, 205, 189);
 $dark-sea-bluer-green: rgb(143, 180, 190);
-$darker-red: rgb(60, 6, 6, 0.7);
 $light-blue-grey: rgb(175, 175, 230);
 $blue-grey: rgb(153, 153, 204);
 $medium-dark-patina-green: rgb(16, 106, 92, 0.7);
+$darker-red: rgb(60, 6, 6, 0.7);
 $transparent-black: rgb(0, 0, 0, 0.0);
 $opaque-black: rgb(0, 0, 0, 1);
 $bronze: rgb(158, 154, 151);
@@ -244,18 +252,18 @@ section.exposition {
 
 .exposition h4 a {
     font-size: x-large;
-    color: $phosphor-green-dimmed;
+    color: $light-sea-green;
 }
 
 .exposition ol li {
     list-style-type: none;
     list-style-position: inside;
     padding: 0.75%;
-    color: $blue-grey;
+    color: $twilight-lichen-blue;
 }
 
 .exposition ol li a {
-    color: lightsteelblue;
+    color: $late-twilight-green-band;
 }
 
 .exposition ol.intro li {
@@ -284,15 +292,11 @@ footer .breadcrumbs {
 
 footer .copyright {
     font-family: $body-font;
-    color: darkseagreen;
-    text-align: center;
     font-size: small;
     padding-bottom: 2rem;
+    color: $twilight-lichen-blue;
 }
 
 footer .copyright a {
-    color: $phosphor-green;
+    color: $twilight-lichen-green;
 }
-
-
- 
