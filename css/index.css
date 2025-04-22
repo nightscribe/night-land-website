@@ -23,8 +23,6 @@
   src: url("../fonts/fondamento/Fondamento-Regular.ttf");
   font-style: normal;
 }
-/* scss variable names, for readability and avoiding looking up this glop
- every time I want it again. */
 /* Get rid of defaults that make it hard to figure out where anything's going to line up. */
 *,
 *::before,
@@ -59,7 +57,7 @@ h4,
 h5,
 h6 {
   font-family: Metamorphous, Verdana, Geneva, Tahoma, sans-serif;
-  color: rgb(199, 231, 206);
+  color: rgb(180, 220, 190);
   margin: 1rem;
 }
 
@@ -193,7 +191,7 @@ section.exposition {
 .argument h3,
 .exposition h3 {
   font-size: xx-large;
-  color: rgb(199, 231, 206);
+  color: rgb(180, 220, 190);
 }
 
 .argument h4 {
@@ -210,18 +208,18 @@ section.exposition {
 
 .exposition h4 a {
   font-size: x-large;
-  color: rgb(207, 225, 226);
+  color: rgb(160, 210, 180);
 }
 
 .exposition ol li {
   list-style-type: none;
   list-style-position: inside;
   padding: 0.75%;
-  color: rgb(155, 176, 195);
+  color: rgb(153, 153, 204);
 }
 
 .exposition ol li a {
-  color: rgb(192, 230, 245);
+  color: lightsteelblue;
 }
 
 .exposition ol.intro li {
@@ -250,11 +248,12 @@ footer .breadcrumbs {
 
 footer .copyright {
   font-family: ABeeZee, sans-serif;
+  color: darkseagreen;
+  text-align: center;
   font-size: small;
   padding-bottom: 2rem;
-  color: rgb(155, 176, 195);
 }
 
 footer .copyright a {
-  color: rgb(171, 205, 189);
+  color: rgb(180, 220, 190);
 }

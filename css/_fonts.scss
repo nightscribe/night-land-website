@@ -1,0 +1,38 @@
+/* Free fonts are installed in a site directory, not downloaded from Google, for privacy. */
+@font-face {
+    font-family: Metamorphous;
+    src: url('../fonts/metamorphous/Metamorphous-Regular.ttf');
+}
+
+// Lower-level headers
+@font-face {
+    font-family: ABeeZee;
+    src: url('../fonts/abeezee/ABeeZee-Regular.otf');
+    font-style: normal;
+}
+
+// Body text.
+@font-face {
+    font-family: ABeeZee;
+    src: url('../fonts/abeezee/ABeeZee-Italic.otf');
+    font-style: italic;
+}
+
+// Site subtitle h2 ("The Weird Fiction of William Hope Hodgson")
+@font-face {
+    font-family: Jim_Nightshade;
+    src: url('../fonts/jim_nightshade/JimNightshade-Regular.ttf');
+    font-style: normal;
+}
+
+// Nav bar, menu page, and other links, including in the footers.
+@font-face {
+    font-family: Fondamento;
+    src: url('../fonts/fondamento/Fondamento-Regular.ttf');
+    font-style: normal;
+}
+
+$heading-font: Metamorphous, Verdana, Geneva, Tahoma, sans-serif;
+$alternate-deco-font: Fondamento, sans-serif;
+$atmospheric-font: Jim_Nightshade, serif;
+$body-font: ABeeZee, sans-serif;

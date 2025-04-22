@@ -1,0 +1,9 @@
+/* Get rid of defaults that make it hard to figure out where anything's going to line up. */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}

@@ -38,12 +38,17 @@ $heading-font: Metamorphous, Verdana, Geneva, Tahoma, sans-serif;
 $alternate-deco-font: Fondamento, sans-serif;
 $atmospheric-font: Jim_Nightshade, serif;
 $body-font: ABeeZee, sans-serif;
-$phosphor-green: rgb(180, 220, 190);
-$phosphor-green-dimmed: rgb(160, 210, 180);
-$darker-red: rgb(60, 6, 6, 0.7);
+$phosphor-green: rgb(199, 231, 206);
+$late-twilight-green-band: rgb(192, 230, 245);
+$light-sea-green: rgb(207, 225, 226);
+$light-blue-green: rgb(171, 236, 233);
+$twilight-lichen-blue: rgb(155, 176, 195);
+$twilight-lichen-green: rgb(171, 205, 189);
+$dark-sea-bluer-green: rgb(143, 180, 190);
 $light-blue-grey: rgb(175, 175, 230);
 $blue-grey: rgb(153, 153, 204);
 $medium-dark-patina-green: rgb(16, 106, 92, 0.7);
+$darker-red: rgb(60, 6, 6, 0.7);
 $transparent-black: rgb(0, 0, 0, 0.0);
 $opaque-black: rgb(0, 0, 0, 1);
 $red-black: rgb(40, 10, 10);
@@ -133,6 +138,7 @@ header h2 {
 
 nav {
     background-color: $medium-dark-patina-green;
+    font-family: $alternate-deco-font;
     color: azure;
     font-size: 1.4rem;
     border-top: 1px solid lightseagreen;
@@ -168,6 +174,7 @@ img.logo {
 }
 
 figure.site-logo figcaption {
+    font-family: $alternate-deco-font;
     font-weight: bold;
     margin-top: -2rem;
     margin-bottom: 1.5rem;
@@ -175,11 +182,11 @@ figure.site-logo figcaption {
     margin-right: 1rem;
 }
 
-
 figure.page-header-illo {
     margin-left: 3%;
     margin-right: 3%;
 }
+
 /* The page-header illo is enclosed in a figure. The figure has these
 	margins to keep the frame from running right up to a narrow screen
 	edge, which looks funny. */
@@ -198,16 +205,47 @@ img.framed {
 }
 
 main {
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 6%;
+    margin-right: 6%;
 }
+
+img.greater-separator {
+    max-width: $native-separator-width;
+    padding: 1rem;
+}
+
+img.greater-separator-reversed {
+    max-width: $native-separator-width;
+    padding: 1rem;
+    transform: scaleX(-1);
+}
+
+img.lesser-separator {
+    max-width: $native-separator-width;
+    padding: 1.25rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 main h3 {
     font-size: xx-large;
 }
 
 main h4.page-subheader {
-    color: $phosphor-green-dimmed;
+    color: $phosphor-green;
 }
 
 main h4,
@@ -237,25 +275,19 @@ section.table-of-contents {
     line-height: 1.5;
 }
 
-img.greater-separator {
-    max-width: $native-separator-width;
-    padding: 1rem;
-}
-
-img.greater-separator-reversed {
-    max-width: $native-separator-width;
-    padding: 1rem;
-    transform: scaleX(-1);
-}
-
-img.lesser-separator {
-    max-width: $native-separator-width;
-    padding: 1.25rem;
-}
-
 ul.contributor-list li {
     list-style: none;
     margin-top: 1.25rem;
+}
+
+footer {
+    font-family: $alternate-deco-font;
+    max-width: $main-content-width;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
 }
 
 footer .breadcrumbs {
@@ -274,15 +306,11 @@ footer .breadcrumbs {
 
 footer .copyright {
     font-family: $body-font;
-    color: darkseagreen;
-    text-align: center;
     font-size: small;
     padding-bottom: 2rem;
+    color: $twilight-lichen-blue;
 }
 
 footer .copyright a {
-    color: $phosphor-green;
+    color: $twilight-lichen-green;
 }
-
-
- 

@@ -1,73 +1,8 @@
-/* Free fonts are installed in a site directory, not downloaded from Google, for privacy. */
-@font-face {
-    font-family: Metamorphous;
-    src: url('../fonts/metamorphous/Metamorphous-Regular.ttf');
-}
+@import "fonts";
+@import "dimensions";
+@import "reset";
+@import "darkening-colors";
 
-// Lower-level headers
-@font-face {
-    font-family: ABeeZee;
-    src: url('../fonts/abeezee/ABeeZee-Regular.otf');
-    font-style: normal;
-}
-
-// Body text.
-@font-face {
-    font-family: ABeeZee;
-    src: url('../fonts/abeezee/ABeeZee-Italic.otf');
-    font-style: italic;
-}
-
-// Site subtitle h2 ("The Weird Fiction of William Hope Hodgson")
-@font-face {
-    font-family: Jim_Nightshade;
-    src: url('../fonts/jim_nightshade/JimNightshade-Regular.ttf');
-    font-style: normal;
-}
-
-// Nav bar, menu page, and other links, including in the footers.
-@font-face {
-    font-family: Fondamento;
-    src: url('../fonts/fondamento/Fondamento-Regular.ttf');
-    font-style: normal;
-}
-
-/* scss variable names, for readability and avoiding looking up this glop
- every time I want it again. */
-$heading-font: Metamorphous, Verdana, Geneva, Tahoma, sans-serif;
-$alternate-deco-font: Fondamento, sans-serif;
-$atmospheric-font: Jim_Nightshade, serif;
-$body-font: ABeeZee, sans-serif;
-$phosphor-green: rgb(180, 220, 190);
-$phosphor-green-dimmed: rgb(160, 210, 180);
-$darker-red: rgb(60, 6, 6, 0.7);
-$light-blue-grey: rgb(175, 175, 230);
-$blue-grey: rgb(153, 153, 204);
-$medium-dark-patina-green: rgb(16, 106, 92, 0.7);
-$transparent-black: rgb(0, 0, 0, 0.0);
-$opaque-black: rgb(0, 0, 0, 1);
-$red-black: rgb(40, 10, 10);
-$translucent-blue: rgba(40, 24, 59, 0.79);
-$bronze: rgb(158, 154, 151);
-$light-cool-yellow: rgb(193, 193, 188);
-$dimmer-cool-yellow: rgb(175, 175, 160);
-$min-screen-width: 320px;
-$native-logo-width: 1250px;
-$native-separator-width: 563px;
-$native-short-separator-width: 218px;
-$max-main-width: 1000px;
-$main-content-width: 750px;
-$standard-box-padding: 2.5% 3%;
-
-/* Get rid of defaults that make it hard to figure out where anything's going to line up. */
-*,
-*::before,
-*::after {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    box-sizing: border-box;
-}
 
 html {
     background-color: black;
