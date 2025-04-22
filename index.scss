@@ -38,15 +38,21 @@ $heading-font: Metamorphous, Verdana, Geneva, Tahoma, sans-serif;
 $alternate-deco-font: Fondamento, sans-serif;
 $atmospheric-font: Jim_Nightshade, serif;
 $body-font: ABeeZee, sans-serif;
-$phosphor-green: rgb(180, 220, 190);
-$phosphor-green-dimmed: rgb(160, 210, 180);
+$phosphor-green: rgb(199, 231, 206);
+$late-twilight-green-band: rgb(192, 230, 245);
+$light-sea-green: rgb(207, 225, 226);
+$light-blue-green: rgb(171, 236, 233);
+$twilight-lichen-blue: rgb(155, 176, 195);
+$twilight-lichen-green: rgb(171, 205, 189);
 $dark-sea-bluer-green: rgb(143, 180, 190);
-$darker-red: rgb(60, 6, 6, 0.7);
 $light-blue-grey: rgb(175, 175, 230);
 $blue-grey: rgb(153, 153, 204);
 $medium-dark-patina-green: rgb(16, 106, 92, 0.7);
+$darker-red: rgb(60, 6, 6, 0.7);
 $transparent-black: rgb(0, 0, 0, 0.0);
 $opaque-black: rgb(0, 0, 0, 1);
+$red-black: rgb(40, 10, 10);
+$translucent-blue: rgba(40, 24, 59, 0.79);
 $bronze: rgb(158, 154, 151);
 $light-cool-yellow: rgb(193, 193, 188);
 $dimmer-cool-yellow: rgb(175, 175, 160);
@@ -72,6 +78,7 @@ html {
     background-color: black;
     background-image: url('../media/images/backgrounds/robertson--night-background-darker.jpg');
     background-repeat: repeat;
+    font-family: $alternate-deco-font;
     color: $light-blue-grey;
     text-align: center;
 }
@@ -157,14 +164,16 @@ nav ul li {
 }
 
 // The nav menu is a list without dots or numbers.
-/* Tais Teng's The Night Land' in green and purple flame. Note that the image itself has a black background fading to transparent on it. You can't control that fade with CSS. */
+/* Tais Teng's The Night Land' in green and purple flame. 
+	Note that the image itself has a black background fading to
+	transparent on it. */
 img.logo {
     width: 100%;
     min-width: $min-screen-width;
     max-width: $native-logo-width;
 }
 
-/* The figcaption is the Lovecraft quote. */
+/* The figcaption on the index page is the Lovecraft quote. */
 figure.site-logo figcaption {
     font-family: $alternate-deco-font;
     font-weight: bold;
@@ -179,8 +188,9 @@ figure.page-header-illo {
     margin-right: 3%;
 }
 
-/* The pic is enclosed in a figure. The figure has these margins to keep the frame form
-    running right up to a narrow screen edge, which looks funny. */
+/* The page-header illo is enclosed in a figure. The figure has these
+	margins to keep the frame from running right up to a narrow screen
+	edge, which looks funny. */
 img.framed {
     background-color: black;
     border-color: $bronze;
@@ -188,12 +198,11 @@ img.framed {
     max-width: 100%;
     border-style: ridge;
     padding: 2.5%;
-
-    // This is what spaces the border away from the image.
+    // This spaces the frame away from the image.
     border-width: 4px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 3.5em;
+    margin-bottom: 3.5rem;
 }
 
 main {
@@ -202,16 +211,19 @@ main {
 }
 
 img.greater-separator {
-    padding-top: .25rem;
-    width: 75%;
     max-width: $native-separator-width;
+    padding: 1rem;
 }
 
-img.greater-separator-flipped {
-    padding-top: .25rem;
-    width: 75%;
+img.greater-separator-reversed {
     max-width: $native-separator-width;
-    rotate: 0 1 0 180deg;
+    padding: 1rem;
+    transform: scaleX(-1);
+}
+
+img.lesser-separator {
+    max-width: $native-separator-width;
+    padding: 1.25rem;
 }
 
 section.argument,
@@ -244,18 +256,18 @@ section.exposition {
 
 .exposition h4 a {
     font-size: x-large;
-    color: $phosphor-green-dimmed;
+    color: $light-sea-green;
 }
 
 .exposition ol li {
     list-style-type: none;
     list-style-position: inside;
     padding: 0.75%;
-    color: $blue-grey;
+    color: $twilight-lichen-blue;
 }
 
 .exposition ol li a {
-    color: lightsteelblue;
+    color: $late-twilight-green-band;
 }
 
 .exposition ol.intro li {
@@ -282,17 +294,21 @@ footer .breadcrumbs {
     margin-bottom: 0.75rem;
 }
 
+.breadcrumbs a {
+    color: #aaccbb;
+}
+
+.breadcrumbs a:hover {
+    color: darkcyan;
+}
+
 footer .copyright {
     font-family: $body-font;
-    color: darkseagreen;
-    text-align: center;
     font-size: small;
     padding-bottom: 2rem;
+    color: $twilight-lichen-blue;
 }
 
 footer .copyright a {
-    color: $phosphor-green;
+    color: $twilight-lichen-green;
 }
-
-
- 
