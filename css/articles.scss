@@ -131,15 +131,15 @@ header h2 {
 nav {
     background-color: $medium-dark-patina-green;
     font-family: $alternate-deco-font;
-    color: azure;
+    color: $cyan-tint-white;
     font-size: 1.4rem;
-    border-top: 1px solid lightseagreen;
-    border-bottom: 1px solid lightseagreen;
+    border-top: 1px solid $green-turquoise;
+    border-bottom: 1px solid $green-turquoise;
 }
 
 // The nav bar
 nav a {
-    color: azure;
+    color: $cyan-tint-white;
 }
 
 // Keep the anchor tag from turning the nav bar menu items blue.
@@ -222,7 +222,7 @@ main h5 {
 
 main h5.subtitle {
     font-size: larger;
-    color: mediumaquamarine;
+    color: $medium-aquamarine;
 }
 
 main p,
@@ -345,7 +345,7 @@ footer .breadcrumbs {
 }
 
 .breadcrumbs a:hover {
-    color: darkcyan;
+    color: $dark-cyan;
 }
 
 footer {
@@ -358,7 +358,7 @@ footer a {
 }
 
 footer .copyright {
-    color: darkseagreen;
+    color: $north-atlantic-green;
     text-align: center;
     font-size: small;
     font-family: $body-font;
@@ -366,6 +366,6 @@ footer .copyright {
 }
 
 footer .copyright a {
-    color: darkseagreen;
+    color: $north-atlantic-green;
 }
 

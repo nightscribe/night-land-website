@@ -102,14 +102,14 @@ header h2 {
 nav {
   background-color: rgba(16, 106, 92, 0.7);
   font-family: Fondamento, sans-serif;
-  color: azure;
+  color: $cyan-tint-white;
   font-size: 1.4rem;
-  border-top: 1px solid lightseagreen;
-  border-bottom: 1px solid lightseagreen;
+  border-top: 1px solid $green-turquoise;
+  border-bottom: 1px solid $green-turquoise;
 }
 
 nav a {
-  color: azure;
+  color: $cyan-tint-white;
 }
 
 nav ul {
@@ -191,7 +191,7 @@ main h5 {
 
 main h5.subtitle {
   font-size: larger;
-  color: mediumaquamarine;
+  color: $medium-aquamarine;
 }
 
 main p,
@@ -316,7 +316,7 @@ footer .breadcrumbs {
 }
 
 .breadcrumbs a:hover {
-  color: darkcyan;
+  color: $dark-cyan;
 }
 
 footer {
@@ -329,7 +329,7 @@ footer a {
 }
 
 footer .copyright {
-  color: darkseagreen;
+  color: $north-atlantic-green;
   text-align: center;
   font-size: small;
   font-family: ABeeZee, sans-serif;
@@ -337,5 +337,5 @@ footer .copyright {
 }
 
 footer .copyright a {
-  color: darkseagreen;
+  color: $north-atlantic-green;
 }

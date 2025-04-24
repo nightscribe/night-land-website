@@ -127,7 +127,7 @@ header h2 {
 
 nav {
     background-color: $darker-red;
-    color: azure;
+    color: $cyan-tint-white;
     font-size: 1.4rem;
     border-top: 1px solid firebrick;
     border-bottom: 1px solid firebrick;
@@ -135,7 +135,7 @@ nav {
 
 // The nav bar
 nav a {
-    color: azure;
+    color: $cyan-tint-white;
 }
 
 // Keep the anchor tag from turning the nav bar menu items blue.
@@ -233,12 +233,12 @@ footer .breadcrumbs {
 }
 
 .breadcrumbs a:hover {
-    color: darkcyan;
+    color: $dark-cyan;
 }
 
 footer .copyright {
     font-family: $body-font;
-    color: darkseagreen;
+    color: $north-atlantic-green;
     text-align: center;
     font-size: small;
     padding-bottom: 2rem;

@@ -97,14 +97,14 @@ header h2 {
 }
 nav {
   background-color: rgba(60, 6, 6, 0.7);
-  color: azure;
+  color: $cyan-tint-white;
   font-size: 1.4rem;
   border-top: 1px solid firebrick;
   border-bottom: 1px solid firebrick;
 }
 
 nav a {
-  color: azure;
+  color: $cyan-tint-white;
 }
 
 nav ul {
@@ -187,10 +187,10 @@ main h5 {
 }
 
 /* main h5 a {
-    color: mediumaquamarine;
+    color: $medium-aquamarine;
 } */
 main h5.subtitle {
-  color: mediumaquamarine;
+  color: $medium-aquamarine;
 }
 
 section.table-of-contents {
@@ -236,12 +236,12 @@ footer .breadcrumbs {
 }
 
 .breadcrumbs a:hover {
-  color: darkcyan;
+  color: $dark-cyan;
 }
 
 footer .copyright {
   font-family: ABeeZee, sans-serif;
-  color: darkseagreen;
+  color: $north-atlantic-green;
   text-align: center;
   font-size: small;
   padding-bottom: 2rem;

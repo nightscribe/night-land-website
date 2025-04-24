@@ -1,78 +1,7 @@
-/* Free fonts are installed in a site directory, not downloaded from Google, for privacy. */
-@font-face {
-    font-family: Metamorphous;
-    src: url('../fonts/metamorphous/Metamorphous-Regular.ttf');
-}
-
-// Lower-level headers
-@font-face {
-    font-family: ABeeZee;
-    src: url('../fonts/abeezee/ABeeZee-Regular.otf');
-    font-style: normal;
-}
-
-// Body text.
-@font-face {
-    font-family: ABeeZee;
-    src: url('../fonts/abeezee/ABeeZee-Italic.otf');
-    font-style: italic;
-}
-
-// Site subtitle h2 ("The Weird Fiction of William Hope Hodgson")
-@font-face {
-    font-family: Jim_Nightshade;
-    src: url('../fonts/jim_nightshade/JimNightshade-Regular.ttf');
-    font-style: normal;
-}
-
-// Nav bar, menu page, and other links, including in the footers.
-@font-face {
-    font-family: Fondamento;
-    src: url('../fonts/fondamento/Fondamento-Regular.ttf');
-    font-style: normal;
-}
-
-/* scss variable names, for readability and avoiding looking up this glop
- every time I want it again. */
-$heading-font: Metamorphous, Verdana, Geneva, Tahoma, sans-serif;
-$alternate-deco-font: Fondamento, sans-serif;
-$atmospheric-font: Jim_Nightshade, serif;
-$body-font: ABeeZee, sans-serif;
-$phosphor-green: rgb(199, 231, 206);
-$late-twilight-green-band: rgb(192, 230, 245);
-$light-sea-green: rgb(207, 225, 226);
-$light-blue-green: rgb(171, 236, 233);
-$twilight-lichen-blue: rgb(155, 176, 195);
-$twilight-lichen-green: rgb(171, 205, 189);
-$dark-sea-bluer-green: rgb(143, 180, 190);
-$light-blue-grey: rgb(175, 175, 230);
-$blue-grey: rgb(153, 153, 204);
-$medium-dark-patina-green: rgb(16, 106, 92, 0.7);
-$darker-red: rgb(60, 6, 6, 0.7);
-$transparent-black: rgb(0, 0, 0, 0.0);
-$opaque-black: rgb(0, 0, 0, 1);
-$red-black: rgb(40, 10, 10);
-$translucent-blue: rgba(40, 24, 59, 0.79);
-$bronze: rgb(158, 154, 151);
-$light-cool-yellow: rgb(193, 193, 188);
-$dimmer-cool-yellow: rgb(175, 175, 160);
-$min-screen-width: 320px;
-$native-logo-width: 1250px;
-$native-separator-width: 563px;
-$native-short-separator-width: 218px;
-$max-main-width: 1000px;
-$main-content-width: 750px;
-$standard-box-padding: 2.5% 3%;
-
-/* Get rid of defaults that make it hard to figure out where anything's going to line up. */
-*,
-*::before,
-*::after {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    box-sizing: border-box;
-}
+@import "fonts";
+@import "dimensions";
+@import "reset";
+@import "night-land-colors";
 
 html {
     background-color: black;
@@ -139,15 +68,15 @@ header h2 {
 nav {
     background-color: $medium-dark-patina-green;
     font-family: $alternate-deco-font;
-    color: azure;
+    color: $cyan-tint-white;
     font-size: 1.4rem;
-    border-top: 1px solid lightseagreen;
-    border-bottom: 1px solid lightseagreen;
+    border-top: 1px solid $green-turquoise;
+    border-bottom: 1px solid $green-turquoise;
 }
 
 // The nav bar
 nav a {
-    color: azure;
+    color: $cyan-tint-white;
 }
 
 // Keep the anchor tag from turning the nav bar menu items blue.
@@ -226,20 +155,6 @@ img.lesser-separator {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 main h3 {
     font-size: xx-large;
 }
@@ -251,19 +166,19 @@ main h4.page-subheader {
 main h4,
 main h4 a {
     font-size: x-large;
-    color: aquamarine;
+    color: $aquamarine;
 }
 
 main h5 {
     font-size: larger;
-    color: mediumaquamarine;
+    color: $medium-aquamarine;
 }
 
 /* main h5 a {
-    color: mediumaquamarine;
+    color: $medium-aquamarine;
 } */
 main h5.subtitle {
-    color: mediumaquamarine;
+    color: $medium-aquamarine;
 }
 
 section.table-of-contents {
@@ -297,11 +212,11 @@ footer .breadcrumbs {
 }
 
 .breadcrumbs a {
-    color: #aaccbb;
+    color: $lichen-green;
 }
 
 .breadcrumbs a:hover {
-    color: darkcyan;
+    color: $dark-cyan;
 }
 
 footer .copyright {

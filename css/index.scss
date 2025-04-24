@@ -4,7 +4,7 @@
 @import "night-land-colors";
 
 html {
-    background-color: black;
+    background-color: $opaque-black;
     background-image: url('../media/images/backgrounds/robertson--night-background-darker.jpg');
     background-repeat: repeat;
     color: $light-blue-grey;
@@ -16,7 +16,7 @@ a {
 }
 
 a:hover {
-    color: cyan;
+    color: $white-cyan;
 }
 
 h1,
@@ -46,7 +46,7 @@ body {
 header h1 {
     font-size: xx-small;
     margin-top: 0;
-    color: black;
+    color: $opaque-black;
 }
 
 header h2 {
@@ -67,15 +67,15 @@ header h2 {
 nav {
     background-color: $medium-dark-patina-green;
     font-family: $alternate-deco-font;
-    color: azure;
+    color: $phosphor-blue-light;
     font-size: 1.4rem;
-    border-top: 1px solid lightseagreen;
-    border-bottom: 1px solid lightseagreen;
+    border-top: 1px solid $green-turquoise;
+    border-bottom: 1px solid $green-turquoise;
 }
 
 // The nav bar
 nav a {
-    color: azure;
+    color: $white-cyan;
 }
 
 // Keep the anchor tag from turning the nav bar menu items blue.
@@ -117,7 +117,7 @@ figure.page-header-illo {
 /* The pic is enclosed in a figure. The figure has these margins to keep the frame form
     running right up to a narrow screen edge, which looks funny. */
 img.framed {
-    background-color: black;
+    background-color: $opaque-black;
     border-color: $bronze;
     display: block;
     max-width: 100%;
@@ -179,7 +179,11 @@ section.exposition {
 
 .exposition h4 a {
     font-size: x-large;
-    color: $phosphor-green-dimmed;
+    color: $phosphor-greener;
+}
+
+.exposition h4 a:hover {
+    color: $phosphor-blue;
 }
 
 .exposition ol li {
@@ -190,7 +194,11 @@ section.exposition {
 }
 
 .exposition ol li a {
-    color: lightsteelblue;
+    color: $phosphor-blue-light;
+}
+
+.exposition ol li a:hover {
+    color: $phosphor-blue;
 }
 
 .exposition ol.intro li {
@@ -219,15 +227,21 @@ footer .breadcrumbs {
 
 footer .copyright {
     font-family: $body-font;
-    color: darkseagreen;
+    color: $twilight-lichen-blue;
     text-align: center;
     font-size: small;
     padding-bottom: 2rem;
 }
 
 footer .copyright a {
-    color: $phosphor-green;
+    color: $late-twilight-green-band;
 }
+
+footer .copyright a:hover {
+    color: $phosphor-blue;
+}
+
+
 
 
  

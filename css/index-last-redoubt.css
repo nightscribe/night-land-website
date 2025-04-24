@@ -23,8 +23,6 @@
   src: url("../fonts/fondamento/Fondamento-Regular.ttf");
   font-style: normal;
 }
-/* scss variable names, for readability and avoiding looking up this glop
- every time I want it again. */
 /* Get rid of defaults that make it hard to figure out where anything's going to line up. */
 *,
 *::before,
@@ -60,7 +58,7 @@ h4,
 h5,
 h6 {
   font-family: Metamorphous, Verdana, Geneva, Tahoma, sans-serif;
-  color: rgb(199, 231, 206);
+  color: rgb(200, 230, 190);
   margin: 1rem;
 }
 
@@ -100,14 +98,14 @@ header h2 {
 nav {
   background-color: rgba(16, 106, 92, 0.7);
   font-family: Fondamento, sans-serif;
-  color: azure;
+  color: rgb(240, 255, 255);
   font-size: 1.4rem;
-  border-top: 1px solid lightseagreen;
-  border-bottom: 1px solid lightseagreen;
+  border-top: 1px solid rgb(32, 178, 170);
+  border-bottom: 1px solid rgb(32, 178, 170);
 }
 
 nav a {
-  color: azure;
+  color: rgb(240, 255, 255);
 }
 
 nav ul {
@@ -193,25 +191,25 @@ main h3 {
 }
 
 main h4.page-subheader {
-  color: rgb(199, 231, 206);
+  color: rgb(200, 230, 190);
 }
 
 main h4,
 main h4 a {
   font-size: x-large;
-  color: aquamarine;
+  color: rgb(127, 255, 212);
 }
 
 main h5 {
   font-size: larger;
-  color: mediumaquamarine;
+  color: rgb(102, 205, 170);
 }
 
 /* main h5 a {
-    color: mediumaquamarine;
+    color: $medium-aquamarine;
 } */
 main h5.subtitle {
-  color: mediumaquamarine;
+  color: rgb(102, 205, 170);
 }
 
 section.table-of-contents {
@@ -245,11 +243,11 @@ footer .breadcrumbs {
 }
 
 .breadcrumbs a {
-  color: #aaccbb;
+  color: rgb(170, 204, 187);
 }
 
 .breadcrumbs a:hover {
-  color: darkcyan;
+  color: rgb(0, 139, 139);
 }
 
 footer .copyright {
