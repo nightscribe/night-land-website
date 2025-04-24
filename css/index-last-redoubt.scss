@@ -4,7 +4,7 @@
 @import "night-land-colors";
 
 html {
-    background-color: black;
+    background-color: $opaque-black;
     background-image: url('../media/images/backgrounds/robertson--night-background-darker.jpg');
     background-repeat: repeat;
     font-family: $alternate-deco-font;
@@ -17,7 +17,7 @@ a {
 }
 
 a:hover {
-    color: cyan;
+    color: $white-cyan;
 }
 
 h1,
@@ -47,7 +47,7 @@ body {
 header h1 {
     font-size: xx-small;
     margin-top: 0;
-    color: black;
+    color: $opaque-black;
 }
 
 header h2 {
@@ -68,7 +68,7 @@ header h2 {
 nav {
     background-color: $medium-dark-patina-green;
     font-family: $alternate-deco-font;
-    color: $cyan-tint-white;
+    color: $phosphor-blue-light;
     font-size: 1.4rem;
     border-top: 1px solid $green-turquoise;
     border-bottom: 1px solid $green-turquoise;
@@ -76,7 +76,7 @@ nav {
 
 // The nav bar
 nav a {
-    color: $cyan-tint-white;
+    color: $white-cyan;
 }
 
 // Keep the anchor tag from turning the nav bar menu items blue.
@@ -120,12 +120,13 @@ figure.page-header-illo {
 	margins to keep the frame from running right up to a narrow screen
 	edge, which looks funny. */
 img.framed {
-    background-color: black;
+    background-color: $opaque-black;
     border-color: $bronze;
     display: block;
     max-width: 100%;
     border-style: ridge;
     padding: 2.5%;
+
     // This spaces the frame away from the image.
     border-width: 4px;
     margin-left: auto;
@@ -154,7 +155,8 @@ img.lesser-separator {
     padding: 1.25rem;
 }
 
-
+/* ************************
+Left off here. This is where this starts getting different from index.scss. */
 main h3 {
     font-size: xx-large;
 }
@@ -195,6 +197,8 @@ ul.contributor-list li {
     margin-top: 1.25rem;
 }
 
+/* *************************
+At the footer this should start looking like index.scss again. */
 footer {
     font-family: $alternate-deco-font;
     max-width: $main-content-width;
@@ -227,5 +231,9 @@ footer .copyright {
 }
 
 footer .copyright a {
-    color: $twilight-lichen-green;
+    color: $late-twilight-green-band;
+}
+
+footer .copyright a:hover {
+    color: $phosphor-blue;
 }

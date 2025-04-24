@@ -1,8 +1,29 @@
+/* The default heading color, and actual heading colors of
+most major headers. */
 $phosphor-green: rgb(195, 220, 195);
 $phosphor-greener: rgb(160, 210, 180);
+
+/* lesser links hover color */
 $phosphor-blue: rgb(163, 212, 250);
+
+/* lesser link color */
 $white-cyan: rgb(240, 255, 255);
 $phosphor-blue-light: rgb(189, 197, 234);
+
+/* The nav bar itself. */
+$medium-dark-patina-green: rgb(16, 106, 92, 0.7);
+$green-turquoise: rgb(32, 178, 170);
+
+/* Opaque black is the background color for framed header images.
+There is, further, a transparent-to-opaque gradient that makes
+the center of the page more opaque, so the tiling page
+background only shows at the sides and doesn't interfere with
+legibility. */
+$transparent-black: rgb(0, 0, 0, 0.0);
+$opaque-black: rgb(0, 0, 0, 1);
+
+/* Border color of framed header images. */
+$bronze: rgb(158, 154, 151);
 $cyan: rgb(0, 255, 255);
 $dark-cyan: rgb(0, 139, 139);
 $late-twilight-green-band: rgb(192, 230, 245);
@@ -13,7 +34,6 @@ $twilight-lichen-blue: rgb(155, 176, 195);
 $twilight-lichen-green: rgb(171, 205, 189);
 $north-atlantic-green: rgb(143, 188, 143);
 $dark-sea-bluer-green: rgb(143, 180, 190);
-$green-turquoise: rgb(32, 178, 170);
 
 // bad name
 $medium-aquamarine: rgb(102, 205, 170);
@@ -22,12 +42,9 @@ $medium-aquamarine: rgb(102, 205, 170);
 $aquamarine: rgb(127, 255, 212);
 $light-blue-grey: rgb(175, 175, 230);
 $blue-grey: rgb(153, 153, 204);
-$medium-dark-patina-green: rgb(16, 106, 92, 0.7);
-$bronze: rgb(158, 154, 151);
 $light-cool-yellow: rgb(193, 193, 188);
 $dimmer-cool-yellow: rgb(175, 175, 160);
 $darker-red: rgb(60, 6, 6, 0.7);
 $red-black: rgb(40, 10, 10);
 $translucent-blue: rgba(40, 24, 59, 0.79);
-$transparent-black: rgb(0, 0, 0, 0.0);
-$opaque-black: rgb(0, 0, 0, 1);
+

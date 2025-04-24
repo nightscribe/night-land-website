@@ -34,6 +34,17 @@
           box-sizing: border-box;
 }
 
+/* The default heading color, and actual heading colors of
+most major headers. */
+/* lesser links hover color */
+/* lesser link color */
+/* The nav bar itself. */
+/* Opaque black is the background color for framed header images.
+There is, further, a transparent-to-opaque gradient that makes
+the center of the page more opaque, so the tiling page
+background only shows at the sides and doesn't interfere with
+legibility. */
+/* Border color of framed header images. */
 html {
   background-color: rgb(0, 0, 0);
   background-image: url("../media/images/backgrounds/robertson--night-background-darker.jpg");

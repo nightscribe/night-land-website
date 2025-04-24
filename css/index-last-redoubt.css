@@ -34,8 +34,19 @@
           box-sizing: border-box;
 }
 
+/* The default heading color, and actual heading colors of
+most major headers. */
+/* lesser links hover color */
+/* lesser link color */
+/* The nav bar itself. */
+/* Opaque black is the background color for framed header images.
+There is, further, a transparent-to-opaque gradient that makes
+the center of the page more opaque, so the tiling page
+background only shows at the sides and doesn't interfere with
+legibility. */
+/* Border color of framed header images. */
 html {
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   background-image: url("../media/images/backgrounds/robertson--night-background-darker.jpg");
   background-repeat: repeat;
   font-family: Fondamento, sans-serif;
@@ -48,7 +59,7 @@ a {
 }
 
 a:hover {
-  color: cyan;
+  color: rgb(240, 255, 255);
 }
 
 h1,
@@ -58,7 +69,7 @@ h4,
 h5,
 h6 {
   font-family: Metamorphous, Verdana, Geneva, Tahoma, sans-serif;
-  color: rgb(200, 230, 190);
+  color: rgb(195, 220, 195);
   margin: 1rem;
 }
 
@@ -79,7 +90,7 @@ body {
 header h1 {
   font-size: xx-small;
   margin-top: 0;
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 header h2 {
@@ -98,7 +109,7 @@ header h2 {
 nav {
   background-color: rgba(16, 106, 92, 0.7);
   font-family: Fondamento, sans-serif;
-  color: rgb(240, 255, 255);
+  color: rgb(189, 197, 234);
   font-size: 1.4rem;
   border-top: 1px solid rgb(32, 178, 170);
   border-bottom: 1px solid rgb(32, 178, 170);
@@ -151,7 +162,7 @@ figure.page-header-illo {
 	margins to keep the frame from running right up to a narrow screen
 	edge, which looks funny. */
 img.framed {
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   border-color: rgb(158, 154, 151);
   display: block;
   max-width: 100%;
@@ -186,12 +197,14 @@ img.lesser-separator {
   padding: 1.25rem;
 }
 
+/*************************
+Left off here. This is where this starts getting different from index.scss. */
 main h3 {
   font-size: xx-large;
 }
 
 main h4.page-subheader {
-  color: rgb(200, 230, 190);
+  color: rgb(195, 220, 195);
 }
 
 main h4,
@@ -226,6 +239,9 @@ ul.contributor-list li {
   margin-top: 1.25rem;
 }
 
+/**************************
+At the footer this should start looking like index.scss again.
+*/
 footer {
   font-family: Fondamento, sans-serif;
   max-width: 750px;
@@ -258,5 +274,9 @@ footer .copyright {
 }
 
 footer .copyright a {
-  color: rgb(171, 205, 189);
+  color: rgb(192, 230, 245);
+}
+
+footer .copyright a:hover {
+  color: rgb(163, 212, 250);
 }
