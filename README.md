@@ -9,8 +9,6 @@ Most of the items on the Night Land Website are copyrighted. On which, more late
 
 **Not ready to deploy!** Most of it's not here yet.
 
-git commits before 31 March 2025 are pretty ragged because I hadn't gotten used to the required granularity for them to be useful records.
-
 ## Tech Used
 
 So far:
@@ -42,25 +40,7 @@ Sass is a CSS preprocessor, which I'm using mostly to name colors and keep commo
 
 8. I do not set an absolute text size. Let the user pick that in their browser settings.
 
-9. I never have more than 1 stylesheet per page. This is a nuisance in some respects, as most of the stylesheets are fundamentally similar. However, it limits how hard it is to track down an incorrect rule.
-
-10. The general pattern of a CSS sheet is:
-	* Font loading;
-	* Sass variable names;
-	* General reset of bad CSS defaults;
-	* General page settings;
-	* Header settings;
-	* Main settings;
-	* Footer settings.
-	
-	It's as simple as I could figure out how to make it while getting the intended effect. The only more complex thing that you need to notice is that the basic construction of a page is layered:
-	
-	1. tiling background (in html),
-	2. gradient over tiling background (in body),
-	3. section formatting in header, nav, main, footer.
-	4. specific content formatting.
-	
-11. We have:
+9. We have:
 	* Text content pages;
 	* Index pages;
 	* Graphics content pages;
@@ -68,6 +48,31 @@ Sass is a CSS preprocessor, which I'm using mostly to name colors and keep commo
 	* Unusual pages.
 	
 	Text content pages have body text. The others usually don't.
+
+10. There are at least 2 basic color schemes, for different sections of the site:
+	* The Last Redoubt (background is black, most colors are cool);
+	* The Darkening (background is red-black, most colors are warm).
+
+
+### Basic CSS:
+Import the common stuff:
+
+* Font loading;
+* Standard dimensions;
+* General reset of bad CSS defaults;
+* Color variable names.
+
+Styles for individual page elements:
+* General page settings;
+* Header settings;
+* Main settings;
+* Footer settings.
+
+It's as simple as I could figure out how to make it while getting the intended effect. The only more complex thing that you need to notice is that the basic construction of a page is layered:
+1. tiling background (in html),
+2. gradient over tiling background (in body),
+3. section formatting in header, nav, main, footer.
+4. specific content formatting.
 
 
 ## Krita Graphics Files
