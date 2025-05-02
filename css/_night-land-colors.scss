@@ -1,7 +1,7 @@
 /* The default heading color, and actual heading colors of
 most major headers. */
-$phosphor-green: rgb(195, 220, 195);
-$phosphor-greener: rgb(160, 210, 180);
+$phosphor-green: rgb(171, 221, 171);
+$phosphor-greener: rgb(146, 234, 181);
 
 /* lesser links hover color */
 $phosphor-blue: rgb(163, 212, 250);
@@ -24,16 +24,18 @@ $opaque-black: rgb(0, 0, 0, 1);
 
 /* Border color of framed header images. */
 $bronze: rgb(158, 154, 151);
+
+/* Footer */
+$late-twilight-green-band: rgb(155, 219, 204);
+$grey-aqua: rgb(143, 180, 190);
 $cyan: rgb(0, 255, 255);
 $dark-cyan: rgb(0, 139, 139);
-$late-twilight-green-band: rgb(192, 230, 245);
 $light-blue-green: rgb(171, 236, 233);
 $light-steel-blue: rgb(176, 196, 222);
-$lichen-green: rgb(170, 204, 187);
+$dim-green: rgb(123, 182, 151);
 $twilight-lichen-blue: rgb(155, 176, 195);
 $twilight-lichen-green: rgb(171, 205, 189);
 $north-atlantic-green: rgb(143, 188, 143);
-$dark-sea-bluer-green: rgb(143, 180, 190);
 
 // bad name
 $medium-aquamarine: rgb(102, 205, 170);

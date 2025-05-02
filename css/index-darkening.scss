@@ -3,7 +3,6 @@
 @import "reset";
 @import "darkening-colors";
 
-
 html {
     background-color: black;
     background-image: url('../media/images/backgrounds/robertson--night-background-red-black.jpg');
@@ -68,7 +67,7 @@ header h2 {
 
 nav {
     background-color: $darker-red;
-    color: $cyan-tint-white;
+    color: magenta;
     font-size: 1.4rem;
     border-top: 1px solid firebrick;
     border-bottom: 1px solid firebrick;
@@ -76,7 +75,7 @@ nav {
 
 // The nav bar
 nav a {
-    color: $cyan-tint-white;
+    color: magenta;
 }
 
 // Keep the anchor tag from turning the nav bar menu items blue.
@@ -101,22 +100,19 @@ img.logo {
     max-width: $native-logo-width;
 }
 
-/*
-figure.site-logo figcaption {
+/* figure.site-logo figcaption {
     font-weight: bold;
     margin-top: -2rem;
     margin-bottom: 1.5rem;
     margin-left: 1rem;
     margin-right: 1rem;
 }
-Not used except on the home page.
-*/
-
-
+Not used except on the home page. */
 figure.page-header-illo {
     margin-left: 3%;
     margin-right: 3%;
 }
+
 /* The page-header illo is enclosed in a figure. The figure has these
 	margins to keep the frame from running right up to a narrow screen
 	edge, which looks funny. */
@@ -127,6 +123,7 @@ img.framed {
     max-width: 100%;
     border-style: ridge;
     padding: 2.5%;
+
     // This spaces the frame away from the image.
     border-width: 4px;
     margin-left: auto;
@@ -159,10 +156,10 @@ main h5 {
 }
 
 /* main h5 a {
-    color: $medium-aquamarine;
+    color: magenta;
 } */
 main h5.subtitle {
-    color: $medium-aquamarine;
+    color: magenta;
 }
 
 section.table-of-contents {
@@ -206,12 +203,12 @@ footer .breadcrumbs {
 }
 
 .breadcrumbs a:hover {
-    color: $dark-cyan;
+    color: magenta;
 }
 
 footer .copyright {
     font-family: $body-font;
-    color: $north-atlantic-green;
+    color: magenta;
     text-align: center;
     font-size: small;
     padding-bottom: 2rem;

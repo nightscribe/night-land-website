@@ -45,6 +45,7 @@ the center of the page more opaque, so the tiling page
 background only shows at the sides and doesn't interfere with
 legibility. */
 /* Border color of framed header images. */
+/* Footer */
 html {
   background-color: rgb(0, 0, 0);
   background-image: url("../media/images/backgrounds/robertson--night-background-darker.jpg");
@@ -69,7 +70,7 @@ h4,
 h5,
 h6 {
   font-family: Metamorphous, Verdana, Geneva, Tahoma, sans-serif;
-  color: rgb(195, 220, 195);
+  color: rgb(171, 221, 171);
   margin: 1rem;
 }
 
@@ -174,9 +175,25 @@ img.framed {
   margin-bottom: 3.5rem;
 }
 
+/* *********************************************
+/       main                                   *
+/********************************************* */
 main {
-  margin-left: 6%;
-  margin-right: 6%;
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Metamorphous, Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  line-height: 1.5;
+}
+
+main h3 {
+  font-size: xx-large;
+}
+
+.argument h4 {
+  font-size: larger;
+  color: rgb(175, 175, 230);
 }
 
 img.greater-separator {
@@ -197,20 +214,20 @@ img.lesser-separator {
   padding: 1.25rem;
 }
 
-/*************************
-Left off here. This is where this starts getting different from index.scss. */
-main h3 {
-  font-size: xx-large;
+main h4 {
+  font-size: x-large;
+}
+
+main h4 a {
+  color: rgb(146, 234, 181);
+}
+
+main h4 a:hover {
+  color: rgb(163, 212, 250);
 }
 
 main h4.page-subheader {
-  color: rgb(195, 220, 195);
-}
-
-main h4,
-main h4 a {
-  font-size: x-large;
-  color: rgb(127, 255, 212);
+  color: rgb(146, 234, 181);
 }
 
 main h5 {
@@ -218,9 +235,14 @@ main h5 {
   color: rgb(102, 205, 170);
 }
 
-/* main h5 a {
-    color: $medium-aquamarine;
-} */
+main h5 a {
+  color: rgb(146, 234, 181);
+}
+
+main h5 a:hover {
+  color: rgb(163, 212, 250);
+}
+
 main h5.subtitle {
   color: rgb(102, 205, 170);
 }
@@ -234,14 +256,18 @@ section.table-of-contents {
   line-height: 1.5;
 }
 
-ul.contributor-list li {
-  list-style: none;
-  margin-top: 1.25rem;
+main ol li {
+  list-style-type: none;
+  margin-bottom: 1rem;
 }
 
-/**************************
-At the footer this should start looking like index.scss again.
-*/
+main ol li a {
+  color: rgb(189, 197, 234);
+}
+
+/* *********************************************
+/       footer                                 *
+/********************************************* */
 footer {
   font-family: Fondamento, sans-serif;
   max-width: 750px;
@@ -259,22 +285,23 @@ footer .breadcrumbs {
 }
 
 .breadcrumbs a {
-  color: rgb(170, 204, 187);
+  color: rgb(163, 212, 250);
 }
 
 .breadcrumbs a:hover {
-  color: rgb(0, 139, 139);
+  color: rgb(240, 255, 255);
 }
 
 footer .copyright {
   font-family: ABeeZee, sans-serif;
+  color: rgb(143, 180, 190);
+  text-align: center;
   font-size: small;
   padding-bottom: 2rem;
-  color: rgb(155, 176, 195);
 }
 
 footer .copyright a {
-  color: rgb(192, 230, 245);
+  color: rgb(155, 219, 204);
 }
 
 footer .copyright a:hover {

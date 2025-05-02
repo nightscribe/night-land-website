@@ -5,3 +5,5 @@ projectdb.pgml
 /css/style.css
 /css/theme.css
 *.kra~
+*.bak
+*.old
