@@ -213,12 +213,14 @@ section.table-of-contents {
     line-height: 1.5;
 }
 
-main ol li {
+main ol li,
+main ul li {
     list-style-type: none;
     margin-bottom: 1rem;
 }
 
-main ol li a {
+main ol li a,
+main ul li a {
     color: $phosphor-blue-light;
 }
 

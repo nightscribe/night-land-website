@@ -110,7 +110,7 @@ header h2 {
 nav {
   background-color: rgba(16, 106, 92, 0.7);
   font-family: Fondamento, sans-serif;
-  color: rgb(189, 197, 234);
+  color: rgb(190, 205, 255);
   font-size: 1.4rem;
   border-top: 1px solid rgb(32, 178, 170);
   border-bottom: 1px solid rgb(32, 178, 170);
@@ -256,13 +256,15 @@ section.table-of-contents {
   line-height: 1.5;
 }
 
-main ol li {
+main ol li,
+main ul li {
   list-style-type: none;
   margin-bottom: 1rem;
 }
 
-main ol li a {
-  color: rgb(189, 197, 234);
+main ol li a,
+main ul li a {
+  color: rgb(190, 205, 255);
 }
 
 /* *********************************************
