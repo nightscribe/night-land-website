@@ -1,5 +1,12 @@
-$phosphor-green: rgb(180, 220, 190);
-$phosphor-green-dimmed: rgb(160, 210, 180);
+/* The default heading color, and actual heading colors of
+most major headers. */
+$phosphor-green: rgb(171, 221, 171);
+$phosphor-green-light: rgb(180, 220, 190);
+$phosphor-greener: rgb(146, 234, 181);
+
+/* nav */
+$phosphor-yellow: rgb(239, 239, 212);
+$phosphor-blue-light: rgb(190, 205, 255);
 $darker-red: rgb(60, 6, 6, 0.7);
 $light-blue-grey: rgb(175, 175, 230);
 $blue-grey: rgb(153, 153, 204);
@@ -9,5 +16,5 @@ $opaque-black: rgb(0, 0, 0, 1);
 $red-black: rgb(40, 10, 10);
 $translucent-blue: rgba(40, 24, 59, 0.79);
 $bronze: rgb(158, 154, 151);
-$light-cool-yellow: rgb(193, 193, 188);
-$dimmer-cool-yellow: rgb(175, 175, 160);
+$light-chartreuse: rgb(227, 243, 182);
+$orange-light: rgb(220, 209, 189);

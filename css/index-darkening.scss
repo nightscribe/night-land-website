@@ -27,7 +27,7 @@ h4,
 h5,
 h6 {
     font-family: $heading-font;
-    color: $phosphor-green;
+    color: $phosphor-green-light;
     margin: 1rem;
 }
 
@@ -67,7 +67,7 @@ header h2 {
 
 nav {
     background-color: $darker-red;
-    color: magenta;
+    color: $phosphor-greener;
     font-size: 1.4rem;
     border-top: 1px solid firebrick;
     border-bottom: 1px solid firebrick;
@@ -75,7 +75,7 @@ nav {
 
 // The nav bar
 nav a {
-    color: magenta;
+    color: $phosphor-yellow;
 }
 
 // Keep the anchor tag from turning the nav bar menu items blue.
@@ -141,18 +141,24 @@ main h3 {
 }
 
 main h4.page-subheader {
-    color: $phosphor-green-dimmed;
+    color: $phosphor-greener;
 }
 
 main h4,
 main h4 a {
     font-size: x-large;
-    color: aquamarine;
+    color: $light-chartreuse;
+
+    // change me later
+}
+
+main h4 a {
+    color: $light-chartreuse;
 }
 
 main h5 {
     font-size: larger;
-    color: cadetblue;
+    color: $phosphor-green-light;
 }
 
 /* main h5 a {
@@ -167,6 +173,7 @@ section.table-of-contents {
     margin-left: auto;
     margin-right: auto;
     font-family: $heading-font;
+    color: $orange-light;
     text-align: center;
     line-height: 1.5;
 }

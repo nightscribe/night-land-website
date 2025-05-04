@@ -37,8 +37,7 @@
 /* The default heading color, and actual heading colors of
 most major headers. */
 /* lesser links hover color */
-/* lesser link color */
-/* The nav bar itself. */
+/* nav */
 /* Opaque black is the background color for framed header images.
 There is, further, a transparent-to-opaque gradient that makes
 the center of the page more opaque, so the tiling page
@@ -70,7 +69,7 @@ h4,
 h5,
 h6 {
   font-family: Metamorphous, Verdana, Geneva, Tahoma, sans-serif;
-  color: rgb(171, 221, 171);
+  color: rgb(180, 220, 190);
   margin: 1rem;
 }
 
