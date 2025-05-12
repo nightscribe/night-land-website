@@ -53,6 +53,8 @@ Sass is a CSS preprocessor, which I'm using mostly to name colors and keep commo
 	* The Last Redoubt (background is black, most colors are cool);
 	* The Darkening (background is red-black, most colors are warm).
 
+11. No text on any page is intended to be magenta. If you see magenta text, it means I had no instances of that CSS selector on the original page, and so didn't decide on a color for it. Change it to something that is legible and harmonizes with the rest of the page color scheme.
+
 
 ### Basic CSS:
 Import the common stuff:
@@ -73,7 +75,6 @@ It's as simple as I could figure out how to make it while getting the intended e
 2. gradient over tiling background (in body),
 3. section formatting in header, nav, main, footer.
 4. specific content formatting.
-
 
 ## Krita Graphics Files
 
