@@ -1,83 +1,23 @@
-/* Free fonts are installed in a site directory, not downloaded from Google, for privacy. */
-@font-face {
-    font-family: Metamorphous;
-    src: url('../fonts/metamorphous/Metamorphous-Regular.ttf');
-}
-
-// Lower-level headers
-@font-face {
-    font-family: ABeeZee;
-    src: url('../fonts/abeezee/ABeeZee-Regular.otf');
-    font-style: normal;
-}
-
-// Body text.
-@font-face {
-    font-family: ABeeZee;
-    src: url('../fonts/abeezee/ABeeZee-Italic.otf');
-    font-style: italic;
-}
-
-// Site subtitle h2 ("The Weird Fiction of William Hope Hodgson")
-@font-face {
-    font-family: Jim_Nightshade;
-    src: url('../fonts/jim_nightshade/JimNightshade-Regular.ttf');
-    font-style: normal;
-}
-
-// Nav bar, menu page, and other links, including in the footers.
-@font-face {
-    font-family: Fondamento;
-    src: url('../fonts/fondamento/Fondamento-Regular.ttf');
-    font-style: normal;
-}
-
-/* scss variable names, for readability and avoiding looking up this glop
- every time I want it again. */
-$heading-font: Metamorphous, Verdana, Geneva, Tahoma, sans-serif;
-$alternate-deco-font: Fondamento, sans-serif;
-$atmospheric-font: Jim_Nightshade, serif;
-$body-font: ABeeZee, sans-serif;
-$phosphor-green: rgb(180, 220, 190);
-$darker-red: rgb(60, 6, 6, 0.7);
-$light-blue-grey: rgb(170, 170, 201);
-$medium-dark-patina-green: rgb(16, 106, 92, 0.7);
-$transparent-black: rgb(0, 0, 0, 0.0);
-$opaque-black: rgb(0, 0, 0, 1);
-$red-black: rgb(40, 10, 10);
-$translucent-blue: rgba(40, 24, 59, 0.79);
-$bronze: rgb(158, 154, 151);
-$light-cool-yellow: rgb(193, 193, 188);
-$dimmer-cool-yellow: rgb(175, 175, 160);
-$min-screen-width: 320px;
-$native-logo-width: 1250px;
-$native-separator-width: 563px;
-$native-short-separator-width: 218px;
-$max-main-width: 1000px;
-$main-content-width: 750px;
-$standard-box-padding: 2.5% 3%;
-
-/* Get rid of defaults that make it hard to figure out where anything's going to line up. */
-*,
-*::before,
-*::after {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    box-sizing: border-box;
-}
+@import "fonts";
+@import "dimensions";
+@import "reset";
+@import "darkening-colors";
 
 html {
-    background-color: black;
-    background-image: url('../media/images/backgrounds/robertson--night-background-red-black.jpg');
+    background-color: $opaque-black;
+    background-image: url('../media/images/backgrounds/robertson--night-background-red-dark.jpg');
     background-repeat: repeat;
-    font-family: $alternate-deco-font;
-    color: $light-blue-grey;
+    font-family: $body-font;
+    color: magenta;
     text-align: center;
 }
 
 a {
     text-decoration: none;
+}
+
+a:hover {
+    color: $phosphor-green-light;
 }
 
 h1,
@@ -87,7 +27,7 @@ h4,
 h5,
 h6 {
     font-family: $heading-font;
-    color: $phosphor-green;
+    color: $phosphor-green-light;
     margin: 1rem;
 }
 
@@ -107,7 +47,7 @@ body {
 header h1 {
     font-size: xx-small;
     margin-top: 0;
-    color: black;
+    color: $opaque-black;
 }
 
 header h2 {
@@ -127,7 +67,8 @@ header h2 {
 
 nav {
     background-color: $darker-red;
-    color: $cyan-tint-white;
+    font-family: $alternate-deco-font;
+    color: $bronze-light;
     font-size: 1.4rem;
     border-top: 1px solid firebrick;
     border-bottom: 1px solid firebrick;
@@ -135,7 +76,11 @@ nav {
 
 // The nav bar
 nav a {
-    color: $cyan-tint-white;
+    color: $phosphor-yellow;
+}
+
+nav a:hover {
+    color: $phosphor-orange;
 }
 
 // Keep the anchor tag from turning the nav bar menu items blue.
@@ -152,7 +97,7 @@ nav ul li {
 }
 
 // The nav menu is a list without dots or numbers.
-/* 'The Night Land: The Days of Darkening' by Kate Coady. J-Wildfire
+/* 'The Night Land: The Darkening' by Kate Coady. J-Wildfire
     flame fractal. */
 img.logo {
     width: 100%;
@@ -160,42 +105,42 @@ img.logo {
     max-width: $native-logo-width;
 }
 
-main {
+figure.site-logo figcaption {
+    font-family: $alternate-deco-font;
+    font-weight: bold;
+    margin-top: -2rem;
+    margin-bottom: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+figure.page-header-illo {
     margin-left: 3%;
     margin-right: 3%;
 }
 
-main h3 {
-    font-size: xx-large;
-}
-
-main h4 {
-    font-size: x-large;
-    color: aquamarine;
-}
-
-main h5 {
-    font-size: larger;
-    color: cadetblue;
-}
-
+/* The page-header illo is enclosed in a figure. The figure has these
+	margins to keep the frame from running right up to a narrow screen
+	edge, which looks funny. */
 img.framed {
-    background-color: black;
+    background-color: $opaque-black;
     border-color: $bronze;
     display: block;
     max-width: 100%;
     border-style: ridge;
     padding: 2.5%;
 
-    // THis spaces the frame away from the image.
+    // This spaces the frame away from the image.
     border-width: 4px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 1.5em;
-    margin-bottom: 3.5em;
+    margin-bottom: 3.5rem;
 }
 
-section.table-of-contents {
+/* *********************************************
+/       main                                   *
+/********************************************* */
+main {
     max-width: $main-content-width;
     margin-left: auto;
     margin-right: auto;
@@ -204,42 +149,109 @@ section.table-of-contents {
     line-height: 1.5;
 }
 
+main h3 {
+    font-size: xx-large;
+}
+
+main h4.page-subheader {
+    color: $phosphor-greener;
+}
+
+main h4,
+main h4 a {
+    font-size: x-large;
+    color: $chartreuse-light;
+
+    // change me later
+}
+
+main h4 a:hover {
+    color: $phosphor-yellow;
+}
+
+main h5 {
+    font-size: larger;
+    color: $phosphor-green;
+}
+
+main h5 a {
+    color: $yellow-grey;
+}
+
+main h5 a:hover {
+    color: $phosphor-orange;
+}
+
+main h5.subtitle {
+    color: magenta;
+}
+
+section.table-of-contents {
+    max-width: $main-content-width;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: $body-font;
+    color: $orange-light;
+    text-align: center;
+    line-height: 1.5;
+}
+
 img.greater-separator {
     max-width: $native-separator-width;
-    padding: 1.25rem;
+    padding: 1rem;
 }
 
 img.greater-separator-reversed {
     max-width: $native-separator-width;
-    padding: 1.25rem;
+    padding: 1rem;
     transform: scaleX(-1);
 }
 
 img.lesser-separator {
-    width: 37%;
-    max-width: $native-short-separator-width;
-    margin-top: 1.75rem;
-    margin-bottom: 2rem;
+    max-width: $native-separator-width;
+    padding: 1.25rem;
+}
+
+/* *********************************************
+/       footer                                 *
+/********************************************* */
+footer {
+    font-family: $alternate-deco-font;
+    max-width: $main-content-width;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
 }
 
 footer .breadcrumbs {
+    color: $phosphor-green;
     font-size: larger;
     margin-top: 0.75rem;
     margin-bottom: 0.75rem;
 }
 
 .breadcrumbs a {
-    color: #aaccbb;
+    color: $chartreuse-light;
 }
 
 .breadcrumbs a:hover {
-    color: $dark-cyan;
+    color: $phosphor-yellow;
 }
 
 footer .copyright {
     font-family: $body-font;
-    color: $north-atlantic-green;
+    color: $bronze-light;
     text-align: center;
     font-size: small;
     padding-bottom: 2rem;
+}
+
+footer .copyright a {
+    color: $orange-light;
+}
+
+footer .copyright a:hover {
+    color: $phosphor-yellow;
 }

@@ -3,6 +3,8 @@
 @import "reset";
 @import "darkening-colors";
 
+/* Magenta text is never supposed to appear. If it does, find out which selector
+    doesn't have a color and fix it. */
 html {
     background-color: $opaque-black;
     background-image: url('../media/images/backgrounds/robertson--night-background-red-dark.jpg');
