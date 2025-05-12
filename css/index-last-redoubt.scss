@@ -79,6 +79,10 @@ nav a {
     color: $white-cyan;
 }
 
+nav a:hover {
+    color: $phosphor-blue;
+}
+
 // Keep the anchor tag from turning the nav bar menu items blue.
 nav ul {
     display: flex;
@@ -264,5 +268,5 @@ footer .copyright a {
 }
 
 footer .copyright a:hover {
-    color: $phosphor-blue;
+    color: $phosphor-blue-light;
 }

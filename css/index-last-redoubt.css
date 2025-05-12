@@ -118,6 +118,10 @@ nav a {
   color: rgb(240, 255, 255);
 }
 
+nav a:hover {
+  color: rgb(163, 212, 250);
+}
+
 nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -305,5 +309,5 @@ footer .copyright a {
 }
 
 footer .copyright a:hover {
-  color: rgb(163, 212, 250);
+  color: rgb(190, 205, 255);
 }
