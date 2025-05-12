@@ -29,7 +29,6 @@
 *::after {
   margin: 0;
   padding: 0;
-  border: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -250,7 +249,7 @@ section.table-of-contents {
   max-width: 750px;
   margin-left: auto;
   margin-right: auto;
-  font-family: Metamorphous, Verdana, Geneva, Tahoma, sans-serif;
+  font-family: ABeeZee, sans-serif;
   text-align: center;
   line-height: 1.5;
 }

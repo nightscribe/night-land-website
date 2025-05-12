@@ -4,11 +4,11 @@
 @import "darkening-colors";
 
 html {
-    background-color: black;
-    background-image: url('../media/images/backgrounds/robertson--night-background-red-black.jpg');
+    background-color: $opaque-black;
+    background-image: url('../media/images/backgrounds/robertson--night-background-red-dark.jpg');
     background-repeat: repeat;
-    font-family: $alternate-deco-font;
-    color: $light-blue-grey;
+    font-family: $body-font;
+    color: magenta;
     text-align: center;
 }
 
@@ -17,7 +17,7 @@ a {
 }
 
 a:hover {
-    color: cyan;
+    color: $phosphor-green-light;
 }
 
 h1,
@@ -47,7 +47,7 @@ body {
 header h1 {
     font-size: xx-small;
     margin-top: 0;
-    color: black;
+    color: $opaque-black;
 }
 
 header h2 {
@@ -67,7 +67,8 @@ header h2 {
 
 nav {
     background-color: $darker-red;
-    color: $phosphor-greener;
+    font-family: $alternate-deco-font;
+    color: $bronze-light;
     font-size: 1.4rem;
     border-top: 1px solid firebrick;
     border-bottom: 1px solid firebrick;
@@ -76,6 +77,10 @@ nav {
 // The nav bar
 nav a {
     color: $phosphor-yellow;
+}
+
+nav a:hover {
+    color: $phosphor-orange;
 }
 
 // Keep the anchor tag from turning the nav bar menu items blue.
@@ -100,14 +105,15 @@ img.logo {
     max-width: $native-logo-width;
 }
 
-/* figure.site-logo figcaption {
+figure.site-logo figcaption {
+    font-family: $alternate-deco-font;
     font-weight: bold;
     margin-top: -2rem;
     margin-bottom: 1.5rem;
     margin-left: 1rem;
     margin-right: 1rem;
 }
-Not used except on the home page. */
+
 figure.page-header-illo {
     margin-left: 3%;
     margin-right: 3%;
@@ -117,7 +123,7 @@ figure.page-header-illo {
 	margins to keep the frame from running right up to a narrow screen
 	edge, which looks funny. */
 img.framed {
-    background-color: black;
+    background-color: $opaque-black;
     border-color: $bronze;
     display: block;
     max-width: 100%;
@@ -131,9 +137,16 @@ img.framed {
     margin-bottom: 3.5rem;
 }
 
+/* *********************************************
+/       main                                   *
+/********************************************* */
 main {
-    margin-left: 3%;
-    margin-right: 3%;
+    max-width: $main-content-width;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: $heading-font;
+    text-align: center;
+    line-height: 1.5;
 }
 
 main h3 {
@@ -147,23 +160,28 @@ main h4.page-subheader {
 main h4,
 main h4 a {
     font-size: x-large;
-    color: $light-chartreuse;
+    color: $chartreuse-light;
 
     // change me later
 }
 
-main h4 a {
-    color: $light-chartreuse;
+main h4 a:hover {
+    color: $phosphor-yellow;
 }
 
 main h5 {
     font-size: larger;
-    color: $phosphor-green-light;
+    color: $phosphor-green;
 }
 
-/* main h5 a {
-    color: magenta;
-} */
+main h5 a {
+    color: $yellow-grey;
+}
+
+main h5 a:hover {
+    color: $phosphor-greener;
+}
+
 main h5.subtitle {
     color: magenta;
 }
@@ -172,7 +190,7 @@ section.table-of-contents {
     max-width: $main-content-width;
     margin-left: auto;
     margin-right: auto;
-    font-family: $heading-font;
+    font-family: $body-font;
     color: $orange-light;
     text-align: center;
     line-height: 1.5;
@@ -194,36 +212,46 @@ img.lesser-separator {
     padding: 1.25rem;
 }
 
-ul.contributor-list li {
-    list-style: none;
-    margin-top: 1.25rem;
+/* *********************************************
+/       footer                                 *
+/********************************************* */
+footer {
+    font-family: $alternate-deco-font;
+    max-width: $main-content-width;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
 }
 
 footer .breadcrumbs {
+    color: $phosphor-green;
     font-size: larger;
     margin-top: 0.75rem;
     margin-bottom: 0.75rem;
 }
 
 .breadcrumbs a {
-    color: #aaccbb;
+    color: $chartreuse-light;
 }
 
 .breadcrumbs a:hover {
-    color: magenta;
+    color: $phosphor-yellow;
 }
 
 footer .copyright {
     font-family: $body-font;
-    color: magenta;
+    color: $bronze-light;
     text-align: center;
     font-size: small;
     padding-bottom: 2rem;
 }
 
 footer .copyright a {
-    color: $phosphor-green;
+    color: $orange-light;
 }
 
-
- 
+footer .copyright a:hover {
+    color: $phosphor-yellow;
+}

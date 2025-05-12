@@ -127,7 +127,7 @@ img.framed {
     border-style: ridge;
     padding: 2.5%;
 
-    // This spaces the border away from the image.
+    // This spaces the frame away from the image.
     border-width: 4px;
     margin-left: auto;
     margin-right: auto;
@@ -208,7 +208,7 @@ section.table-of-contents {
     max-width: $main-content-width;
     margin-left: auto;
     margin-right: auto;
-    font-family: $heading-font;
+    font-family: $body-font;
     text-align: center;
     line-height: 1.5;
 }
