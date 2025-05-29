@@ -179,9 +179,15 @@ main {
   max-width: 750px;
   margin-left: auto;
   margin-right: auto;
-  font-family: Metamorphous, Verdana, Geneva, Tahoma, sans-serif;
+  font-family: ABeeZee, sans-serif;
+  color: rgb(220, 209, 189);
   text-align: center;
   line-height: 1.5;
+}
+
+main p {
+  text-align: left;
+  margin-bottom: 1rem;
 }
 
 main h3 {

@@ -146,9 +146,15 @@ main {
     max-width: $main-content-width;
     margin-left: auto;
     margin-right: auto;
-    font-family: $heading-font;
+    font-family: $body-font;
+    color: $orange-light;
     text-align: center;
     line-height: 1.5;
+}
+
+main p {
+    text-align: left;
+    margin-bottom: 1rem;
 }
 
 main h3 {
