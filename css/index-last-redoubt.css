@@ -183,6 +183,8 @@ img.framed {
 /********************************************* */
 main {
   max-width: 750px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
   margin-left: auto;
   margin-right: auto;
   font-family: Metamorphous, Verdana, Geneva, Tahoma, sans-serif;
@@ -201,20 +203,23 @@ main h3 {
 
 img.greater-separator {
   max-width: 563px;
-  padding: 1rem;
+  width: 100%;
+  height: auto;
 }
 
 img.greater-separator-reversed {
+  width: 100%;
   max-width: 563px;
-  padding: 1rem;
+  height: auto;
   -webkit-transform: scaleX(-1);
       -ms-transform: scaleX(-1);
           transform: scaleX(-1);
 }
 
 img.lesser-separator {
+  width: 100%;
   max-width: 563px;
-  padding: 1.25rem;
+  height: auto;
 }
 
 main h4 {

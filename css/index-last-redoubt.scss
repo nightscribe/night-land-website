@@ -143,6 +143,8 @@ img.framed {
 /********************************************* */
 main {
     max-width: $main-content-width;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
     margin-left: auto;
     margin-right: auto;
     font-family: $heading-font;
@@ -161,18 +163,21 @@ main h3 {
 
 img.greater-separator {
     max-width: $native-separator-width;
-    padding: 1rem;
+    width: 100%;
+    height: auto;
 }
 
 img.greater-separator-reversed {
+    width: 100%;
     max-width: $native-separator-width;
-    padding: 1rem;
+    height: auto;
     transform: scaleX(-1);
 }
 
 img.lesser-separator {
+    width: 100%;
     max-width: $native-separator-width;
-    padding: 1.25rem;
+    height: auto;
 }
 
 main h4 {

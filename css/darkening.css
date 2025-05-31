@@ -237,14 +237,20 @@ section.table-of-contents {
   line-height: 1.5;
 }
 
+.table-of-contents p {
+  text-align: center;
+}
+
 img.greater-separator {
   max-width: 563px;
-  padding: 1rem;
+  width: 100%;
+  height: auto;
 }
 
 img.greater-separator-reversed {
   max-width: 563px;
-  padding: 1rem;
+  width: 100%;
+  height: auto;
   -webkit-transform: scaleX(-1);
       -ms-transform: scaleX(-1);
           transform: scaleX(-1);
@@ -252,7 +258,8 @@ img.greater-separator-reversed {
 
 img.lesser-separator {
   max-width: 563px;
-  padding: 1.25rem;
+  width: 100%;
+  height: auto;
 }
 
 /* *********************************************
