@@ -1,14 +1,23 @@
 # Night Land Website
 
-2025-07-09
-Stylesheet reorganization:
-    Each section of the site that has a different color scheme has its own main stylesheet. So far that's the Last Redoubt color scheme, and the Darkening color scheme.
-    I now import SCSS reset, dimensions, fonts, and colors into the main stylesheets.
+2025-07-10
     
     To Do Next:
         0-stories-template-last-redoubt.html:
         robertson--eater.html:
-            Fix what got broken when I used last-redoubt-index-page.scss to make the new main Last Redoubt sheet.
-            Fix the placement and typography of the Tales of the Last Redoubt tag. 
+		
+		The body font may need to be lighter.
+		The in-story illustrations need formatting.
+		See if anything else is broken.
+		
+		0-stories-template-darkening.html:
+		coady--red-twilight.html:
+		
+		Decide on the best format for the individual story and illo copyrights, and make the Last Redoubt and Darkening sections match.
+		
+		Apply the in-story illustration formatting from the Last Redoubt to the Darkening section.
+
+
+
 
 
