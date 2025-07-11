@@ -262,6 +262,18 @@ img.lesser-separator {
   height: auto;
 }
 
+img.bordered {
+  background-color: rgb(0, 0, 0);
+  border-color: rgb(158, 154, 151);
+  display: block;
+  max-width: 100%;
+  border-style: ridge;
+  border-width: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3.5rem;
+}
+
 /* *********************************************
 /       footer                                 *
 /********************************************* */

@@ -154,6 +154,7 @@ main {
 }
 
 main p {
+    color: $light-grey;
     text-align: left;
     margin-bottom: 1rem;
 }
@@ -241,6 +242,18 @@ main ul li {
 main ol li a,
 main ul li a {
     color: $phosphor-blue-light;
+}
+
+img.bordered {
+    background-color: $opaque-black;
+    border-color: $bronze;
+    display: block;
+    max-width: 100%;
+    border-style: ridge;
+    border-width: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3.5rem;
 }
 
 /* *********************************************
