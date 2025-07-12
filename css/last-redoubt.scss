@@ -269,18 +269,18 @@ footer {
     line-height: 1.5;
 }
 
+footer a {
+    color: $phosphor-blue;
+}
+
+footer a:hover {
+    color: $white-cyan;
+}
+
 footer .breadcrumbs {
     font-size: larger;
     margin-top: 0.75rem;
     margin-bottom: 0.75rem;
-}
-
-.breadcrumbs a {
-    color: $phosphor-blue;
-}
-
-.breadcrumbs a:hover {
-    color: $white-cyan;
 }
 
 footer .copyright {

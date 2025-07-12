@@ -311,18 +311,18 @@ footer {
   line-height: 1.5;
 }
 
+footer a {
+  color: rgb(163, 212, 250);
+}
+
+footer a:hover {
+  color: rgb(240, 255, 255);
+}
+
 footer .breadcrumbs {
   font-size: larger;
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
-}
-
-.breadcrumbs a {
-  color: rgb(163, 212, 250);
-}
-
-.breadcrumbs a:hover {
-  color: rgb(240, 255, 255);
 }
 
 footer .copyright {
