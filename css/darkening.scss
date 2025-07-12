@@ -247,6 +247,7 @@ img.bordered {
 footer {
     font-family: $alternate-deco-font;
     max-width: $main-content-width;
+    color: $phosphor-green;
     padding-left: 1rem;
     padding-right: 1rem;
     margin-left: auto;
@@ -254,19 +255,23 @@ footer {
     line-height: 1.5;
 }
 
+footer .note {
+    color: $orange-light;
+}
+
+footer a {
+    color: $chartreuse-light;
+}
+
+::-moz-focus-outer a:hover {
+    color: $phosphor-yellow;
+}
+
 footer .breadcrumbs {
     color: $phosphor-green;
     font-size: larger;
     margin-top: 0.75rem;
     margin-bottom: 0.75rem;
-}
-
-.breadcrumbs a {
-    color: $chartreuse-light;
-}
-
-.breadcrumbs a:hover {
-    color: $phosphor-yellow;
 }
 
 footer .copyright {

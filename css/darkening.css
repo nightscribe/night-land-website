@@ -280,6 +280,7 @@ img.bordered {
 footer {
   font-family: Fondamento, sans-serif;
   max-width: 750px;
+  color: rgb(171, 221, 171);
   padding-left: 1rem;
   padding-right: 1rem;
   margin-left: auto;
@@ -287,19 +288,23 @@ footer {
   line-height: 1.5;
 }
 
+footer .note {
+  color: rgb(220, 209, 189);
+}
+
+footer a {
+  color: rgb(207, 235, 180);
+}
+
+::-moz-focus-outer a:hover {
+  color: rgb(239, 239, 212);
+}
+
 footer .breadcrumbs {
   color: rgb(171, 221, 171);
   font-size: larger;
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
-}
-
-.breadcrumbs a {
-  color: rgb(207, 235, 180);
-}
-
-.breadcrumbs a:hover {
-  color: rgb(239, 239, 212);
 }
 
 footer .copyright {

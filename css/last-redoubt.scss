@@ -8,7 +8,7 @@ html {
     background-image: url('../media/images/backgrounds/robertson--night-background-darker.jpg');
     background-repeat: repeat;
     font-family: $alternate-deco-font;
-    color: $light-blue-grey;
+    color: magenta;
     text-align: center;
 }
 
@@ -262,11 +262,16 @@ img.bordered {
 footer {
     font-family: $alternate-deco-font;
     max-width: $main-content-width;
+    color: $light-blue-grey;
     padding-left: 1rem;
     padding-right: 1rem;
     margin-left: auto;
     margin-right: auto;
     line-height: 1.5;
+}
+
+footer .note {
+    color: $grey-aqua;
 }
 
 footer a {
