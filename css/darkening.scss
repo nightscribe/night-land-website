@@ -163,16 +163,20 @@ main h3 {
     font-size: xx-large;
 }
 
+main h3 a {
+    // color: $phosphor-blue;
+}
+
 main h4.page-subheader {
     color: $phosphor-greener;
 }
 
-main h4,
-main h4 a {
+main h4 {
     font-size: x-large;
-    color: $chartreuse-light;
+}
 
-    // change me later
+main h4 a {
+    color: $chartreuse-light;   // change me later
 }
 
 main h4 a:hover {

@@ -45,11 +45,13 @@ background only shows at the sides and doesn't interfere with
 legibility. */
 /* Border color of framed header images. */
 /* Footer */
+/* Magenta text is never supposed to appear. If it does, find out which selector
+    doesn't have a color and fix it. */
 html {
   background-color: rgb(0, 0, 0);
   background-image: url("../media/images/backgrounds/robertson--night-background-darker.jpg");
   background-repeat: repeat;
-  font-family: Fondamento, sans-serif;
+  font-family: ABeeZee, sans-serif;
   color: magenta;
   text-align: center;
 }
@@ -207,30 +209,8 @@ main h3 a {
   color: rgb(163, 212, 250);
 }
 
-.argument h4 {
-  font-size: larger;
-  color: rgb(175, 175, 230);
-}
-
-img.greater-separator {
-  max-width: 563px;
-  width: 100%;
-  height: auto;
-}
-
-img.greater-separator-reversed {
-  width: 100%;
-  max-width: 563px;
-  height: auto;
-  -webkit-transform: scaleX(-1);
-      -ms-transform: scaleX(-1);
-          transform: scaleX(-1);
-}
-
-img.lesser-separator {
-  width: 100%;
-  max-width: 563px;
-  height: auto;
+main h4.page-subheader {
+  color: rgb(146, 234, 181);
 }
 
 main h4 {
@@ -243,10 +223,6 @@ main h4 a {
 
 main h4 a:hover {
   color: rgb(163, 212, 250);
-}
-
-main h4.page-subheader {
-  color: rgb(146, 234, 181);
 }
 
 main h5 {
@@ -275,15 +251,36 @@ section.table-of-contents {
   line-height: 1.5;
 }
 
-main ol li,
-main ul li {
-  list-style-type: none;
-  margin-bottom: 1rem;
+.table-of-contents p {
+  text-align: center;
 }
 
-main ol li a,
-main ul li a {
-  color: rgb(190, 205, 255);
+/* There is no argument section anywhere but the index page,
+	so no need for this in stylesheets for other color schemes. */
+.argument h4 {
+  font-size: larger;
+  color: rgb(175, 175, 230);
+}
+
+img.greater-separator {
+  max-width: 563px;
+  width: 100%;
+  height: auto;
+}
+
+img.greater-separator-reversed {
+  max-width: 563px;
+  width: 100%;
+  height: auto;
+  -webkit-transform: scaleX(-1);
+      -ms-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+img.lesser-separator {
+  max-width: 563px;
+  width: 100%;
+  height: auto;
 }
 
 img.bordered {

@@ -196,13 +196,18 @@ main h3 {
   font-size: xx-large;
 }
 
+main h3 a {
+}
+
 main h4.page-subheader {
   color: rgb(146, 234, 181);
 }
 
-main h4,
-main h4 a {
+main h4 {
   font-size: x-large;
+}
+
+main h4 a {
   color: rgb(207, 235, 180);
 }
 

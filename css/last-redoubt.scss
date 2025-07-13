@@ -3,11 +3,13 @@
 @import "reset";
 @import "night-land-colors";
 
+/* Magenta text is never supposed to appear. If it does, find out which selector
+    doesn't have a color and fix it. */
 html {
     background-color: $opaque-black;
     background-image: url('../media/images/backgrounds/robertson--night-background-darker.jpg');
     background-repeat: repeat;
-    font-family: $alternate-deco-font;
+    font-family: $body-font;
     color: magenta;
     text-align: center;
 }
@@ -167,28 +169,8 @@ main h3 a {
     color: $phosphor-blue;
 }
 
-.argument h4 {
-    font-size: larger;
-    color: $light-blue-grey;
-}
-
-img.greater-separator {
-    max-width: $native-separator-width;
-    width: 100%;
-    height: auto;
-}
-
-img.greater-separator-reversed {
-    width: 100%;
-    max-width: $native-separator-width;
-    height: auto;
-    transform: scaleX(-1);
-}
-
-img.lesser-separator {
-    width: 100%;
-    max-width: $native-separator-width;
-    height: auto;
+main h4.page-subheader {
+    color: $phosphor-greener;
 }
 
 main h4 {
@@ -201,10 +183,6 @@ main h4 a {
 
 main h4 a:hover {
     color: $phosphor-blue;
-}
-
-main h4.page-subheader {
-    color: $phosphor-greener;
 }
 
 main h5 {
@@ -233,15 +211,35 @@ section.table-of-contents {
     line-height: 1.5;
 }
 
-main ol li,
-main ul li {
-    list-style-type: none;
-    margin-bottom: 1rem;
+.table-of-contents p {
+    text-align: center;
 }
 
-main ol li a,
-main ul li a {
-    color: $phosphor-blue-light;
+
+/* There is no argument section anywhere but the index page,
+	so no need for this in stylesheets for other color schemes. */
+.argument h4 {
+    font-size: larger;
+    color: $light-blue-grey;
+}
+
+img.greater-separator {
+    max-width: $native-separator-width;
+    width: 100%;
+    height: auto;
+}
+
+img.greater-separator-reversed {
+    max-width: $native-separator-width;
+    width: 100%;
+    height: auto;
+    transform: scaleX(-1);
+}
+
+img.lesser-separator {
+    max-width: $native-separator-width;
+    width: 100%;
+    height: auto;
 }
 
 img.bordered {
