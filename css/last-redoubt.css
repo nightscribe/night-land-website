@@ -201,6 +201,10 @@ main p {
   margin-bottom: 1rem;
 }
 
+main p a {
+  color: rgb(171, 221, 171);
+}
+
 main h3 {
   font-size: xx-large;
 }

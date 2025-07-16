@@ -161,6 +161,10 @@ main p {
     margin-bottom: 1rem;
 }
 
+main p a {
+    color: $phosphor-green;
+}
+
 main h3 {
     font-size: xx-large;
 }
@@ -214,7 +218,6 @@ section.table-of-contents {
 .table-of-contents p {
     text-align: center;
 }
-
 
 /* There is no argument section anywhere but the index page,
 	so no need for this in stylesheets for other color schemes. */
