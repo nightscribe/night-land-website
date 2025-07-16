@@ -1,6 +1,6 @@
 # Night Land Website
 
-2025-07-15
+2025-07-16
     
     To Do Next:
         0-poetry-vignettes-template.html
@@ -8,8 +8,7 @@
         robertson--eater.html
         andy-robertson.html
         
-        Check links and descriptions on the Poetry and Vignettes subindex. Decide what to change the header illo to.
-        Check links and descriptions on the Poetry and Vignettes template. Decide what to change the header illo to. Change the in-work example illo.        
+         Check links and descriptions on the Poetry and Vignettes template. Decide what to change the header illo to. Change the in-work example illo.        
         Create and format "Dream". It should likely have a spoiler warning. Link it to "Eater".
 		Link "Eater" to "Dream."
         Link to "Dream" on Poetry and Vignettes subindex.
