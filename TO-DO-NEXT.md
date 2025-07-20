@@ -13,18 +13,14 @@
         Check all the other Night Wrights links on the pages that exist so far.
 
     What I was working on when I decided the above reorganization should happen:
-        0-poetry-vignettes-template.html
         robertson--eater.html
         robertson--dream.html
         andy-robertson.html
         teoretisk.html
-        
-        Decide what to change the header illo to.        
+          
         Format "Dream". It should likely have a spoiler warning. Link it to "Eater". Add Teoretisk's illustrations. Link to his Night Wright's profile, and Andy's.
         Write Teoretisk's Night Wright profile.
         Link to "Dream" and "Eater" on Andy Robertson's Night Wrights page.
-
-        The Poetry & Vignettes template is linked and has more notes.
 
 
 
