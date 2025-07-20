@@ -6,11 +6,16 @@
     I decided to reorganize Night Wrights.
         1. The hour-slips more reasonably belongs in Night Musings. I moved the hour-slips subdirectory there. There are no Hour Slips yet.
         2. I moved the Night Wrights individual entries directly into night-wrights. There is now no need for a subdirectory.
-        3. This means I broke a lot of links, in the night wrights template, in every individual night wright page, and in links to every individual night wright page that exists so far. I haven't fixed them yet.
+        3. This means I broke a lot of links, in the Night Wrights template, in every individual night wright page, and in links to every individual Night Wright page that exists so far. I haven't fixed them yet.
 
     To Do Next:
+        Fix the color of the Lovecraft quote on the index page.
+        Fix the color of the links on the index page.
+        Fix the links in the copyright section.
+        Check all the other Night Wrights links, if any.
         I fixed some links I broke. Find the other existing broken links to Night Wrights and fix them.
         Add the Hour Slips to the Night Musings subindex, which is not yet in any good order.
+        Night Wright artists get one of their own works as header illos. 
 
     What I was working on when I decided the above reorganization should happen:
         0-poetry-vignettes-template.html
