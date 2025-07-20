@@ -19,12 +19,12 @@
         andy-robertson.html
         teoretisk.html
         
-         Check links and descriptions on the Poetry and Vignettes template. Decide what to change the header illo to. Change the in-work example illo.        
+        Decide what to change the header illo to.        
         Format "Dream". It should likely have a spoiler warning. Link it to "Eater". Add Teoretisk's illustrations. Link to his Night Wright's profile, and Andy's.
         Write Teoretisk's Night Wright profile.
         Link to "Dream" and "Eater" on Andy Robertson's Night Wrights page.
 
-        index-poetry-vignettes.html now has linked nav and copyright and links to "Dream." Also the Fabian green Redoubt as a header.
+        The Poetry & Vignettes template is linked and has more notes.
 
 
 
