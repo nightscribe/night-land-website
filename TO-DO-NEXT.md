@@ -9,13 +9,9 @@
         3. This means I broke a lot of links, in the Night Wrights template, in every individual night wright page, and in links to every individual Night Wright page that exists so far. I haven't fixed them yet.
 
     To Do Next:
-        Fix the color of the Lovecraft quote on the index page.
-        Fix the color of the links on the index page.
-        Fix the links in the copyright section.
-        Check all the other Night Wrights links, if any.
-        I fixed some links I broke. Find the other existing broken links to Night Wrights and fix them.
-        Add the Hour Slips to the Night Musings subindex, which is not yet in any good order.
-        Night Wright artists get one of their own works as header illos. 
+        Fix the color of the links on the index page. But not yet. Right now it's easy to see what links don't exist yet.
+        Every copyright section of existing pages is going to have broken links.
+        Check all the other Night Wrights links on the pages that exist so far.
 
     What I was working on when I decided the above reorganization should happen:
         0-poetry-vignettes-template.html
@@ -28,7 +24,6 @@
          Check links and descriptions on the Poetry and Vignettes template. Decide what to change the header illo to. Change the in-work example illo.        
         Format "Dream". It should likely have a spoiler warning. Link it to "Eater". Add Teoretisk's illustrations. Link to his Night Wright's profile, and Andy's.
         Write Teoretisk's Night Wright profile.
-		Link "Eater" to "Dream."
         Link to "Dream" on Poetry and Vignettes subindex.
         Link to "Dream" and "Eater" on Andy Robertson's Night Wrights page.
 
