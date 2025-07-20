@@ -1,17 +1,15 @@
 # Night Land Website
 
-2025-07-18
+2025-07-20
     
     Just done:
     I decided to reorganize Night Wrights.
         1. The hour-slips more reasonably belongs in Night Musings. I moved the hour-slips subdirectory there. There are no Hour Slips yet.
         2. I moved the Night Wrights individual entries directly into night-wrights. There is now no need for a subdirectory.
         3. This means I broke a lot of links, in the night wrights template, in every individual night wright page, and in links to every individual night wright page that exists so far. I haven't fixed them yet.
-    I fixed a couple of references to obsolete stylesheets.
 
     To Do Next:
-        Find the existing broken links to Night Wrighs and fix them.
-        Make order out of the Night Wrights subindex.
+        I fixed some links I broke. Find the other existing broken links to Night Wrights and fix them.
         Add the Hour Slips to the Night Musings subindex, which is not yet in any good order.
 
     What I was working on when I decided the above reorganization should happen:
