@@ -1,12 +1,10 @@
 # Night Land Website
 
-2025-07-20
-    
-    Just done:
-    I decided to reorganize Night Wrights.
-        1. The hour-slips more reasonably belongs in Night Musings. I moved the hour-slips subdirectory there. There are no Hour Slips yet.
-        2. I moved the Night Wrights individual entries directly into night-wrights. There is now no need for a subdirectory.
-        3. This means I broke a lot of links, in the Night Wrights template, in every individual night wright page, and in links to every individual Night Wright page that exists so far. I haven't fixed them yet.
+2025-07-21
+
+    Just Done:
+        Fixed intro/of-the-night-land.html.
+        Created night-wrights/jeremiah-humphries.html, which is unfinished.
 
     To Do Next:
         Every copyright section of existing pages is going to have broken links.
