@@ -1,13 +1,13 @@
 @import "fonts";
 @import "dimensions";
 @import "reset";
-@import "darkening-colors";
+@import "night-land-colors";
 
 /* Magenta text is never supposed to appear. If it does, find out which selector
     doesn't have a color and fix it. */
 html {
     background-color: $opaque-black;
-    background-image: url('../media/images/backgrounds/robertson--night-background-red-dark.jpg');
+    background-image: url('../media/images/backgrounds/robertson--night-background-darker.jpg');
     background-repeat: repeat;
     font-family: $body-font;
     color: magenta;
@@ -19,7 +19,7 @@ a {
 }
 
 a:hover {
-    color: $chartreuse-light;
+    color: $white-cyan;
 }
 
 h1,
@@ -29,13 +29,13 @@ h4,
 h5,
 h6 {
     font-family: $heading-font;
-    color: $phosphor-green;
+    color: $phosphor-green-light;
     margin: 1rem;
 }
 
 body {
     /* This puts a centered black gradient that fades to transparent at the page edges on top of the tiling background image in the html selector. The gradient's primary purpose is legibility of centered text that rests on the tiling background, although it adds a bit of understated visual variation. */
-    background-image: linear-gradient(to right, $transparent-black, $opaque-black 15%, $opaque-black 85%, $transparent-black);
+    background-image: linear-gradient(to right, $transparent-black, $opaque-black 35%, $opaque-black 65%, $transparent-black);
     min-width: $min-screen-width;
     max-width: $native-logo-width;
     margin-top: -1rem;
@@ -68,21 +68,21 @@ header h2 {
 }
 
 nav {
-    background-color: $darker-red;
+    background-color: $medium-dark-patina-green;
     font-family: $alternate-deco-font;
-    color: $bronze-light;
+    color: $phosphor-blue-light;
     font-size: 1.4rem;
-    border-top: 1px solid $firebrick;
-    border-bottom: 1px solid $firebrick;
+    border-top: 1px solid $green-turquoise;
+    border-bottom: 1px solid $green-turquoise;
 }
 
 // The nav bar
 nav a {
-    color: $phosphor-yellow;
+    color: $white-cyan;
 }
 
 nav a:hover {
-    color: $phosphor-yellower;
+    color: $phosphor-blue;
 }
 
 // Keep the anchor tag from turning the nav bar menu items blue.
@@ -99,8 +99,9 @@ nav ul li {
 }
 
 // The nav menu is a list without dots or numbers.
-/* 'The Night Land: The Darkening' by Kate Coady. J-Wildfire
-    flame fractal. */
+/* Tais Teng's The Night Land' in green and purple flame. 
+	Note that the image itself has a black background fading to
+	transparent on it. */
 img.logo {
     width: 100%;
     min-width: $min-screen-width;
@@ -110,6 +111,7 @@ img.logo {
 figure.site-logo figcaption {
     font-family: $alternate-deco-font;
     font-weight: bold;
+    color: $silver;
     margin-top: -2rem;
     margin-bottom: 1.5rem;
     margin-left: 1rem;
@@ -149,12 +151,13 @@ main {
     margin-left: auto;
     margin-right: auto;
     font-family: $body-font;
-    color: $orange-light;
+    color: $light-blue-grey;
     text-align: center;
     line-height: 1.5;
 }
 
 main p {
+    color: $light-grey;
     text-align: left;
     margin-bottom: 1rem;
 }
@@ -168,7 +171,7 @@ main h3 {
 }
 
 main h3 a {
-    // color: $phosphor-blue;
+    color: $phosphor-blue;
 }
 
 main h4.page-subheader {
@@ -180,28 +183,28 @@ main h4 {
 }
 
 main h4 a {
-    color: $chartreuse-light;   // change me later
+    color: $phosphor-greener;
 }
 
 main h4 a:hover {
-    color: $phosphor-yellow;
+    color: $phosphor-blue;
 }
 
 main h5 {
     font-size: larger;
-    color: $phosphor-green;
+    color: $medium-aquamarine;
 }
 
 main h5 a {
-    color: $yellow-grey;
+    color: $phosphor-greener;
 }
 
 main h5 a:hover {
-    color: $phosphor-yellower;
+    color: $phosphor-blue;
 }
 
 main h5.subtitle {
-    color: magenta;
+    color: $medium-aquamarine;
 }
 
 section.table-of-contents {
@@ -209,13 +212,19 @@ section.table-of-contents {
     margin-left: auto;
     margin-right: auto;
     font-family: $body-font;
-    color: $orange-light;
     text-align: center;
     line-height: 1.5;
 }
 
 .table-of-contents p {
     text-align: center;
+}
+
+/* There is no argument section anywhere but the index page,
+	so no need for this in stylesheets for other color schemes. */
+.argument h4 {
+    font-size: larger;
+    color: $light-blue-grey;
 }
 
 img.greater-separator {
@@ -246,7 +255,8 @@ img.bordered {
     border-width: 4px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 3.5rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
 }
 
 /* *********************************************
@@ -255,7 +265,7 @@ img.bordered {
 footer {
     font-family: $alternate-deco-font;
     max-width: $main-content-width;
-    color: $phosphor-green;
+    color: $light-blue-grey;
     padding-left: 1rem;
     padding-right: 1rem;
     margin-left: auto;
@@ -264,19 +274,18 @@ footer {
 }
 
 footer .note {
-    color: $orange-light;
+    color: $grey-aqua;
 }
 
 footer a {
-    color: $chartreuse-light;
+    color: $phosphor-blue;
 }
 
-::-moz-focus-outer a:hover {
-    color: $phosphor-yellow;
+footer a:hover {
+    color: $white-cyan;
 }
 
 footer .breadcrumbs {
-    color: $phosphor-green;
     font-size: larger;
     margin-top: 0.75rem;
     margin-bottom: 0.75rem;
@@ -284,16 +293,16 @@ footer .breadcrumbs {
 
 footer .copyright {
     font-family: $body-font;
-    color: $bronze-light;
+    color: $grey-aqua;
     text-align: center;
     font-size: small;
     padding-bottom: 2rem;
 }
 
 footer .copyright a {
-    color: $orange-light;
+    color: $late-twilight-green-band;
 }
 
 footer .copyright a:hover {
-    color: $phosphor-yellow;
+    color: $phosphor-blue-light;
 }

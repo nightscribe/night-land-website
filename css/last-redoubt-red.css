@@ -34,15 +34,24 @@
   list-style-position: inside;
 }
 
+/* I could have omitted some of these, as they're the standand color names.
+But it's handy to have every color I used in the scheme listed in one place. */
 /* The default heading color, and actual heading colors of
 most major headers. */
+/* lesser links hover color */
 /* nav */
-/* footer */
+/* Opaque black is the background color for framed header images.
+There is, further, a transparent-to-opaque gradient that makes
+the center of the page more opaque, so the tiling page
+background only shows at the sides and doesn't interfere with
+legibility. */
+/* Border color of framed header images. */
+/* Footer */
 /* Magenta text is never supposed to appear. If it does, find out which selector
     doesn't have a color and fix it. */
 html {
   background-color: rgb(0, 0, 0);
-  background-image: url("../media/images/backgrounds/robertson--night-background-red-dark.jpg");
+  background-image: url("../media/images/backgrounds/robertson--night-background-darker.jpg");
   background-repeat: repeat;
   font-family: ABeeZee, sans-serif;
   color: magenta;
@@ -54,7 +63,7 @@ a {
 }
 
 a:hover {
-  color: rgb(207, 235, 180);
+  color: rgb(240, 255, 255);
 }
 
 h1,
@@ -64,14 +73,14 @@ h4,
 h5,
 h6 {
   font-family: Metamorphous, Verdana, Geneva, Tahoma, sans-serif;
-  color: rgb(171, 221, 171);
+  color: rgb(180, 220, 190);
   margin: 1rem;
 }
 
 body {
   /* This puts a centered black gradient that fades to transparent at the page edges on top of the tiling background image in the html selector. The gradient's primary purpose is legibility of centered text that rests on the tiling background, although it adds a bit of understated visual variation. */
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), color-stop(15%, rgb(0, 0, 0)), color-stop(85%, rgb(0, 0, 0)), to(rgba(0, 0, 0, 0)));
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(0, 0, 0) 15%, rgb(0, 0, 0) 85%, rgba(0, 0, 0, 0));
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), color-stop(35%, rgb(0, 0, 0)), color-stop(65%, rgb(0, 0, 0)), to(rgba(0, 0, 0, 0)));
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(0, 0, 0) 35%, rgb(0, 0, 0) 65%, rgba(0, 0, 0, 0));
   min-width: 320px;
   max-width: 1250px;
   margin-top: -1rem;
@@ -102,20 +111,20 @@ header h2 {
   }
 }
 nav {
-  background-color: rgba(60, 6, 6, 0.7);
+  background-color: rgba(16, 106, 92, 0.7);
   font-family: Fondamento, sans-serif;
-  color: rgb(188, 180, 173);
+  color: rgb(190, 205, 255);
   font-size: 1.4rem;
-  border-top: 1px solid rgb(178, 34, 34);
-  border-bottom: 1px solid rgb(178, 34, 34);
+  border-top: 1px solid rgb(32, 178, 170);
+  border-bottom: 1px solid rgb(32, 178, 170);
 }
 
 nav a {
-  color: rgb(239, 239, 212);
+  color: rgb(240, 255, 255);
 }
 
 nav a:hover {
-  color: rgb(238, 232, 160);
+  color: rgb(163, 212, 250);
 }
 
 nav ul {
@@ -134,8 +143,9 @@ nav ul li {
   margin: 1.3rem;
 }
 
-/* 'The Night Land: The Darkening' by Kate Coady. J-Wildfire
-    flame fractal. */
+/* Tais Teng's The Night Land' in green and purple flame. 
+	Note that the image itself has a black background fading to
+	transparent on it. */
 img.logo {
   width: 100%;
   min-width: 320px;
@@ -145,6 +155,7 @@ img.logo {
 figure.site-logo figcaption {
   font-family: Fondamento, sans-serif;
   font-weight: bold;
+  color: rgb(192, 192, 192);
   margin-top: -2rem;
   margin-bottom: 1.5rem;
   margin-left: 1rem;
@@ -182,12 +193,13 @@ main {
   margin-left: auto;
   margin-right: auto;
   font-family: ABeeZee, sans-serif;
-  color: rgb(220, 209, 189);
+  color: rgb(175, 175, 230);
   text-align: center;
   line-height: 1.5;
 }
 
 main p {
+  color: rgb(211, 211, 211);
   text-align: left;
   margin-bottom: 1rem;
 }
@@ -201,6 +213,7 @@ main h3 {
 }
 
 main h3 a {
+  color: rgb(163, 212, 250);
 }
 
 main h4.page-subheader {
@@ -212,28 +225,28 @@ main h4 {
 }
 
 main h4 a {
-  color: rgb(207, 235, 180);
+  color: rgb(146, 234, 181);
 }
 
 main h4 a:hover {
-  color: rgb(239, 239, 212);
+  color: rgb(163, 212, 250);
 }
 
 main h5 {
   font-size: larger;
-  color: rgb(171, 221, 171);
+  color: rgb(102, 205, 170);
 }
 
 main h5 a {
-  color: rgb(215, 222, 205);
+  color: rgb(146, 234, 181);
 }
 
 main h5 a:hover {
-  color: rgb(238, 232, 160);
+  color: rgb(163, 212, 250);
 }
 
 main h5.subtitle {
-  color: magenta;
+  color: rgb(102, 205, 170);
 }
 
 section.table-of-contents {
@@ -241,13 +254,19 @@ section.table-of-contents {
   margin-left: auto;
   margin-right: auto;
   font-family: ABeeZee, sans-serif;
-  color: rgb(220, 209, 189);
   text-align: center;
   line-height: 1.5;
 }
 
 .table-of-contents p {
   text-align: center;
+}
+
+/* There is no argument section anywhere but the index page,
+	so no need for this in stylesheets for other color schemes. */
+.argument h4 {
+  font-size: larger;
+  color: rgb(175, 175, 230);
 }
 
 img.greater-separator {
@@ -280,7 +299,8 @@ img.bordered {
   border-width: 4px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 3.5rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 
 /* *********************************************
@@ -289,7 +309,7 @@ img.bordered {
 footer {
   font-family: Fondamento, sans-serif;
   max-width: 750px;
-  color: rgb(171, 221, 171);
+  color: rgb(175, 175, 230);
   padding-left: 1rem;
   padding-right: 1rem;
   margin-left: auto;
@@ -298,19 +318,18 @@ footer {
 }
 
 footer .note {
-  color: rgb(220, 209, 189);
+  color: rgb(143, 180, 190);
 }
 
 footer a {
-  color: rgb(207, 235, 180);
+  color: rgb(163, 212, 250);
 }
 
-::-moz-focus-outer a:hover {
-  color: rgb(239, 239, 212);
+footer a:hover {
+  color: rgb(240, 255, 255);
 }
 
 footer .breadcrumbs {
-  color: rgb(171, 221, 171);
   font-size: larger;
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
@@ -318,16 +337,16 @@ footer .breadcrumbs {
 
 footer .copyright {
   font-family: ABeeZee, sans-serif;
-  color: rgb(188, 180, 173);
+  color: rgb(143, 180, 190);
   text-align: center;
   font-size: small;
   padding-bottom: 2rem;
 }
 
 footer .copyright a {
-  color: rgb(220, 209, 189);
+  color: rgb(155, 219, 204);
 }
 
 footer .copyright a:hover {
-  color: rgb(239, 239, 212);
+  color: rgb(190, 205, 255);
 }
