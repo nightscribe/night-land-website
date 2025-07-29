@@ -172,7 +172,7 @@ figure.page-header-illo {
 	edge, which looks funny. */
 img.framed {
   background-color: rgb(0, 0, 0);
-  border-color: rgb(158, 154, 151);
+  border-color: rgba(60, 6, 6, 0.7);
   display: block;
   max-width: 100%;
   border-style: ridge;
@@ -292,7 +292,7 @@ img.lesser-separator {
 
 img.bordered {
   background-color: rgb(0, 0, 0);
-  border-color: rgb(158, 154, 151);
+  border-color: rgba(60, 6, 6, 0.7);
   display: block;
   max-width: 100%;
   border-style: ridge;
