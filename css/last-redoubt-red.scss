@@ -263,6 +263,14 @@ img.bordered {
     margin-bottom: 2.5rem;
 }
 
+img.close-margins {
+    max-width: $native-separator-width;
+    width: 100%;
+    height: auto;
+    margin-top: -5rem;
+    margin-bottom: -3rem;
+}
+
 /* *********************************************
 /       footer                                 *
 /********************************************* */
