@@ -237,23 +237,6 @@ img.greater-separator {
     height: auto;
 }
 
-div.over-vertebrae {
-    background-image: "../media/images/illustrated-works/robertson--dream/coady--lightning-vertebrae-scaled.webp";
-}
-
-img.slide-under {
-    max-width: $native-separator-width;
-    width: 100%;
-    height: auto;
-    margin-top: -5rem;
-    margin-bottom: -3rem;
-
-    /* This puts the image in about the right position, except the tail of the 'nerves'
-        overlies the text. The cheating simple way to deal with this is to make the said
-        tail more transparent in the image itself. Maybe that's what I'll do, instead of
-        complicating things by making the text overlie the image. */
-}
-
 img.greater-separator-reversed {
     max-width: $native-separator-width;
     width: 100%;
@@ -278,6 +261,20 @@ img.bordered {
     margin-right: auto;
     margin-top: 2.5rem;
     margin-bottom: 2.5rem;
+}
+
+p.in-front {
+    position: relative;
+    z-index: 1;
+}
+
+img.close-margins-behind {
+    max-width: $native-separator-width;
+    width: 100%;
+    height: auto;
+    margin-top: -5rem;
+    margin-bottom: -3rem;
+    z-index: -1;
 }
 
 /* *********************************************
