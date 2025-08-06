@@ -1,14 +1,9 @@
 # Night Land Website
 
-2025-07-31
+2025-08-06
 
-    I'm working on "Dream", a vignette reflecting on "Eater". Replaced some fractal separators and added some info.
-To Do:
-    Lightning Black Lightning should be an unframed separator.
-    Consider further rearrangement or replacement of separators.
-    Consider color shift for header and footer text.
-    Clean up the mess of trial images in separators and illustrated-works.
-    Fix the links. Some of them are broken.
-
-    Also some of the "Eater" image links seem to be broken. Fix it.
-
+    I'm working on "Dream", a vignette reflecting on "Eater". I now have a helter-skelter version of Lightning, Black Lightning against deep crimson that looks like a war, looks like burning current.
+    To Do:    
+        Tomorrow I'll decide whether to stretch it out a little with CSS, as I used greater-separator and it's horizontally compressed a bit from the J-Wildfire rendering.
+        If I'm still happy, I'll move the test code to the regular page. Then I'll clean up the mess I left in the image folders.
+        I think "Dream" is looking good. I probably won't change any more standard colors.
