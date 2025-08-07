@@ -313,8 +313,8 @@ img.bordered {
 }
 
 img.borderless {
-  background-color: rgb(0, 0, 0);
-  border-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+  border-style: none;
   display: block;
   max-width: 100%;
   height: auto;
