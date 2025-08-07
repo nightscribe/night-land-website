@@ -24,9 +24,7 @@
   font-style: normal;
 }
 /* Get rid of defaults that make it hard to figure out where anything's going to line up. */
-*,
-*::before,
-*::after {
+footer .breadcrumbs {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
@@ -47,6 +45,11 @@ background only shows at the sides and doesn't interfere with
 legibility. */
 /* Border color of framed header images. */
 /* Footer */
+/* The default heading color, and actual heading colors of
+most major headers. */
+/* nav */
+/* footer */
+/* Because I use some warm colors in the Red White Black theme. */
 /* Magenta text is never supposed to appear. If it does, find out which selector
     doesn't have a color and fix it. */
 html {
@@ -73,7 +76,7 @@ h4,
 h5,
 h6 {
   font-family: Metamorphous, Verdana, Geneva, Tahoma, sans-serif;
-  color: rgb(180, 220, 190);
+  color: rgb(220, 209, 189);
   margin: 1rem;
 }
 
@@ -238,15 +241,15 @@ main h4 a:hover {
 
 main h5 {
   font-size: larger;
-  color: rgb(102, 205, 170);
+  color: rgb(188, 180, 173);
 }
 
 main h5 a {
-  color: rgb(146, 234, 181);
+  color: rgb(215, 222, 205);
 }
 
 main h5 a:hover {
-  color: rgb(163, 212, 250);
+  color: rgb(238, 232, 160);
 }
 
 main h5.subtitle {
@@ -294,6 +297,8 @@ img.lesser-separator {
   height: auto;
 }
 
+/* Differs from a bordered image in the usual Last Redoubt
+color scheme only by the border being dark red instead of bronze. */
 img.bordered {
   background-color: rgb(0, 0, 0);
   border-color: rgba(60, 6, 6, 0.7);
@@ -307,12 +312,31 @@ img.bordered {
   margin-bottom: 2.5rem;
 }
 
-img.close-margins {
+img.borderless {
+  background-color: rgb(0, 0, 0);
+  border-color: rgb(0, 0, 0);
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-style: none;
+}
+
+/* The next two rules are the ones that take the 
+    text of the preceding paragraph, and render it 
+    over the long nerve ends of the vertebral part of
+    the Vertebrae Lightning separator. */
+p.in-front {
+  position: relative;
+  z-index: 1;
+}
+
+img.close-margins-behind {
   max-width: 563px;
   width: 100%;
   height: auto;
   margin-top: -5rem;
   margin-bottom: -3rem;
+  z-index: -1;
 }
 
 /* *********************************************

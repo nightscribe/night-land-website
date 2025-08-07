@@ -2,7 +2,9 @@
 @import "dimensions";
 @import "reset";
 @import "night-land-colors";
+@import "darkening-colors";
 
+/* Because I use some warm colors in the Red White Black theme. */
 /* Magenta text is never supposed to appear. If it does, find out which selector
     doesn't have a color and fix it. */
 html {
@@ -29,7 +31,7 @@ h4,
 h5,
 h6 {
     font-family: $heading-font;
-    color: $phosphor-green-light;
+    color: $orange-light;
     margin: 1rem;
 }
 
@@ -196,15 +198,15 @@ main h4 a:hover {
 
 main h5 {
     font-size: larger;
-    color: $medium-aquamarine;
+    color: $bronze-light;
 }
 
 main h5 a {
-    color: $phosphor-greener;
+    color: $yellow-grey;
 }
 
 main h5 a:hover {
-    color: $phosphor-blue;
+    color: $phosphor-yellower;
 }
 
 main h5.subtitle {
@@ -250,6 +252,8 @@ img.lesser-separator {
     height: auto;
 }
 
+/* Differs from a bordered image in the usual Last Redoubt
+color scheme only by the border being dark red instead of bronze. */
 img.bordered {
     background-color: $opaque-black;
     border-color: $darker-red;
@@ -263,12 +267,31 @@ img.bordered {
     margin-bottom: 2.5rem;
 }
 
-img.close-margins {
+img.borderless {
+    background-color: $opaque-black;
+    border-color: $opaque-black;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-style: none;
+}
+
+/* The next two rules are the ones that take the 
+    text of the preceding paragraph, and render it 
+    over the long nerve ends of the vertebral part of
+    the Vertebrae Lightning separator. */
+p.in-front {
+    position: relative;
+    z-index: 1;
+}
+
+img.close-margins-behind {
     max-width: $native-separator-width;
     width: 100%;
     height: auto;
     margin-top: -5rem;
     margin-bottom: -3rem;
+    z-index: -1;
 }
 
 /* *********************************************

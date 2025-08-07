@@ -2,8 +2,9 @@
 
 2025-08-06
 
-    I'm working on "Dream", a vignette reflecting on "Eater". I now have a helter-skelter version of Lightning, Black Lightning against deep crimson that looks like a war, looks like burning current.
+    I'm working on "Dream", a vignette reflecting on "Eater". Almost there.
     To Do:    
-        Tomorrow I'll decide whether to stretch it out a little with CSS, as I used greater-separator and it's horizontally compressed a bit from the J-Wildfire rendering.
-        If I'm still happy, I'll move the test code to the regular page. Then I'll clean up the mess I left in the image folders.
-        I think "Dream" is looking good. I probably won't change any more standard colors.
+       Lightning, Black Lightning Against Dark Red needs more transparency around the rim, unless it becomes a bordered image.
+       Clean up extraneous files. Rename the ones that are staying.
+       Changing the color of the footer info and links doesn't work that well, so I'm letting the colors switch back to the standard Last Redoubt color scheme at the end.
+       I also tried switching the top menu bar to red, but the whole thing looks better to me if it starts with the standard color scheme, switches into Red, White, Black, and then returns to the standard at the end.
