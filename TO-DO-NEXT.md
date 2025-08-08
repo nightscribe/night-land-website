@@ -1,10 +1,13 @@
 # Night Land Website
 
-2025-08-06
+2025-08-08
 
-    I'm working on "Dream", a vignette reflecting on "Eater". Almost there.
+    "Dream" works and the directory is cleaned up.
     To Do:    
-       Clean up extraneous files. Rename the ones that are staying.
-       Changing the color of the footer info and links doesn't work that well, so I'm letting the colors switch back to the standard Last Redoubt color scheme at the end.
-       I also tried switching the top menu bar to red, but the whole thing looks better to me if it starts with the standard color scheme, switches into Red, White, Black, and then returns to the standard at the end.
-       The nav bar links! I forgot them.
+        Right now all the separators except for the red-shifted Tais Teng title image
+        are in media/illustrated-works/robertson--dream/. I might use some
+        of these separators in Darkening pieces. So maybe they should go into the general
+        separators directory.
+
+        Try replacing the Darkening header in "Red Twilight" with this red-shifted Tais Teng
+        header and see how it looks.
