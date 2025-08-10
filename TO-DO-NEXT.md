@@ -2,7 +2,6 @@
 
 2025-08-09
     To Do:
-        The red-shifted Tais Teng title header looks wonderful, so I'll use it instead of my attempt.
-        The "Red Twilight" nav bar links don't work. Fix.
-        The subheader "Legends of the Darkening" needs to be added back.
-        The changes need to be made to the Darkening story template and the Darkening subindex.
+        I have now made all the changes, and checked the links, to "Red Twilight".
+        The same changes and link checking need to be done to the Darkening story template and the Darkening index.
+        Maybe I'll eventually use one of the red separators I made for "Dream" in the Darkening stories instead of the one I'm using, but that's not important and I'll get around to it later if I decide on it.
