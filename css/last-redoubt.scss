@@ -155,6 +155,10 @@ main {
     line-height: 1.5;
 }
 
+main ol, ul {
+    list-style-position: inside;
+}
+
 main p {
     color: $light-grey;
     text-align: left;

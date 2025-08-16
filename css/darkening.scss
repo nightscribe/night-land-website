@@ -154,6 +154,11 @@ main {
     line-height: 1.5;
 }
 
+main ol,
+ul {
+    list-style-position: inside;
+}
+
 main p {
     text-align: left;
     margin-bottom: 1rem;
@@ -180,7 +185,9 @@ main h4 {
 }
 
 main h4 a {
-    color: $chartreuse-light;   // change me later
+    color: $chartreuse-light;
+
+    // change me later
 }
 
 main h4 a:hover {

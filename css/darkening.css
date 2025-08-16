@@ -185,6 +185,10 @@ main {
   line-height: 1.5;
 }
 
+main ol, ul {
+  list-style-position: inside;
+}
+
 main p {
   text-align: left;
   margin-bottom: 1rem;
