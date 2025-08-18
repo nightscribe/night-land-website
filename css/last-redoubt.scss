@@ -210,6 +210,19 @@ main h5.subtitle {
     color: $medium-aquamarine;
 }
 
+main h6 {
+    font-size: large;
+    color: $medium-aquamarine;
+}
+
+main h6 a {
+    color: $phosphor-greener;
+}
+
+main h6 a:hover {
+    color: $phosphor-blue;
+}
+
 section.table-of-contents {
     max-width: $main-content-width;
     margin-left: auto;

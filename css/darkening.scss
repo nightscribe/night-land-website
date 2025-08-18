@@ -211,7 +211,40 @@ main h5.subtitle {
     color: magenta;
 }
 
-section.table-of-contents {
+main h6 {
+    font-size: large;
+    color: $phosphor-green;
+}
+
+main h5 a {
+    color: $yellow-grey;
+}
+
+main h5 a:hover {
+    color: $phosphor-yellower;
+}
+
+ol.toc {
+    font-family: $heading-font;
+    font-size: large;
+    counter-reset: item;
+    list-style-type: none;
+}
+
+ol.toc li:before {
+    content: 'Part ' counter(item, upper-roman);
+    counter-increment: item;
+}
+
+ol.toc li {
+    margin-top: .5rem;
+}
+
+ol.toc a {
+    color: $phosphor-greener;
+}
+
+/* section.table-of-contents {
     max-width: $main-content-width;
     margin-left: auto;
     margin-right: auto;
@@ -223,8 +256,7 @@ section.table-of-contents {
 
 .table-of-contents p {
     text-align: center;
-}
-
+} */
 img.greater-separator {
     max-width: $native-separator-width;
     width: 100%;

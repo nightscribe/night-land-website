@@ -217,6 +217,19 @@ main h5.subtitle {
     color: $medium-aquamarine;
 }
 
+main h6 {
+    font-size: large;
+    color: $bronze-light;
+}
+
+main h6 a {
+    color: $yellow-grey;
+}
+
+main h6 a:hover {
+    color: $phosphor-yellower;
+}
+
 section.table-of-contents {
     max-width: $main-content-width;
     margin-left: auto;
