@@ -251,6 +251,19 @@ main h5.subtitle {
   color: rgb(102, 205, 170);
 }
 
+main h6 {
+  font-size: large;
+  color: rgb(102, 205, 170);
+}
+
+main h6 a {
+  color: rgb(146, 234, 181);
+}
+
+main h6 a:hover {
+  color: rgb(163, 212, 250);
+}
+
 section.table-of-contents {
   max-width: 750px;
   margin-left: auto;
