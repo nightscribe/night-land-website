@@ -244,7 +244,7 @@ ol.toc a {
     color: $phosphor-greener;
 }
 
-/* section.table-of-contents {
+section.table-of-contents {
     max-width: $main-content-width;
     margin-left: auto;
     margin-right: auto;
@@ -256,7 +256,8 @@ ol.toc a {
 
 .table-of-contents p {
     text-align: center;
-} */
+}
+
 img.greater-separator {
     max-width: $native-separator-width;
     width: 100%;

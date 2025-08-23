@@ -272,19 +272,20 @@ ol.toc a {
   color: rgb(146, 234, 181);
 }
 
-/* section.table-of-contents {
-    max-width: $main-content-width;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: $body-font;
-    color: $orange-light;
-    text-align: center;
-    line-height: 1.5;
+section.table-of-contents {
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: ABeeZee, sans-serif;
+  color: rgb(220, 209, 189);
+  text-align: center;
+  line-height: 1.5;
 }
 
 .table-of-contents p {
-    text-align: center;
-} */
+  text-align: center;
+}
+
 img.greater-separator {
   max-width: 563px;
   width: 100%;
