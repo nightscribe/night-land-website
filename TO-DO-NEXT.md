@@ -1,11 +1,12 @@
 # Night Land Website
 
-2025-08-24
-    The text is added to "Across the Night Wall". I put it all in one file.
-    To Do:
-        I probably want to add links back to the TOC from the Roman numerals in this and the other existing stories.
-        Spell-checking.
-        Proofreading.
-        Link-checking.
-        I may add internal illustrations, either astronomical pics, or some of our other existing art, which is why I left the example illo in.
-    
+2025-08-25
+    Working on "Across the Night Wall". 
+        Continue proofreading from V.
+        Check links.
+        Add credits for Barnard's Galaxy.
+        Add credits for M81.
+        Add credits for Webb/Hubble split galaxy.
+        The bordered image SCSS is coming through with too little space at the top and too much at the bottom. Fix it.
+        Remember to fix Last Redoubt SCSS too.
+        Change the first galaxy in-story illo back to bordered. I want to handle all the in-story illos alike and the Webb/Hubble split is unsuitable for borderless.
