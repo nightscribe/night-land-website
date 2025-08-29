@@ -47,21 +47,22 @@
             <h5>by</h5>
             <h3>Story Author</h3>
             <img class="greater-separator" src="../media/images/separators/coady--greater-separator-aqua-sand-garland.webp"/>
-            <h5>Contents</h5>
-            <!-- The CSS builds the content for nameless story sections. -->
-            <ol>
-                <li><span class="toc"> </span>
-                </li>
-                <li><span class="toc"> </span>
-                </li>
-                <li><span class="toc"> </span>
-                </li>                 
+            <ol class="toc" id="toc">Sample Table of Contents:
+                <!-- This unholy abomination, plus the associated CSS,
+                    puts the uppercase Roman number after 'Part '. -->
+                <a href="#partI"><li></li></a>
+                <a href="#partII"><li></li></a>
+                <a href="#partIII"><li>, etc.</li></a> 
             </ol>
-            <img class="greater-separator" src="../media/images/separators/coady--greater-separator-aqua-sand-garland.webp"/>
-            <h5>Part I</h5>
-            <p>Body text, example in-story illustration, and story section separator.</p>
+            <p>About the table of contents: if the story is short enough to easily be read at one sitting, omit it. Otherwise, it seems a good idea to give the reader easy places to bookmark, even if the story isn't so long that it's naturally divided into chapters. "Ex Machina" is just north of 7000 words and I divided it into 4 parts for easy bookmarking, as the story lent itself to that division.</p>
+            <p>If the author has not divided the story, remove the ', etc.' above and divide the story into as many sections as seems reasonable, where it seems reasonable. The code above produces a table of contents that simply consists of Roman numerals. The links are made by putting &lt;h6 id="partN"&gt;N&lt;h6&gt; around the appropriate Roman numeral N, as you can see with part I just below.</p>
+            <p>If the author has provided divisions, use them. If he has provided subtitles, adjust the markup and use them too.</p>
+            <img class="greater-separator" src="../media/images/separators/coady--greater-separator-aqua-sand-garland.webp"/><a href="#toc"><h6 id="partI">Part I</h6></a>
+            <p>Body text.</p>
+            <img class="lesser-separator" src="../media/images/separators/coady--lesser-separator-aqua-sand-current-needle.webp"/><a href="#toc"><h6 id="partII">Part II</h6></a>
+            <p>Example in-story illo.</p>
             <img class="bordered" src="../media/images/stories/robertson--eater/sms--khresten.jpg"/>
-            <img class="lesser-separator" src="../media/images/separators/coady--lesser-separator-aqua-sand-current-needle.webp"/>
+            <img class="lesser-separator" src="../media/images/separators/coady--lesser-separator-aqua-sand-current-needle.webp"/><a href="#toc"><h6 id="partIII">Part III</h6></a>
             <p>More body text.</p>
             <img class="greater-separator" src="../media/images/separators/coady--greater-separator-aqua-sand-garland.webp"/>
         </main>
