@@ -133,6 +133,7 @@ img.framed {
     max-width: 100%;
     border-style: ridge;
     padding: 2.5%;
+
     // This spaces the frame away from the image.
     border-width: 4px;
     margin-left: auto;
@@ -155,7 +156,8 @@ main {
     line-height: 1.5;
 }
 
-main ol, ul {
+main ol,
+ul {
     list-style-position: inside;
 }
 
@@ -241,6 +243,40 @@ section.table-of-contents {
 .argument h4 {
     font-size: larger;
     color: $light-blue-grey;
+}
+
+ol.toc {
+    font-family: $heading-font;
+    font-size: large;
+    counter-reset: item;
+    list-style-type: none;
+}
+
+ol.toc li:before {
+    content: 'Part ' counter(item, upper-roman);
+    counter-increment: item;
+}
+
+ol.toc li {
+    margin-top: .5rem;
+}
+
+ol.toc a {
+    color: $phosphor-greener;
+}
+
+section.table-of-contents {
+    max-width: $main-content-width;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: $body-font;
+    color: $phosphor-blue-light;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.table-of-contents p {
+    text-align: center;
 }
 
 img.greater-separator {

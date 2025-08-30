@@ -284,6 +284,40 @@ section.table-of-contents {
   color: rgb(175, 175, 230);
 }
 
+ol.toc {
+  font-family: Metamorphous, Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  counter-reset: item;
+  list-style-type: none;
+}
+
+ol.toc li:before {
+  content: "Part " counter(item, upper-roman);
+  counter-increment: item;
+}
+
+ol.toc li {
+  margin-top: 0.5rem;
+}
+
+ol.toc a {
+  color: rgb(146, 234, 181);
+}
+
+section.table-of-contents {
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: ABeeZee, sans-serif;
+  color: rgb(190, 205, 255);
+  text-align: center;
+  line-height: 1.5;
+}
+
+.table-of-contents p {
+  text-align: center;
+}
+
 img.greater-separator {
   max-width: 563px;
   width: 100%;

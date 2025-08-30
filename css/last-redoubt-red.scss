@@ -230,11 +230,32 @@ main h6 a:hover {
     color: $phosphor-yellower;
 }
 
+ol.toc {
+    font-family: $heading-font;
+    font-size: large;
+    counter-reset: item;
+    list-style-type: none;
+}
+
+ol.toc li:before {
+    content: 'Part ' counter(item, upper-roman);
+    counter-increment: item;
+}
+
+ol.toc li {
+    margin-top: .5rem;
+}
+
+ol.toc a {
+    color: $phosphor-greener;
+}
+
 section.table-of-contents {
     max-width: $main-content-width;
     margin-left: auto;
     margin-right: auto;
     font-family: $body-font;
+    color: $orange-light;
     text-align: center;
     line-height: 1.5;
 }
