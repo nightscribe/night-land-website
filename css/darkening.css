@@ -129,11 +129,13 @@ nav ul {
 
 nav ul li {
   list-style-type: none;
-  margin: 1.3rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
 }
 
-/* 'The Night Land: The Darkening' by Kate Coady. J-Wildfire
-    flame fractal. */
+/* Night Land flame fractal */
 img.logo {
   width: 100%;
   min-width: 320px;
@@ -185,8 +187,7 @@ main {
   line-height: 1.5;
 }
 
-main ol,
-ul {
+main ol, main ul {
   list-style-position: inside;
 }
 

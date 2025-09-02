@@ -97,10 +97,12 @@ nav ul {
 // How to wrap the list on small screens.
 nav ul li {
     list-style-type: none;
-    margin: 1.3rem;
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+    padding-left: .8rem;
+    padding-right: .8rem;
 }
 
-// The nav menu is a list without dots or numbers.
 /* Tais Teng's The Night Land' in green and purple flame. 
 	Note that the image itself has a black background fading to
 	transparent on it. */
@@ -134,9 +136,7 @@ img.framed {
     display: block;
     max-width: 100%;
     border-style: ridge;
-    padding: 2.5%;
-
-    // This spaces the frame away from the image.
+    padding: 2.5%;    // This spaces the frame away from the image.
     border-width: 4px;
     margin-left: auto;
     margin-right: auto;
@@ -158,7 +158,7 @@ main {
     line-height: 1.5;
 }
 
-main ol, ul {
+main ol, main ul {
     list-style-position: inside;
 }
 

@@ -143,7 +143,10 @@ nav ul {
 
 nav ul li {
   list-style-type: none;
-  margin: 1.3rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
 }
 
 /* Tais Teng's The Night Land' in green and purple flame. 
@@ -201,6 +204,10 @@ main {
   line-height: 1.5;
 }
 
+main ol, main ul {
+  list-style-position: inside;
+}
+
 main p {
   color: rgb(211, 211, 211);
   text-align: left;
@@ -256,11 +263,45 @@ main h5.subtitle {
   color: rgb(102, 205, 170);
 }
 
+main h6 {
+  font-size: large;
+  color: rgb(188, 180, 173);
+}
+
+main h6 a {
+  color: rgb(215, 222, 205);
+}
+
+main h6 a:hover {
+  color: rgb(238, 232, 160);
+}
+
+ol.toc {
+  font-family: Metamorphous, Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  counter-reset: item;
+  list-style-type: none;
+}
+
+ol.toc li:before {
+  content: "Part " counter(item, upper-roman);
+  counter-increment: item;
+}
+
+ol.toc li {
+  margin-top: 0.5rem;
+}
+
+ol.toc a {
+  color: rgb(146, 234, 181);
+}
+
 section.table-of-contents {
   max-width: 750px;
   margin-left: auto;
   margin-right: auto;
   font-family: ABeeZee, sans-serif;
+  color: rgb(220, 209, 189);
   text-align: center;
   line-height: 1.5;
 }
@@ -308,8 +349,8 @@ img.bordered {
   border-width: 4px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 img.borderless {
