@@ -227,19 +227,6 @@ main h6 a:hover {
     color: $phosphor-blue;
 }
 
-section.table-of-contents {
-    max-width: $main-content-width;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: $body-font;
-    text-align: center;
-    line-height: 1.5;
-}
-
-.table-of-contents p {
-    text-align: center;
-}
-
 /* There is no argument section anywhere but the index page,
 	so no need for this in stylesheets for other color schemes. */
 .argument h4 {
