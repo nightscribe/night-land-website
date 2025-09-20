@@ -295,7 +295,7 @@ ol.toc a {
   color: rgb(146, 234, 181);
 }
 
-section.table-of-contents {
+section.site-table-of-contents {
   max-width: 750px;
   margin-left: auto;
   margin-right: auto;
@@ -305,7 +305,7 @@ section.table-of-contents {
   line-height: 1.5;
 }
 
-.table-of-contents p {
+.site-table-of-contents p {
   text-align: center;
 }
 

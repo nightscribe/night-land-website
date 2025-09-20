@@ -6,5 +6,8 @@
 
     'table of contents' has turned out to be confusingly ambiguous. There are index pages, and there are tables of contents on the pages of individual long works. HTML and CSS must be disentangled in every existing work, template, and stylesheet.
 
+    Fix styling for body text lists and blockquotes.
+    Check the intro section articles. In-page bookmarks should have a different header illo, for variety.
+
 
 
