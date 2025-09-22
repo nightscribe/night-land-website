@@ -101,7 +101,9 @@ nav ul li {
     padding-right: .8rem;
 }
 
-/* Night Land flame fractal */
+/* Tais Teng's The Night Land' in red and purple flame. 
+	Note that the image itself has a black background fading to
+	transparent on it. */
 img.logo {
     width: 100%;
     min-width: $min-screen-width;
@@ -122,6 +124,7 @@ figure.page-header-illo {
     margin-right: 3%;
 }
 
+
 /* The page-header illo is enclosed in a figure. The figure has these
 	margins to keep the frame from running right up to a narrow screen
 	edge, which looks funny. */
@@ -132,8 +135,6 @@ img.framed {
     max-width: 100%;
     border-style: ridge;
     padding: 2.5%;
-
-    // This spaces the frame away from the image.
     border-width: 4px;
     margin-left: auto;
     margin-right: auto;
@@ -160,6 +161,10 @@ main ul {
     list-style-position: inside;
 }
 
+main ul li::marker {
+    content: '? ';
+}
+
 main p {
     text-align: left;
     margin-bottom: 1rem;
@@ -167,6 +172,10 @@ main p {
 
 main p a {
     color: $phosphor-green;
+}
+
+main p.centered {
+    text-align: center;
 }
 
 main h3 {

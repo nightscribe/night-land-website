@@ -103,7 +103,7 @@ nav ul li {
     padding-right: .8rem;
 }
 
-/* Tais Teng's The Night Land' in green and purple flame. 
+/* Tais Teng's The Night Land' in red and purple flame. 
 	Note that the image itself has a black background fading to
 	transparent on it. */
 img.logo {
@@ -162,6 +162,10 @@ main ol, main ul {
     list-style-position: inside;
 }
 
+main ul li::marker {
+    content: '? ';
+}
+
 main p {
     color: $light-grey;
     text-align: left;
@@ -172,7 +176,7 @@ main p a {
     color: $phosphor-green;
 }
 
-p.centered {
+main p.centered {
     text-align: center;
 }
 
