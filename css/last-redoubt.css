@@ -315,23 +315,24 @@ article ul li {
   color: rgb(175, 175, 230);
 }
 
-ol.toc {
+ol.work-table-of-contents {
   font-family: Metamorphous, Verdana, Geneva, Tahoma, sans-serif;
   font-size: large;
+  text-align: center;
   counter-reset: item;
   list-style-type: none;
 }
 
-ol.toc li:before {
+ol.work-table-of-contents li:before {
   content: "Part " counter(item, upper-roman);
   counter-increment: item;
 }
 
-ol.toc li {
+ol.work-table-of-contents li {
   margin-top: 0.5rem;
 }
 
-ol.toc a {
+ol.work-table-of-contents a {
   color: rgb(146, 234, 181);
 }
 

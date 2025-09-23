@@ -271,23 +271,24 @@ article ul li {
     color: $light-blue-grey;
 }
 
-ol.toc {
+ol.work-table-of-contents {
     font-family: $heading-font;
     font-size: large;
+    text-align: center;
     counter-reset: item;
     list-style-type: none;
 }
 
-ol.toc li:before {
+ol.work-table-of-contents li:before {
     content: 'Part ' counter(item, upper-roman);
     counter-increment: item;
 }
 
-ol.toc li {
+ol.work-table-of-contents li {
     margin-top: .5rem;
 }
 
-ol.toc a {
+ol.work-table-of-contents a {
     color: $phosphor-greener;
 }
 
