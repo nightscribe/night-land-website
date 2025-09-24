@@ -234,26 +234,6 @@ main h6 a:hover {
     color: $phosphor-yellower;
 }
 
-ol.toc {
-    font-family: $heading-font;
-    font-size: large;
-    counter-reset: item;
-    list-style-type: none;
-}
-
-ol.toc li:before {
-    content: 'Part ' counter(item, upper-roman);
-    counter-increment: item;
-}
-
-ol.toc li {
-    margin-top: .5rem;
-}
-
-ol.toc a {
-    color: $phosphor-greener;
-}
-
 section.site-table-of-contents {
     max-width: $main-content-width;
     margin-left: auto;
@@ -264,8 +244,25 @@ section.site-table-of-contents {
     line-height: 1.5;
 }
 
-.site-table-of-contents p {
+section.site-table-of-contents p {
     text-align: center;
+}
+
+section.site-table-of-contents ol {
+    list-style: none;
+}
+
+article p,
+article ol,
+article ul {
+    color: $light-grey;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+article ol li,
+article ul li {
+    margin-bottom: .65rem;
 }
 
 /* There is no argument section anywhere but the index page,
@@ -273,6 +270,27 @@ section.site-table-of-contents {
 .argument h4 {
     font-size: larger;
     color: $light-blue-grey;
+}
+
+ol.work-table-of-contents {
+    font-family: $heading-font;
+    font-size: large;
+    text-align: center;
+    counter-reset: item;
+    list-style-type: none;
+}
+
+ol.work-table-of-contents li:before {
+    content: 'Part ' counter(item, upper-roman);
+    counter-increment: item;
+}
+
+ol.work-table-of-contents li {
+    margin-top: .5rem;
+}
+
+ol.work-table-of-contents a {
+    color: $phosphor-greener;
 }
 
 img.greater-separator {

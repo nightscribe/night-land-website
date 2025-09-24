@@ -156,8 +156,7 @@ main {
     line-height: 1.5;
 }
 
-main ol,
-main ul {
+main ol, main ul {
     list-style-position: inside;
 }
 
@@ -195,9 +194,7 @@ main h4 {
 }
 
 main h4 a {
-    color: $chartreuse-light;
-
-    // change me later
+    color: $chartreuse-light; // change me later
 }
 
 main h4 a:hover {
@@ -226,32 +223,12 @@ main h6 {
     color: $phosphor-green;
 }
 
-main h5 a {
+main h6 a {
     color: $yellow-grey;
 }
 
-main h5 a:hover {
+main h6 a:hover {
     color: $phosphor-yellower;
-}
-
-ol.toc {
-    font-family: $heading-font;
-    font-size: large;
-    counter-reset: item;
-    list-style-type: none;
-}
-
-ol.toc li:before {
-    content: 'Part ' counter(item, upper-roman);
-    counter-increment: item;
-}
-
-ol.toc li {
-    margin-top: .5rem;
-}
-
-ol.toc a {
-    color: $phosphor-greener;
 }
 
 section.site-table-of-contents {
@@ -264,8 +241,53 @@ section.site-table-of-contents {
     line-height: 1.5;
 }
 
-.site-table-of-contents p {
+section.site-table-of-contents p {
     text-align: center;
+}
+
+section.site-table-of-contents ol {
+    list-style: none;
+}
+
+article p,
+article ol,
+article ul {
+    color: $light-grey;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+article ol li,
+article ul li {
+    margin-bottom: .65rem;
+}
+
+/* There is no argument section anywhere but the index page,
+	so no need for this in stylesheets for other color schemes. */
+.argument h4 {
+    font-size: larger;
+    color: $light-blue-grey;
+}
+
+ol.work-table-of-contents {
+    font-family: $heading-font;
+    font-size: large;
+    text-align: center;
+    counter-reset: item;
+    list-style-type: none;
+}
+
+ol.work-table-of-contents li:before {
+    content: 'Part ' counter(item, upper-roman);
+    counter-increment: item;
+}
+
+ol.work-table-of-contents li {
+    margin-top: .5rem;
+}
+
+ol.work-table-of-contents a {
+    color: $phosphor-greener;
 }
 
 img.greater-separator {
@@ -298,6 +320,32 @@ img.bordered {
     margin-right: auto;
     margin-top: 2rem;
     margin-bottom: 2rem;
+}
+
+img.borderless {
+    background-color: $transparent-black;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-style: none;
+}
+
+/* The next two rules are the ones that take the 
+    text of the preceding paragraph, and render it 
+    over the long nerve ends of the vertebral part of
+    the Vertebrae Lightning separator. */
+p.in-front {
+    position: relative;
+    z-index: 1;
+}
+
+img.close-margins-behind {
+    max-width: $native-separator-width;
+    width: 100%;
+    height: auto;
+    margin-top: -5rem;
+    margin-bottom: -3rem;
+    z-index: -1;
 }
 
 /* *********************************************
