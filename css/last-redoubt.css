@@ -307,6 +307,11 @@ article ul li {
   margin-bottom: 0.65rem;
 }
 
+article blockquote {
+  color: rgb(192, 192, 192);
+  text-align: left;
+}
+
 /* There is no argument section anywhere but the index page,
 	so no need for this in stylesheets for other color schemes. */
 .argument h4 {
