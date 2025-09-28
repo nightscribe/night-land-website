@@ -200,7 +200,8 @@ main {
   line-height: 1.5;
 }
 
-main ol, main ul {
+main ol,
+main ul {
   list-style-position: inside;
 }
 
