@@ -3,8 +3,8 @@
 @import "reset";
 @import "night-land-colors";
 @import "darkening-colors";
-
 /* Because I use some warm colors in the Red White Black theme. */
+
 /* Magenta text is never supposed to appear. If it does, find out which selector
     doesn't have a color and fix it. */
 html {
@@ -263,6 +263,11 @@ article ul {
 article ol li,
 article ul li {
     margin-bottom: .65rem;
+}
+
+article blockquote {
+    color: $silver;
+    text-align: left;
 }
 
 /* There is no argument section anywhere but the index page,
