@@ -1,13 +1,10 @@
 # Night Land Website
 
-2025-09-30
-
-Did I inadvertently change the font for individual entries on the index page?
+2025-10-1
 
 Start filling in Night Wrights pages.
 
-    
-
+I started with mine. Needs a header image. The page layout: ehh, no. Needs aesthetic improvement, and for working on that I'll switch to someone who has more written works.
 
 
 
