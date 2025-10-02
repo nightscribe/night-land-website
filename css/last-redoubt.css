@@ -340,6 +340,22 @@ ol.work-table-of-contents a {
   color: rgb(146, 234, 181);
 }
 
+ul.works-list {
+  text-align: center;
+}
+
+ul.works-list li {
+  list-style-type: none;
+}
+
+ul.works-list li::marker {
+  content: "";
+}
+
+article ul li {
+  list-style-type: none;
+}
+
 img.greater-separator {
   max-width: 563px;
   width: 100%;
