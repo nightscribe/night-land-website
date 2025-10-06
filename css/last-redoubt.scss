@@ -156,15 +156,6 @@ main {
     line-height: 1.5;
 }
 
-main ol,
-main ul {
-    list-style-position: inside;
-}
-
-main ul li::marker {
-    content: '◆ ';
-}
-
 main p {
     color: $light-grey;
     text-align: left;
@@ -259,11 +250,6 @@ article ul {
     margin-bottom: 1rem;
 }
 
-article ol li,
-article ul li {
-    margin-bottom: .65rem;
-}
-
 article blockquote {
     color: $silver;
     text-align: left;
@@ -302,15 +288,11 @@ ul.works-list {
 }
 
 ul.works-list li {
-    list-style-type: none;
+    list-style-type: none
 }
 
 ul.works-list li::marker {
     content: '';
-}
-
-article ul li {
-    list-style-type: none;
 }
 
 img.greater-separator {
