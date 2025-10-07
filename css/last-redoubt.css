@@ -230,11 +230,11 @@ main h4 {
 }
 
 main h4 a {
-  color: rgb(146, 234, 181);
+  color: rgb(176, 224, 230);
 }
 
 main h4 a:hover {
-  color: rgb(163, 212, 250);
+  color: rgb(224, 255, 255);
 }
 
 main h5 {
