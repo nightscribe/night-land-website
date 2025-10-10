@@ -200,7 +200,7 @@ main {
 }
 
 main p {
-  color: rgb(211, 211, 211);
+  color: rgb(220, 220, 220);
   text-align: left;
   margin-bottom: 1rem;
 }
@@ -288,13 +288,19 @@ section.site-table-of-contents ol {
 article p,
 article ol,
 article ul {
-  color: rgb(211, 211, 211);
+  color: rgb(220, 220, 220);
   text-align: left;
   margin-bottom: 1rem;
 }
 
-article blockquote {
-  color: rgb(192, 192, 192);
+main p.argument {
+  margin-left: 3rem;
+  margin-right: 3rem;
+  color: rgb(230, 245, 230);
+}
+
+article blockquote, article blockquote p {
+  color: rgb(190, 190, 210);
   text-align: left;
 }
 
@@ -412,10 +418,6 @@ footer {
   line-height: 1.5;
 }
 
-footer .note {
-  color: rgb(143, 180, 190);
-}
-
 footer a {
   color: rgb(163, 212, 250);
 }
@@ -428,6 +430,11 @@ footer .breadcrumbs {
   font-size: larger;
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
+}
+
+footer .note {
+  font-family: ABeeZee, sans-serif;
+  color: rgb(192, 192, 192);
 }
 
 footer .copyright {

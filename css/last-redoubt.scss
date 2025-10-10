@@ -250,8 +250,15 @@ article ul {
     margin-bottom: 1rem;
 }
 
-article blockquote {
-    color: $silver;
+main p.argument {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    color: $honeydew-dim;
+}
+
+article blockquote,
+article blockquote p {
+    color: $blue-grey-lighter;
     text-align: left;
 }
 
@@ -367,10 +374,6 @@ footer {
     line-height: 1.5;
 }
 
-footer .note {
-    color: $grey-aqua;
-}
-
 footer a {
     color: $phosphor-blue;
 }
@@ -383,6 +386,11 @@ footer .breadcrumbs {
     font-size: larger;
     margin-top: 0.75rem;
     margin-bottom: 0.75rem;
+}
+
+footer .note {
+    font-family: $body-font;
+    color: $silver;
 }
 
 footer .copyright {

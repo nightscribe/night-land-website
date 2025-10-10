@@ -1,5 +1,7 @@
 # Night Land Website
 
-2025-10-9
+2025-10-10
 
-Sharks of the Ether needs a suitable illo, proofreading, and some order made out of the footer.
+Sharks of the Ether needs proofreading. Also, I'm not sure about the colors for the quotes and argument yet.
+
+
