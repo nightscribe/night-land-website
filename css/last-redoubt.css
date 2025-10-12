@@ -299,7 +299,8 @@ main p.argument {
   color: rgb(230, 245, 230);
 }
 
-article blockquote, article blockquote p {
+article blockquote,
+article blockquote p {
   color: rgb(190, 190, 210);
   text-align: left;
 }
