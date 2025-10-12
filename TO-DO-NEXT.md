@@ -1,6 +1,5 @@
 # Night Land Website
 
-2025-10-11
+2025-10-12
 
-Love in the Night next.
-
+Header illo, fix footer, proofread.
