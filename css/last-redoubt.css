@@ -296,12 +296,12 @@ article ul {
 main p.argument {
   margin-left: 3rem;
   margin-right: 3rem;
-  color: rgb(230, 245, 230);
+  color: rgb(200, 220, 195);
 }
 
 article blockquote,
 article blockquote p {
-  color: rgb(190, 190, 210);
+  color: rgb(200, 220, 195);
   text-align: left;
 }
 
