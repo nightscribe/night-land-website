@@ -7,11 +7,15 @@
     doesn't have a color and fix it. */
 html {
     background-color: $opaque-black;
-    background-image: url('../media/images/backgrounds/robertson--night-background-darker.jpg');
+    background-image: url('../media/images/backgrounds/fabian--night-background-darker.jpg');
     background-repeat: repeat;
     font-family: $body-font;
     color: magenta;
     text-align: center;
+}
+
+html.rotate-background {
+    background-image: url('../media/images/backgrounds/fabian--night-background-darker-rotated-90deg.jpg');
 }
 
 a {
@@ -105,6 +109,12 @@ nav ul li {
 	Note that the image itself has a black background fading to
 	transparent on it. */
 img.logo {
+    width: 100%;
+    min-width: $min-screen-width;
+    max-width: $native-logo-width;
+}
+
+img.art-header {
     width: 100%;
     min-width: $min-screen-width;
     max-width: $native-logo-width;
