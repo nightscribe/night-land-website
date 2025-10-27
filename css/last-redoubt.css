@@ -151,13 +151,13 @@ nav ul li {
 /* Tais Teng's The Night Land' in green and purple flame. 
 	Note that the image itself has a black background fading to
 	transparent on it. */
-img.logo {
-  width: 100%;
-  min-width: 320px;
-  max-width: 1250px;
+figure.site-logo {
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
 
-img.art-header {
+img.logo {
   width: 100%;
   min-width: 320px;
   max-width: 1250px;
@@ -171,6 +171,12 @@ figure.site-logo figcaption {
   margin-bottom: 1.5rem;
   margin-left: 1rem;
   margin-right: 1rem;
+}
+
+figure.site-logo figcaption.gallery-index {
+  font-family: Metamorphous, Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 3rem;
+  margin-top: -37rem;
 }
 
 figure.page-header-illo {
