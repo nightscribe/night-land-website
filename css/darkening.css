@@ -389,6 +389,10 @@ img.close-margins-behind {
   z-index: -1;
 }
 
+section.interlude {
+  font-style: italic;
+}
+
 /* *********************************************
 /       footer                                 *
 /********************************************* */
