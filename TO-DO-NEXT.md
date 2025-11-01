@@ -1,9 +1,11 @@
 # Night Land Website
 
-2025-10-30
+2025-11-1
 
-My Rings and Wrought Iron fractal illo that I used for "A Sequel to the Time Machine?" doesn't blend well with the Last Redoubt color scheme. It either needs its color balance shifted cooler, or I need to use the Darkening theme for this essay, or I need a different image.
+The 7 parts of _Salvage_ are moved over. They need:
+    1. Spell-checking.
+    2. Proofreading.
+    3. New header illos.
+    4. Link-checking.
 
-I took a break from designing the Art Galleries index to transcribe "Salvage", a novella. I've broken it into parts. Part I is mostly ported.
-
-To Do: pick a header image for part I. Clean up the stuff on the bottom. Part II. I need more Moving City and Darkening images, but I don't have time to produce them myself right now.
+I wish I had more moving cities images to hand.
