@@ -33,6 +33,10 @@ h6 {
     margin: 1rem;
 }
 
+span.normal {
+    font-style: normal;
+}
+
 body {
     /* This puts a centered black gradient that fades to transparent at the page edges on top of the tiling background image in the html selector. The gradient's primary purpose is legibility of centered text that rests on the tiling background, although it adds a bit of understated visual variation. */
     background-image: linear-gradient(to right, $transparent-black, $opaque-black 15%, $opaque-black 85%, $transparent-black);
