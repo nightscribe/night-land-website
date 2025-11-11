@@ -7,6 +7,6 @@ The 7 parts of _Salvage_ are moved over. They need:
     2. New header illos.
     3. Link-checking.
 
-Part V is proofread but I haven't picked a header illo for it.
+Parts V and VI are proofread but I haven't picked a header illo for them.
 
-Remaining: parts VI-VII.
+Remaining: part VII.
