@@ -1,12 +1,7 @@
 # Night Land Website
 
-2025-11-9
+2025-11-13
 
-The 7 parts of _Salvage_ are moved over. They need:
-    1. Proofreading.
-    2. New header illos.
-    3. Link-checking.
+The last three parts of Salvage need header illustrations, but I'm short darkening illos and don't have time to make them right now. I want to make some later. So they also don't have credits for such illos, either.
 
-Parts V and VI are proofread but I haven't picked a header illo for them.
-
-Remaining: part VII.
+Next: either get back to designing the art gallery or move another story.
