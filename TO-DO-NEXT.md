@@ -6,4 +6,6 @@ The last three parts of _Salvage_ need header illustrations, but I'm short darke
 
 The same for "Narcissus".
 
-To Do Next: finish proofreading and link-checking "Red Giant's Race".
+To Do Next:
+    Finish proofreading and link-checking "Red Giant's Race".
+    Link check Andrea Bonazzi's Night Wright page and see if there's anything else I can do now. I won't be ready to add art gallery links until I finish setting up the galleries.
