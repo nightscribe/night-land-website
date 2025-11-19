@@ -275,8 +275,24 @@ section.site-table-of-contents p {
     text-align: center;
 }
 
-section.site-table-of-contents ol {
+section.site-table-of-contents ol,
+section.site-table-of-contents ul {
     list-style: none;
+}
+
+section.site-table-of-contents ol li a,
+section.site-table-of-contents ul li a {
+    color: $phosphor-green;
+}
+
+section.site-table-of-contents ol li a:visited,
+section.site-table-of-contents ul li a:visited {
+    color: $medium-aquamarine;
+}
+
+section.site-table-of-contents ol li a:hover,
+section.site-table-of-contents ul li a:hover {
+    color: $cornflower-blue;
 }
 
 section.contact-info p {

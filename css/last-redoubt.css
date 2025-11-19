@@ -318,8 +318,23 @@ section.site-table-of-contents p {
   text-align: center;
 }
 
-section.site-table-of-contents ol {
+section.site-table-of-contents ol, section.site-table-of-contents ul {
   list-style: none;
+}
+
+section.site-table-of-contents ol li a,
+section.site-table-of-contents ul li a {
+  color: rgb(171, 221, 171);
+}
+
+section.site-table-of-contents ol li a:visited,
+section.site-table-of-contents ul li a:visited {
+  color: rgb(102, 205, 170);
+}
+
+section.site-table-of-contents ol li a:hover,
+section.site-table-of-contents ul li a:hover {
+  color: rgb(100, 149, 237);
 }
 
 section.contact-info p {
