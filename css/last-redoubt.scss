@@ -287,7 +287,7 @@ section.site-table-of-contents ul li a {
 
 section.site-table-of-contents ol li a:visited,
 section.site-table-of-contents ul li a:visited {
-    color: $medium-aquamarine;
+    color: $white-cyan;
 }
 
 section.site-table-of-contents ol li a:hover,
@@ -348,11 +348,10 @@ ol.work-table-of-contents a {
 }
 
 ul.works-list {
-    text-align: center;
+    padding: 0;
 }
 
 ul.works-list li {
-    list-style-type: none
 }
 
 ul.works-list li::marker {
