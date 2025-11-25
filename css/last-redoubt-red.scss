@@ -35,6 +35,10 @@ h6 {
     margin: 1rem;
 }
 
+span.normal {
+    font-style: normal;
+}
+
 body {
     /* This puts a centered black gradient that fades to transparent at the page edges on top of the tiling background image in the html selector. The gradient's primary purpose is legibility of centered text that rests on the tiling background, although it adds a bit of understated visual variation. */
     background-image: linear-gradient(to right, $transparent-black, $opaque-black 35%, $opaque-black 65%, $transparent-black);
@@ -140,7 +144,11 @@ img.framed {
     border-width: 4px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 3.5rem;
+    margin-bottom: 3rem;
+}
+
+img.telescope {
+    border-radius: 50%;
 }
 
 /* *********************************************
@@ -156,14 +164,6 @@ main {
     color: $light-blue-grey;
     text-align: center;
     line-height: 1.5;
-}
-
-main ol, main ul {
-    list-style-position: inside;
-}
-
-main ul li::marker {
-    content: '? ';
 }
 
 main p {
@@ -248,8 +248,28 @@ section.site-table-of-contents p {
     text-align: center;
 }
 
-section.site-table-of-contents ol {
+section.site-table-of-contents ol,
+section.site-table-of-contents ul {
     list-style: none;
+}
+
+section.site-table-of-contents ol li a,
+section.site-table-of-contents ul li a {
+    color: $phosphor-green;
+}
+
+section.site-table-of-contents ol li a:visited,
+section.site-table-of-contents ul li a:visited {
+    color: $white-cyan;
+}
+
+section.site-table-of-contents ol li a:hover,
+section.site-table-of-contents ul li a:hover {
+    color: $cornflower-blue;
+}
+
+section.contact-info p {
+    text-align: center;
 }
 
 article p,
@@ -265,7 +285,8 @@ article ul li {
     margin-bottom: .65rem;
 }
 
-article blockquote {
+article blockquote,
+article blockquote p {
     color: $silver;
     text-align: left;
 }
@@ -296,6 +317,16 @@ ol.work-table-of-contents li {
 
 ol.work-table-of-contents a {
     color: $phosphor-greener;
+}
+ul.works-list {
+    padding: 0;
+}
+
+ul.works-list li {
+}
+
+ul.works-list li::marker {
+    content: '';
 }
 
 img.greater-separator {
@@ -356,6 +387,10 @@ img.close-margins-behind {
     margin-top: -5rem;
     margin-bottom: -3rem;
     z-index: -1;
+}
+
+section.interlude {
+    font-style: italic;
 }
 
 /* *********************************************

@@ -160,15 +160,6 @@ main {
     line-height: 1.5;
 }
 
-main ol,
-main ul {
-    list-style-position: inside;
-}
-
-main ul li::marker {
-    content: '? ';
-}
-
 main p {
     text-align: left;
     margin-bottom: 1rem;
@@ -252,8 +243,28 @@ section.site-table-of-contents p {
     text-align: center;
 }
 
-section.site-table-of-contents ol {
+section.site-table-of-contents ol,
+section.site-table-of-contents ul {
     list-style: none;
+}
+
+section.site-table-of-contents ol li a,
+section.site-table-of-contents ul li a {
+    color: $phosphor-green;
+}
+
+section.site-table-of-contents ol li a:visited,
+section.site-table-of-contents ul li a:visited {
+    color: $white-cyan;
+}
+
+section.site-table-of-contents ol li a:hover,
+section.site-table-of-contents ul li a:hover {
+    color: $cornflower-blue;
+}
+
+section.contact-info p {
+    text-align: center;
 }
 
 article p,
@@ -269,7 +280,8 @@ article ul li {
     margin-bottom: .65rem;
 }
 
-article blockquote {
+article blockquote,
+article blockquote p {
     color: $phosphor-yellow;
     text-align: left;
 }
@@ -287,6 +299,7 @@ ol.work-table-of-contents {
     text-align: center;
     counter-reset: item;
     list-style-type: none;
+    padding-left: 0;
 }
 
 ol.work-table-of-contents li:before {
@@ -300,6 +313,17 @@ ol.work-table-of-contents li {
 
 ol.work-table-of-contents a {
     color: $phosphor-greener;
+}
+
+ul.works-list {
+    padding: 0;
+}
+
+ul.works-list li {
+}
+
+ul.works-list li::marker {
+    content: '';
 }
 
 img.greater-separator {

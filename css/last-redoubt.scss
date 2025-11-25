@@ -307,10 +307,9 @@ article ul {
     margin-bottom: 1rem;
 }
 
-main p.argument {
-    margin-left: 3rem;
-    margin-right: 3rem;
-    color: $honeydew-dim;
+article ol li,
+article ul li {
+    margin-bottom: .65rem;
 }
 
 article blockquote,
@@ -332,6 +331,7 @@ ol.work-table-of-contents {
     text-align: center;
     counter-reset: item;
     list-style-type: none;
+    padding-left: 0;
 }
 
 ol.work-table-of-contents li:before {
@@ -416,6 +416,10 @@ img.close-margins-behind {
     z-index: -1;
 }
 
+section.interlude {
+    font-style: italic;
+}
+
 /* *********************************************
 /       footer                                 *
 /********************************************* */
@@ -430,6 +434,10 @@ footer {
     line-height: 1.5;
 }
 
+footer .note {
+    color: $grey-aqua;
+}
+
 footer a {
     color: $phosphor-blue;
 }
@@ -442,11 +450,6 @@ footer .breadcrumbs {
     font-size: larger;
     margin-top: 0.75rem;
     margin-bottom: 0.75rem;
-}
-
-footer .note {
-    font-family: $body-font;
-    color: $silver;
 }
 
 footer .copyright {
