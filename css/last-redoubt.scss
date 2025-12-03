@@ -420,6 +420,29 @@ section.interlude {
     font-style: italic;
 }
 
+/* ****** Gallery Flexbox ***************** */
+.gallery-flex-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: dodgerblue;
+
+    // Not staying this color.
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.gallery-artist-listing {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: darkslateblue;
+
+    // Not staying this color either.
+    gap: 1rem;
+}
+
 /* *********************************************
 /       footer                                 *
 /********************************************* */
