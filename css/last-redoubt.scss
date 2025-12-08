@@ -402,20 +402,30 @@ section.interlude {
 }
 
 /* ****** Gallery Flexbox ***************** */
-.gallery {
+div.gallery {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     background-color: dodgerblue;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
-.artist-listing-image {
+div.artist-listing {
     background-color: teal;
-    padding: 1rem;
-    margin: 1rem;
-    border: 1px solid silver;
-    width: 300px;
+    border: 2px solid silver;
+    width: 320px;
+}
+
+div.artist-listing figure {
+    margin-top: 0;
+    margin-left: 0;
+}
+
+div.artist-listing figure figcaption {
+    margin: .75rem;
+}
+
+img.gallery-palm {
 }
 
 /* *********************************************
