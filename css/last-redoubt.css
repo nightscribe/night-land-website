@@ -466,16 +466,17 @@ div.gallery {
 div.artist-listing {
   background-color: teal;
   border: 2px solid silver;
-  width: 320px;
+  width: 245px;
+  height: 245px;
 }
 
 div.artist-listing figure {
-  margin-top: 0;
-  margin-left: 0;
+  background-color: turquoise;
+  max-width: 240px;
+  max-height: 240px;
 }
 
 div.artist-listing figure figcaption {
-  margin: 0.75rem;
 }
 
 img.gallery-palm {
