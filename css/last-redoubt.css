@@ -457,29 +457,34 @@ div.gallery {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  background-color: dodgerblue;
+  background-color: black;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
 
 div.artist-listing {
-  background-color: teal;
+  background-color: black;
   border: 2px solid silver;
-  width: 245px;
-  height: 245px;
+  width: 244px;
+  height: 244px;
+  margin: 1px;
+  padding: 0;
+  padding-bottom: 2rem;
 }
 
 div.artist-listing figure {
-  background-color: turquoise;
+  background-color: black;
   max-width: 240px;
   max-height: 240px;
+  margin: 0;
+  padding: 0;
+}
+
+div.artist-listing figure img {
 }
 
 div.artist-listing figure figcaption {
-}
-
-img.gallery-palm {
 }
 
 /* *********************************************
