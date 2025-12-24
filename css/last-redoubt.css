@@ -469,7 +469,9 @@ div.artist-listing {
   width: 244px;
   height: 244px;
   margin: 1px;
-  padding: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 2rem;
   padding-bottom: 2rem;
 }
 
