@@ -56,6 +56,10 @@ html {
   text-align: center;
 }
 
+html.plain {
+  background-image: none;
+}
+
 html.rotate-background {
   background-image: url("../media/images/backgrounds/fabian--night-background-darker-rotated-90deg.jpg");
 }
