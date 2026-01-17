@@ -11,8 +11,8 @@ Can't link Night Wright artists gallery pages to their Night Wrights pages until
 I've put up Nigel Brown's "Catharsis" in Tales from the Last Redoubt.
 
 To Do Next:
-    Nigel Brown's Night Wright page doesn't exist yet.
-    An illustration for "Catharsis."
+    Check breadcrumbs on existing Night Wright pages.
+    Label Mary Chain/Maureen Shockey pics as shockey--* and check links to them.    
     Link Nigel Atkinson's and Tais Teng's pages back to "Red Giant's Race".
     I have permission from Ray Leung to use his image for the gallery header, so back to that version.
     I may want each artist's entry separate, not 3 in a row, for aesthetic reasons.
