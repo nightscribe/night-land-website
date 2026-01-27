@@ -6,13 +6,11 @@ The last three parts of _Salvage_ need header illustrations, but I'm short darke
 
 The same for "Narcissus".
 
-Can't link Night Wright artists gallery pages to their Night Wrights pages until I set up the galleries. Otherwise done so far: Andrea Bonazzi.
-
-I transcribed "An Exhalation of Butterflies" by Nigel Atkinson and proofread.
+I added links from the Last Redoubt story index to stories and author pages so far extant. I set up "Imago" but have not transcribed yet. It's at least a two-parter. I created Don Webb's Night Wright page but I haven't added any content.
 
 To Do Next:
     "Lute" needs an illo, links, and the footer set up.
-    "An Exhalation of Butterflies" likewise. But this time I have the pic.
+    "An Exhalation of Butterflies" likewise.
 
     Check breadcrumbs on existing Night Wright pages.
    
