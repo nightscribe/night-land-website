@@ -18,6 +18,8 @@ To Do Next:
     I have permission from Ray Leung to use his image for the gallery header, so back to that version.
     I may want each artist's entry separate, not 3 in a row, for aesthetic reasons.
 
+    I've added the text of The Night Land Chapter 2 to the Last Redoubt section. It needs Fabian illustrations at the header and in the text, links, etc.
+
 
 
  
