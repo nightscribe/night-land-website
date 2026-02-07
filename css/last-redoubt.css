@@ -411,7 +411,7 @@ img.bordered {
   background-color: rgb(0, 0, 0);
   border-color: rgb(158, 154, 151);
   display: block;
-  max-width: 100%;
+  width: 98%;
   border-style: ridge;
   border-width: 4px;
   margin-left: auto;
