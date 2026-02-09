@@ -428,6 +428,16 @@ img.borderless {
   border-style: none;
 }
 
+img.reversed {
+  -webkit-transform: scaleX(-1);
+      -ms-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+img.one-third-width {
+  max-width: 33%;
+}
+
 /* The next two rules are the ones that take the 
     text of the preceding paragraph, and render it 
     over the long nerve ends of the vertebral part of
