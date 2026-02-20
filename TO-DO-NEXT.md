@@ -1,8 +1,8 @@
 # Night Land Website
 
-2026-2-10
+2026-2-20
 
-Moved "The Voice of the Lacuna". It needs a header illo and copyright credits therefore. Gerard Houarner needs a Night Wrights page.
+Added text to "The Seeker" but didn't do any of the rest of the webkeeping.
 
 
 
