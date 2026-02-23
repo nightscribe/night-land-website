@@ -235,6 +235,10 @@ main p.centered {
   text-align: center;
 }
 
+main .set-apart {
+  font-style: italic;
+}
+
 main h3 {
   font-size: xx-large;
 }
