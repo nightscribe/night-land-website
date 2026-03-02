@@ -1,8 +1,10 @@
 # Night Land Website
 
-2026-2-23
+2026-3-1
 
-Added Cabrol's Silent One as header illustration for "The Seeker". The footer is fixed, except that it doesn't have links to Night Wrights pages. To do: make Night Wrights pages for Cabrol and Carole Carmen. I wonder if I should add a note to this page about contact info.
+I made a Night Wright's page for Welleran, but it isn't filled out. I added the text of "The Guild of the Last Migration", which still needs its header illo and the copyright notice and links therefore.
+
+Next: another story.
 
 
 
