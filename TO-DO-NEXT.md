@@ -1,11 +1,10 @@
 # Night Land Website
 
-2026-3-1
+2026-3-6
 
-I made a Night Wright's page for Welleran, but it isn't filled out. I added the text of "The Guild of the Last Migration", which still needs its header illo and the copyright notice and links therefore.
+Replace the Last Redoubt lesser separator in "Low the Ascomycotan Sky" with the Darkening separator. Finish arranging text. Proofread.
 
-Next: another story.
-
+Replace the separator in "Above", too.
 
 
  
