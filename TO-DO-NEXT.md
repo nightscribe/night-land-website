@@ -1,10 +1,9 @@
 # Night Land Website
 
-2026-3-6
+2026-3-9
 
-Replace the Last Redoubt lesser separator in "Low the Ascomycotan Sky" with the Darkening separator. Finish arranging text. Proofread.
+Forgot to fix the table of contents in "Low the Ascomycotan Sky". Do so.
 
-Replace the separator in "Above", too.
-
+Pick another story.
 
  
