@@ -159,6 +159,7 @@ figure.site-logo figcaption {
 }
 
 figure.page-header-illo {
+  padding-left: 0%;
   margin-left: 3%;
   margin-right: 3%;
 }
@@ -169,7 +170,6 @@ figure.page-header-illo {
 img.framed {
   background-color: rgb(0, 0, 0);
   border-color: rgb(158, 154, 151);
-  display: block;
   max-width: 100%;
   border-style: ridge;
   padding: 2.5%;
@@ -184,7 +184,6 @@ img.framed {
 /********************************************* */
 main {
   max-width: 750px;
-  padding-left: 1.5rem;
   padding-right: 1.5rem;
   margin-left: auto;
   margin-right: auto;

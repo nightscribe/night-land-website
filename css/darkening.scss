@@ -56,6 +56,7 @@ header h1 {
     color: $opaque-black;
 }
 
+// The usual placement of site subtitle "The Weird Fiction of William Hope Hodgson"
 header h2 {
     font-family: $atmospheric-font;
     font-size: 2em;
@@ -63,7 +64,6 @@ header h2 {
     text-align: left;
 }
 
-// The usual placement of site subtitle "The Weird Fiction of William Hope Hodgson"
 /* This moves 'The Weird Fiction ...' into the center of narrow screens, because it otherwise it looks off-balance instead of designed. */
 @media (max-width: 479px) {
     header h2 {
@@ -125,6 +125,7 @@ figure.site-logo figcaption {
 }
 
 figure.page-header-illo {
+    padding-left: 0%;
     margin-left: 3%;
     margin-right: 3%;
 }
@@ -135,7 +136,8 @@ figure.page-header-illo {
 img.framed {
     background-color: $opaque-black;
     border-color: $bronze;
-    display: block;
+
+    // display: block;
     max-width: 100%;
     border-style: ridge;
     padding: 2.5%;
@@ -150,7 +152,6 @@ img.framed {
 /********************************************* */
 main {
     max-width: $main-content-width;
-    padding-left: 1.5rem;
     padding-right: 1.5rem;
     margin-left: auto;
     margin-right: auto;
