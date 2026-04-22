@@ -57,53 +57,21 @@ header h2 {
     }
 }
 
-nav {
-    background-color: $medium-dark-patina-green;
-    font-family: $alternate-deco-font;
-    color: $phosphor-blue-light;
-    font-size: 1.4rem;
-    border-top: 1px solid $green-turquoise;
-    border-bottom: 1px solid $green-turquoise;
-}
-
-// The nav bar
-nav a {
-    color: $white-cyan;
-}
-
-nav a:hover {
-    color: $phosphor-blue;
-}
-
-// Keep the anchor tag from turning the nav bar menu items blue.
-nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-// How to wrap the list on small screens.
-nav ul li {
-    list-style-type: none;
-    padding-top: .3rem;
-    padding-bottom: .3rem;
-    padding-left: .8rem;
-    padding-right: .8rem;
-}
-
 /* *********************************************
 /       main                                   *
 /********************************************* */
 main {
     max-width: $main-content-width;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+
+    /* padding-left: 1.5rem;
+    padding-right: 1.5rem; */
     margin-left: auto;
     margin-right: auto;
     font-family: $body-font;
     color: $light-blue-grey;
     text-align: center;
     line-height: 1.5;
+    background: yellow;
 }
 
 main p {
