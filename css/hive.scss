@@ -40,8 +40,12 @@ body {
    it's very small and colored to blend into the background. */
 header h1 {
     font-size: xx-small;
-    margin-top: 0;
     color: $opaque-black;
+
+    /* position: absolute;
+    left: 500px;
+    top: 250px;
+    z-index: -1; */
 }
 
 header h2 {
@@ -62,17 +66,19 @@ header h2 {
 /********************************************* */
 main {
     max-width: $main-content-width;
+    border: 3px $bronze solid;
 
     /* padding-left: 1.5rem;
     padding-right: 1.5rem; */
+    padding: 1.5rem;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 24rem;
+    margin-bottom: 1.5rem;
     font-family: $body-font;
     color: $light-blue-grey;
     text-align: center;
     line-height: 1.5;
-    background: yellow;
+    background: black;
 }
 
 main p {
@@ -147,12 +153,22 @@ main h6 a:hover {
     color: $phosphor-blue;
 }
 
+img.title-page-image {
+    background-color: $opaque-black;
+    border-color: $bronze;
+    display: block;
+    width: 100%;
+    border-style: ridge;
+    border-width: 4px;
+}
+
 img.borderless {
     background-color: $transparent-black;
     display: block;
     max-width: 100%;
     height: auto;
     border-style: none;
+    padding-bottom: 1.5rem;
 }
 
 img.reversed {
