@@ -158,8 +158,10 @@ img.title-page-image {
     border-color: $bronze;
     display: block;
     width: 100%;
-    border-style: ridge;
+    max-width: 100%;
+    height: auto;
     border-width: 4px;
+    padding-bottom: 1.5rem;
 }
 
 img.borderless {

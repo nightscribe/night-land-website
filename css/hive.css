@@ -82,8 +82,7 @@ body {
 header h1 {
   font-size: xx-small;
   color: rgb(0, 0, 0);
-  /*
-  position: absolute;
+  /* position: absolute;
   left: 500px;
   top: 250px;
   z-index: -1; */
@@ -197,8 +196,10 @@ img.title-page-image {
   border-color: rgb(158, 154, 151);
   display: block;
   width: 100%;
-  border-style: ridge;
+  max-width: 100%;
+  height: auto;
   border-width: 4px;
+  padding-bottom: 1.5rem;
 }
 
 img.borderless {
