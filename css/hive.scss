@@ -66,11 +66,6 @@ header h2 {
 /********************************************* */
 main {
     max-width: $main-content-width;
-    border: 3px $bronze solid;
-
-    /* padding-left: 1.5rem;
-    padding-right: 1.5rem; */
-    padding: 1.5rem;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1.5rem;
@@ -81,8 +76,14 @@ main {
     background: black;
 }
 
+main.bordered {
+    border: 3px $bronze solid;
+    padding: 1.5rem;
+}
+
 main p {
     color: $light-grey;
+    font-size: 1.25rem;
     text-align: left;
     margin-bottom: 1rem;
 }
@@ -91,12 +92,30 @@ main p a {
     color: $phosphor-green;
 }
 
+main p a:hover {
+    font-weight: bold;
+    font-style: italic;
+    font-color: $phosphor-blue-light;
+}
+
 main p.centered {
     text-align: center;
 }
 
 main .set-apart {
     font-style: italic;
+}
+
+p#p2-giant-dreamt {
+    z-index: 2;
+    margin-top: -34rem;
+    margin-left: 1rem;
+}
+
+p#p2-in-his-dreams {
+    z-index: 2;
+    text-align: right;
+    margin-right: 1rem;
 }
 
 main h3 {
