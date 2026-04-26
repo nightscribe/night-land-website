@@ -108,7 +108,7 @@ main {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 1.5rem;
-  font-family: ABeeZee, sans-serif;
+  font-family: Metamorphous, Verdana, Geneva, Tahoma, sans-serif;
   color: rgb(175, 175, 230);
   text-align: center;
   line-height: 1.5;
@@ -121,14 +121,14 @@ main.bordered {
 }
 
 main p {
-  color: rgb(220, 220, 220);
+  color: rgb(240, 255, 255);
   font-size: 1.25rem;
   text-align: left;
   margin-bottom: 1rem;
 }
 
 main p a {
-  color: rgb(171, 221, 171);
+  color: rgb(146, 234, 181);
 }
 
 main p a:hover {
