@@ -113,6 +113,7 @@ main {
   text-align: center;
   line-height: 1.5;
   background: black;
+  position: relative;
 }
 
 main.bordered {
@@ -134,7 +135,7 @@ main p a {
 main p a:hover {
   font-weight: bold;
   font-style: italic;
-  font-color: rgb(190, 205, 255);
+  color: rgb(190, 205, 255);
 }
 
 main p.centered {
@@ -146,14 +147,24 @@ main .set-apart {
 }
 
 p#p2-giant-dreamt {
+  position: absolute;
   z-index: 2;
-  margin-top: -34rem;
-  margin-left: 1rem;
+  top: 0.1rem;
+  left: 1rem;
+}
+
+p#p2-time-and-again {
+  position: absolute;
+  z-index: 2;
+  bottom: 5rem;
+  left: 1rem;
 }
 
 p#p2-in-his-dreams {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
   z-index: 2;
-  text-align: right;
   margin-right: 1rem;
 }
 
