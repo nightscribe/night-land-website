@@ -45,6 +45,7 @@ background only shows at the sides and doesn't interfere with
 legibility. */
 /* Border color of framed header images. */
 /* Footer */
+/* Children of the Hive */
 /* Magenta text is never supposed to appear. If it does, find out which selector
     doesn't have a color and fix it. */
 html {
@@ -114,6 +115,8 @@ main {
   line-height: 1.5;
   background: black;
   position: relative;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 main.bordered {
@@ -150,22 +153,34 @@ p#p2-giant-dreamt {
   position: absolute;
   z-index: 2;
   top: 0.1rem;
-  left: 1rem;
+  left: 1.75rem;
 }
 
 p#p2-time-and-again {
+  max-width: 90%;
   position: absolute;
+  background-image: radial-gradient(#222 30%, rgba(0, 0, 0, 0));
   z-index: 2;
   bottom: 5rem;
   left: 1rem;
+  padding: 0.75rem;
 }
 
 p#p2-in-his-dreams {
   position: absolute;
+  background-image: radial-gradient(#222 30%, rgba(0, 0, 0, 0));
   bottom: 1rem;
   right: 1rem;
   z-index: 2;
   margin-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+p#p2-in-his-dreams a {
+  color: rgb(200, 255, 200);
 }
 
 main h3 {
