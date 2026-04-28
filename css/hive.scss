@@ -35,6 +35,10 @@ body {
     margin-right: auto;
 }
 
+body#page-3 {
+    background-image: url('../media/images/illustrated-works/garcia--children-of-the-hive/unknown--grey-abstract-image-suggesting-struggling-man.jpg');
+}
+
 /* header h1 puts the site title at the top of the page,
    for screenreaders. Since it rarely needs to be seen,
    it's very small and colored to blend into the background. */
@@ -140,6 +144,40 @@ p#p2-in-his-dreams {
 }
 
 p#p2-in-his-dreams a {
+    color: $phosphor-greener-brighter;
+}
+
+p#p3-he-felt {
+    max-width: 90%;
+    position: absolute;
+    background-image: radial-gradient(#222 30%, $transparent-black);
+    z-index: 2;
+    top: 1rem;
+    left: 1rem;
+    padding: .75rem;
+}
+
+p#p3-he-was-hounded {
+    max-width: 90%;
+    position: absolute;
+    background-image: radial-gradient(#222 30%, $transparent-black);
+    z-index: 2;
+    bottom: 5rem;
+    left: 1rem;
+    padding: .75rem;
+}
+
+p#p3-and-then {
+    max-width: 90%;
+    position: absolute;
+    background-image: radial-gradient(#222 30%, $transparent-black);
+    z-index: 2;
+    bottom: 1rem;
+    right: 1rem;
+    padding: .75rem;
+}
+
+p#p3-and-then a {
     color: $phosphor-greener-brighter;
 }
 
