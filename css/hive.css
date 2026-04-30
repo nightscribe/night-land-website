@@ -219,6 +219,21 @@ p#p3-and-then a {
   color: rgb(200, 255, 200);
 }
 
+img#red-sun {
+  max-width: 100%;
+  width: 96%;
+  padding-top: 1rem;
+  z-index: 1;
+  position: relative;
+}
+
+p#p4-he-remembered {
+  z-index: 2;
+  bottom: 8rem;
+  left: 17rem;
+  position: absolute;
+}
+
 main h3 {
   font-size: xx-large;
 }
@@ -290,7 +305,6 @@ img.borderless {
   max-width: 100%;
   height: auto;
   border-style: none;
-  padding-bottom: 1.5rem;
 }
 
 img.reversed {
