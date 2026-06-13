@@ -45,6 +45,7 @@ background only shows at the sides and doesn't interfere with
 legibility. */
 /* Border color of framed header images. */
 /* Footer */
+/* Children of the Hive */
 /* Magenta text is never supposed to appear. If it does, find out which selector
     doesn't have a color and fix it. */
 html {
