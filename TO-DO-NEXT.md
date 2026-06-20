@@ -1,6 +1,6 @@
 # Night Land Website
 
-2026-6-19
+2026-6-20
 
-Slope is proofread.
-To do next: headers. They're all the same right now. I'm going to use some of the others too, as they suit the story.
+Some of Kawkawpa's illustrations are used in "Slope".
+To do next: Credit him. I forgot the credit lines in the footer.
