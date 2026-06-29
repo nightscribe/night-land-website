@@ -1,9 +1,11 @@
 # Night Land Website
 
-2026-6-27
+2026-6-28
 
-I started the Heresy of Scyrr.
+Working on the Heresy of Scyrr.
 To Do Next:
-    "Out" Part 2.
     "Out" Part 3.
-    All parts of "Out" need art & credits therefor.
+    All parts of "Out" need:
+        Proofreading;
+        Art & credits therefor;
+        Link-checking.
