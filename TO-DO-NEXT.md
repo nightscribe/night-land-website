@@ -2,13 +2,10 @@
 
 2026-8-12
 
-This is a test of uploading to a Github repo from my new CachyOS installation.
-Back to work soon.
+Proofread _the Heresy of Scyrr_.
 
-Working on the Heresy of Scyrr.
-To Do Next:
-    "Out" Part 3.
     All parts of "Out" need:
-        Proofreading; 
         Art & credits therefor;
         Link-checking.
+        
+    Part II should have an image of the hagalaz rune visible in the text, late, but it does not appear.
