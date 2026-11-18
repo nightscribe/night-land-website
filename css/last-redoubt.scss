@@ -284,11 +284,6 @@ section.site-table-of-contents ul li a:hover {
     color: $cornflower-blue;
 }
 
-p.to-previous-story {
-    color: $phosphor-blue-light;
-    text-align: center;
-}
-
 section.contact-info p {
     text-align: center;
 }
@@ -317,6 +312,27 @@ article blockquote p {
 .argument h4 {
     font-size: larger;
     color: $light-blue-grey;
+}
+
+article h5 {
+    color: $phosphor-blue;
+}
+
+ol.series-table-of-contents {
+    font-family: $heading-font;
+    font-size: large;
+    text-align: center;
+    list-style-type: upper-roman;
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+ol.series-table-of-contents li {
+    margin-top: .5rem;
+}
+
+ol.series-table-of-contents a {
+    color: $phosphor-greener;
 }
 
 ol.work-table-of-contents {

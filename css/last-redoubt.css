@@ -328,11 +328,6 @@ section.site-table-of-contents ul li a:hover {
   color: rgb(100, 149, 237);
 }
 
-p.to-previous-story {
-  color: rgb(190, 205, 255);
-  text-align: center;
-}
-
 section.contact-info p {
   text-align: center;
 }
@@ -361,6 +356,27 @@ article blockquote p {
 .argument h4 {
   font-size: larger;
   color: rgb(175, 175, 230);
+}
+
+article h5 {
+  color: rgb(163, 212, 250);
+}
+
+ol.series-table-of-contents {
+  font-family: Metamorphous, Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  text-align: center;
+  list-style-type: upper-roman;
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+ol.series-table-of-contents li {
+  margin-top: 0.5rem;
+}
+
+ol.series-table-of-contents a {
+  color: rgb(146, 234, 181);
 }
 
 ol.work-table-of-contents {

@@ -1,10 +1,12 @@
 # Night Land Website
 
-2026-11-17
+2026-11-18
 
 After the hard reset ...
 
-The Heresy of Scyrr: Kiss Part I is proofread. I haven't picked artwork or checked links. Part II is next. If there isn't a Part III, the table of contents needs adjusting.
+The Heresy of Scyrr: Kiss Part I is proofread. So is Part II.
+    I redesigned the TOC to add the related stories in a series. I'm considering setting the TOC off in its own section, for ease of page-scanning. It's getting complicated.
+    I haven't picked artwork or sufficiently checked links.
  
 This is what the last but one "To Do" message said:
 
@@ -17,4 +19,3 @@ To Do Next:
         Link-checking.
 
 I haven't decided which images to use for the story sections yet.
-And it also needs the below-the-table-of-contents links to the other two stories in the Heresy of Scyrr.
