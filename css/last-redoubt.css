@@ -328,6 +328,11 @@ section.site-table-of-contents ul li a:hover {
   color: rgb(100, 149, 237);
 }
 
+p.to-previous-story {
+  color: rgb(190, 205, 255);
+  text-align: center;
+}
+
 section.contact-info p {
   text-align: center;
 }
