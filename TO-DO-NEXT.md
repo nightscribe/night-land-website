@@ -17,3 +17,4 @@ To Do Next:
         Link-checking.
 
 I haven't decided which images to use for the story sections yet.
+And it also needs the below-the-table-of-contents links to the other two stories in the Heresy of Scyrr.
