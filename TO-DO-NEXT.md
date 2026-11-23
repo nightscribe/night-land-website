@@ -1,12 +1,13 @@
 # Night Land Website
 
-2026-11-21
+2026-11-23
 
 After the hard reset ...
 
-Added: "Marks" Part I. To come: Part II.
+Added: "Marks" Part II. To come:
+    Check all links.
+    Check copyright dates.
+    Pick artwork.
 
-"Out" needs the same table of contents alterations "Kiss" and "Marks" show.
-    I haven't picked artwork or sufficiently checked links.
  
 
