@@ -19,6 +19,7 @@ The Heresy of Scyrr stories are added to the Last Redoubt index page. Links chec
 
     Pick artwork.
     Artwork links. Artwork copyright.
+    I should probably change the h5 Other Stories in this Series color. I usually use it for links, and here it isn't one.
 
 
  
