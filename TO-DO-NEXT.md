@@ -1,6 +1,6 @@
 # Night Land Website
 
-2026-11-24
+2026-11-26
 
 After the hard reset ...
 
@@ -16,11 +16,10 @@ The Heresy of Scyrr stories are added to the Last Redoubt index page. Links chec
     Kiss Part II: Existing links checked and fixed.
     Marks Part I: Existing links checked.
     Marks Part II: Existing links checked.
+    Changed the color of unlinked h5 in Last Redoubt color scheme. Looks OK in this usage. I'll see if it looks OK on other pages.
+    Header images chosen for "Out", although I could have picked other pieces from the graphic novel "Siege of Humanity" equally well. Copyright and links.
 
-    Pick artwork.
-    Artwork links. Artwork copyright.
-    I should probably change the h5 Other Stories in this Series color. I usually use it for links, and here it isn't one.
-
-
- 
+    To do:
+    Artwork links. Artwork copyright for "Kiss" and "Marks".
+    The Table of Contents header should probably be an h5 instead, I'm thinking, but that would be a change for every story page with a TOC. Not done yet. 
 

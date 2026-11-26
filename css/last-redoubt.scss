@@ -222,7 +222,9 @@ main h4 a:hover {
 
 main h5 {
     font-size: larger;
-    color: $medium-aquamarine;
+    color: $powder-blue-dim;
+
+    /* was $medium-aquamarine */
 }
 
 main h5 a {
@@ -314,10 +316,9 @@ article blockquote p {
     color: $light-blue-grey;
 }
 
-article h5 {
-    color: $phosphor-blue;
-}
-
+/* article h5 {
+    color: $grey-aqua;
+} */
 ol.series-table-of-contents {
     font-family: $heading-font;
     font-size: large;

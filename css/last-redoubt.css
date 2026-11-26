@@ -266,7 +266,8 @@ main h4 a:hover {
 
 main h5 {
   font-size: larger;
-  color: rgb(102, 205, 170);
+  color: rgb(160, 212, 222);
+  /* was $medium-aquamarine */
 }
 
 main h5 a {
@@ -358,10 +359,10 @@ article blockquote p {
   color: rgb(175, 175, 230);
 }
 
+/*
 article h5 {
-  color: rgb(163, 212, 250);
-}
-
+    color: $grey-aqua;
+} */
 ol.series-table-of-contents {
   font-family: Metamorphous, Verdana, Geneva, Tahoma, sans-serif;
   font-size: large;
